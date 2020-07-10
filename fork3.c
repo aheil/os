@@ -11,7 +11,7 @@
 
 int main() {
 
-    int fd = open("foo.txt", O_RDWR | O_TRUNC);
+    int fd = open("foo.txt", O_RDWR | O_TRUNC | O_CREAT, S_IRUSR | S_IWUSR);
 
     int fid = fork();
 
