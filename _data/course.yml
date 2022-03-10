@@ -3,3 +3,9 @@ description: Vorlesung Betriebssysteme im Studiengang Software Engineering Bache
 modules: 
   - name: syllabus
     title: Syllabus
+  - name: kursunterlagen
+    title: Kursunterlagen
+  - name: material
+    title: "Weiterführendes Material"
+  - name: hausaufgaben
+    title: Hausaufgaben
