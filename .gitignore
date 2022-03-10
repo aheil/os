@@ -3,3 +3,4 @@ _site/*
 .sass-cache
 .bundler/
 .vscode/*
+Gemfile.lock
