@@ -1,3 +1,5 @@
-title: Course-in-a-Box
-description: An open-source project for creating online courses, built by <a href="https://www.p2pu.org">P2PU</a>
-modules: [setup, content, customize]
+title: Betriebssysteme
+description: Vorlesung Betriebssysteme im Studiengang Software Engineering Bachelor an der Hochschule Heilbronn.
+modules: 
+  - name: syllabus
+    title: Syllabus
