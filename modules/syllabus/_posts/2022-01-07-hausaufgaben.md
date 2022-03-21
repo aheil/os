@@ -4,9 +4,9 @@ title: Hausaufgaben
 
 # Hausaufgaben
 
-Es gibt nicht bewertete Übungen bzw. Hausaufgaben zu jedem Buchkapitel. Ich empfehle die Aufgaben in kleineren Lerngruppen zu bearbeiten und die Themen so aus der Vorlesung zu vertiefen.
+Es gibt nicht bewertete [Übungen bzw. Hausaufgaben](../../hausaufgaben/uebersicht/) zu jedem Buchkapitel. Ich empfehle die Aufgaben in kleineren Lerngruppen zu bearbeiten und die Themen so aus der Vorlesung zu vertiefen.
 
-Zusätzlich gibt es zu manchen Vorlesungseinheiten Tutorials oder Übungen die optimalerweise im Selbststudium erarbeitet werden.
+Zusätzlich gibt es zu manchen Vorlesungseinheiten [Tutorials oder Übungen](../../hausaufgaben/uebersicht/) die optimalerweise im Selbststudium erarbeitet werden.
 
 Insgesamt gibt es drei C Programmierübungen, die von Ihnen in einer kleinen Gruppe bearbeitet werden. 
 
