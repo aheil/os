@@ -16,3 +16,5 @@ Die Vorlesung wird dabei von mir um praktische Programmübungen ergänzt.
 Veranstaltungsbegleitend empfehle ich die Übungsaufgaben aus dem Buch zu bearbeiten.
 
 Das Buch ist als [freies PDF Buch]((http://pages.cs.wisc.edu/~remzi/OSTEP/)) erhältlich. Zusätzlich finden Sie Print-Exemplare in der Bibliothek bzw. in meinem Semesteraparat am Campus Sontheim.
+
+Für Student:innen in meinem Kurs gibt es in jedem Semester ein [ILIAS Raum](https://ilias.hs-heilbronn.de/goto.php?target=crs_360705&client_id=iliashhn) mit Forum.
