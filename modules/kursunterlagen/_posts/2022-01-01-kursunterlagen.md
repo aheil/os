@@ -15,7 +15,7 @@ title: Kursunterlagen
 |    |                    | [Address Translation](https://github.com/aheil/hhn-os/raw/main/slides/os.08.de.pdf) |
 | 05 | Speicherverwaltung | [Exkurs: Von-Neumann vs Harvard](https://github.com/aheil/hhn-os/raw/main/slides/os.09.de.pdf) |
 |    |                    | [Segmentierung und Fragmentierung](https://github.com/aheil/hhn-os/raw/main/slides/os.10.de.pdf) |
-|    |                    | [Free-Space Management](https://github.com/aheil/hhn-os/raw/main/slides/os.12.de.pdf) |
+|    |                    | [Free-Space Management](https://github.com/aheil/hhn-os/raw/main/slides/os.11.de.pdf) |
 |    |                    | [Paging](https://github.com/aheil/hhn-os/raw/main/slides/os.12.de.pdf) |
 |    |                    | [Translation Lookaside Buffer](https://github.com/aheil/hhn-os/raw/main/slides/os.13.de.pdf) |
 | 06 | Swapping           | [Swapping](https://github.com/aheil/hhn-os/raw/main/slides/os.14.de.pdf) |
