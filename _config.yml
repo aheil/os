@@ -26,6 +26,7 @@ prose:
     - /fonts
     - /js
     - /css
+    - /img/raw
 
 # Set some personal styles and logo for your course
 # this is a hex value http://www.w3schools.com/tags/ref_colorpicker.asp
