@@ -8,7 +8,7 @@ In dieser Aufgabe implementieren Sie den Treiber für das Interfaces eines Canon
 
 Ihr Gerät verfügt über die drei Register Status, Command und Data.
 
-![](../../../img/canonical-device-interface.png)
+![](../../../img/canonical-device-interface.png){: width="350"}
 
 ## Voraussetzungen
 
