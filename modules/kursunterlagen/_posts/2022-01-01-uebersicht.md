@@ -1,5 +1,5 @@
 ---
-title: Kursunterlagen
+title: Übersicht
 ---
 
 | Einheit | Thema | Unterlagen |
