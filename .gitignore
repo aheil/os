@@ -6,3 +6,6 @@ _site/*
 # VS Code
 .vscode/*
 *.code-workspace
+
+# temporary files
+~*.pptx
