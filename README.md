@@ -1,10 +1,23 @@
+<!--
+
+author:   Andreas Heil
+email:    andreas.heil@hs-heilbronn.de
+version:  0.1
+language: de
+narrator: DE German Male
+
+comment:  
+
+-->
+
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://LiaScript.github.io/course/?https://github.com/aheil/os) 
+
+
 # Betriebssysteme
 
 Dieser Kurs ist Teil des Bachelor Studiengangs Software Engineering (SEB) und an der Hochschule Heilbronn.
 
-Dies ist das Repository der Kursinformationen. Die Seite mit den Kursinformationen ist auf den [GitHub Pages dieses Repositories](https://aheil.github.io/os/) verfügbar.
-
-[Offizielle Seite der Hochschule Heilbronn ⏭](https://www.hs-heilbronn.de/seks)
+Dies ist das Repository der Kursinformationen. Diese Seiten sind als [interaktiver Kurs verfügbar](https://liascript.github.io/course/?https://github.com/aheil/os) verfügbar.
 
 Die Vorlesung Betriebssysteme (262007) wird von mir sowohl im Sommer- als auch dem Wintersemester im Kurs SEB2 angeboten. Die Vorlesungssprache ist Deutsch.
 
