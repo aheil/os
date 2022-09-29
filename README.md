@@ -299,7 +299,7 @@ Verschieden Ansätze für Git Workflows
 
 ### Einheit 1
 
-- Udacity Kurs zum Thema Git: https://www.udacity.com/course/version-control-with-git--ud123
+- Udacity Kurs zum Thema Git: [https://www.udacity.com/course/version-control-with-git--ud123]https://www.udacity.com/course/version-control-with-git--ud123
 - 1x in GitLab (https://git.it.hs-heilbronn.de) anmelden
 - C-Crashkurs durcharbeiten: https://github.com/aheil/hhn-c
 
