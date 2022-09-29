@@ -1,5 +1,3 @@
-[![pages-build-deployment](https://github.com/aheil/seks/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/aheil/os/actions/workflows/pages/pages-build-deployment)
-
 # Betriebssysteme
 
 Dieser Kurs ist Teil des Bachelor Studiengangs Software Engineering (SEB) und an der Hochschule Heilbronn.
@@ -16,10 +14,9 @@ Die Vorlesung wird dabei von mir um praktische Programmübungen ergänzt.
 
 Veranstaltungsbegleitend empfehle ich die Übungsaufgaben aus dem Buch zu bearbeiten.
 
-Das Buch ist als [freies PDF Buch]((http://pages.cs.wisc.edu/~remzi/OSTEP/)) erhältlich. Zusätzlich finden Sie Print-Exemplare in der Bibliothek bzw. in meinem Semesteraparat am Campus Sontheim.
+Das Buch ist als [freies PDF Buch]((http://pages.cs.wisc.edu/~remzi/OSTEP/)) erhältlich. Zusätzlich finden Sie Print-Exemplare in der Bibliothek bzw. in meinem Semesterapparat am Campus Sontheim.
 
 Für Student:innen in meinem Kurs gibt es in jedem Semester ein [ILIAS Raum](https://ilias.hs-heilbronn.de/goto.php?target=crs_360705&client_id=iliashhn) mit Forum.
-
 
 ## Kursübersicht
 
@@ -43,34 +40,6 @@ Grundstudium Bachelor
 
 - 30h Kontaktstunden/Lerneinheiten
 - 90h Selbststudium
-
-**Lizenz**
-
-Sofern nicht anders angegeben, steht das gesamte Kursmaterial unter einer [Creative Commons Namensnennung 4.0 International Lizenz](https://creativecommons.org/licenses/by/4.0/). 
-
-## Kalender 
-
-| Einheit # | Datum | Thema |
-| --- | --- | --- |
-|  1 | 29.09.2022 | N.N. |  
-|  2 | 06.10.2022 | N.N. | 
-|  3 | 13.10.2022 | N.N. |
-|  4 | 20.10.2022 | N.N. | 
-|  5 | 27.10.2022 | N.N. | 
-|  6 | 03.11.2022 | N.N. | 
-|  7 | 10.11.2022 | N.N. | 
-|  8 | 17.11.2022 | N.N. | 
-|  - | 24.11.2022 | Entfällt (Fortbildung) | 
-|  - | 01.12.2022 | Entfällt (Blockwoche SEB) |
-| 09 | 08.12.2022 | N.N. | 
-| 10 | 15.12.2022 | N.N. | 
-| 11 | 22.12.2022 | N.N. | 
-| - | 29.12.2022 | Vorlesungsfrei |
-| - | 05.01.2023 | Vorlesungsfrei | 
-| 12 | 12.01.2023 | N.N. |
-| 13 | 19.01.2023 | N.N. | 
-
-## Syllabus
 
 **Kurszeiten** 
 
@@ -161,3 +130,164 @@ Sollten Sie die Klausur nicht bestehen, werden Ihnen die Übungsaufgaben für da
 
 Es wird empfohlen auch die Übungsaufgaben aus dem Buch in Gruppen zu erarbeiten und zu diskutieren. 
 Lediglich bei den Tutorials empfiehlt es sich diese zunächst im Selbststudium zu erschließen, bevor diese in der Gruppe be- oder nachbearbeitet werden.
+
+**Lizenz**
+
+Sofern nicht anders angegeben, steht das gesamte Kursmaterial unter einer [Creative Commons Namensnennung 4.0 International Lizenz](https://creativecommons.org/licenses/by/4.0/). 
+
+## Kalender 
+
+| Einheit # | Datum | Thema |
+| --- | --- | --- |
+|  1 | 29.09.2022 | Einführung in Git |
+|  2 | 06.10.2022 | N.N. | 
+|  3 | 13.10.2022 | N.N. |
+|  4 | 20.10.2022 | N.N. | 
+|  5 | 27.10.2022 | N.N. | 
+|  6 | 03.11.2022 | N.N. | 
+|  7 | 10.11.2022 | N.N. | 
+|  8 | 17.11.2022 | N.N. | 
+|  - | 24.11.2022 | Entfällt (Fortbildung) | 
+|  - | 01.12.2022 | Entfällt (Blockwoche SEB) |
+| 09 | 08.12.2022 | N.N. | 
+| 10 | 15.12.2022 | N.N. | 
+| 11 | 22.12.2022 | N.N. | 
+| - | 29.12.2022 | Vorlesungsfrei |
+| - | 05.01.2023 | Vorlesungsfrei | 
+| 12 | 12.01.2023 | N.N. |
+| 13 | 19.01.2023 | N.N. | 
+
+## Einführung in Git 
+
+### Lernziele
+
+- Hintergründe von Versionsverwaltung kennenlernen
+- Git Grundlagen kennenlernen
+- Verstehen warum Git Workflows hilfreich sind
+
+### Was ist Versionsverwaltung?
+
+Es gibt alternative Bezeichnungen:
+
+- Version Control Systems (VCS)
+- Source Control Management (SCM)
+- Revision Control Systems (RCS)
+
+Software Projekte können schnell sehr groß und unübersichtlich werden.
+
+- Hunderte bzw. tausende von Code-Dateien 
+
+Sehr viele Entwickler können an einem Projekt beteiligt sein. 
+
+- Versionsverwaltungen können helfen diese Komplexität in den Griff zu bekommen, indem die Änderungen an den Dateien über die Zeit hinweg protokolliert werden.
+
+Historie: Selbst für einzelner Entwickler sinnvoll
+
+- Änderungen über die Zeit sehen können
+- "Zurückrollen" zu einem bestimmten Zeitpunkt 
+- Was wäre die Alternative? Viele (sehr viele) Kopien einer Datei?
+
+Mehrere Entwickler
+
+- Sehen, wer welche Änderungen gemacht hat 
+- Konflikte auflösen, wenn mehrere Entwickler Änderungen an der gleichen Datei/der gleichen Zeile durchgeführt haben 
+
+Versionierung 
+
+- Zustand eines Projekts wiederherstellen: zum Testen, für ein Release oder um die Einführung eines Fehlers zu finden 
+
+
+### Was nutzen Entwickler?
+
+![](img/survey_2015.png)
+
+Quelle: https://insights.stackoverflow.com/survey/2015
+
+![](img/survey_2018.png)
+
+Quelle: https://insights.stackoverflow.com/survey/2018
+
+
+### Woher kommt Git 
+
+- Linux Community nutzte BitKeeper zur Verwaltung des Kernel Source Codes 
+- Durch Lizenzänderung des Herstellers konnte BitKeeper nicht mehr genutzt werden
+- Linus Torvalds wollte ein System, das ähnlich BitKeeper funktionierte, aber die Nachteile der anderen Systeme nicht mehr aufwies (z.B: lange Zeiten bei Branches durch Kopieren aller Dateien)
+- Innerhalb weniger Tage wurde die erste Version von Git entwickelt:
+- 3. April 2005 Ankündigung des Projektes 
+- 7. April 2005 Self-Hosting des Projektes 
+- 16. Juni 2005 Linux 2.6 Kernel wurde durch Git verwaltet 
+ 
+### Git Grundlagen
+
+- _Git Repository_: Vereinefacht, ein Verzeichnis, in dem die Dateien “überwacht” werden
+- Metadaten (einschl. der Historie) werden in einem versteckten Unterverzeichnis (.git) verwaltet.
+- Git ist eine verteilte Versionsverwaltung
+- Keine Notwendigkeit eines zentralen Repositories 
+- „Clonen“ bzw. „Forken“ eines Repositories legt eine vollständige Kopie an. Änderungen können dann in das ursprüngliche Repository zurückgeführt ( engl. merge) werden. 
+
+### Git Dateistatus
+
+![](img/git_dateistatus.png)
+
+### Nützliches für den Einstieg
+
+Lokale Änderungen anzeigen (engl. unstaged changes): `git diff [dateiname]`
+
+Änderungshistorie: `git log` für Commits, `git –p log` für ein Preview
+
+Checkout: Der Checkout einer früheren Version eines Repositories ersetzt alle Dateien mit dieser Version (time travel)
+
+Branches: Alle Änderungen werden in dem Branch (dt. Zweig) gespeichert ohne den Hauptzweig (engl. master branch) zu beeinflussen („kaputt zu machen“)
+
+Remote: “Entfernte“ Kopie eines Repositories (z.B: GitLab, GitHub) – Achtung: Selbst auf GitLab/GitHub ist nicht das zentrale 
+Repository, sondern nur eine entfernte Kopie z.B. mit `git push`, `git pull`
+
+Stash: Änderungen, die noch nicht "comitted" wurden, können mit `git stash` „zwischengespeichert“ und mit `git stash apply` wieder hergestellt werden
+
+Fork: Server-seitiger Clone eines Repositories
+
+### Git Workflows 
+
+Trotzdem oder gerade wegen der verteilten Verwaltung kann so einiges schief gehen, daher gilt
+
+![](img/git_one_does_not.jpg)
+
+Verschieden Ansätze für Git Workflows
+
+- Centralized Workflow
+- Feature Branch Workflow
+- Gitflow
+- Fork & Merge
+- Microsoft Git Branching Strategy  
+
+### Weiterführendes Material 
+
+- Git Command-line Tool: https://github.com/nschneid/git-command-overview
+- GitHub: https://github.com/
+- GitLab: https://about.gitlab.com/ 
+- The case for Git in 2015: http://www.netinstructions.com/the-case-for-git/
+- Pro Git Book: http://git-scm.com/book
+- Udacity Kurs*): https://www.udacity.com/course/version-control-with-git--ud123
+- Git User‘s Manual: http://schacon.github.com/git/user-manual.html
+- Git – SVN Crashcourse: http://git.or.cz/course/svn.html
+- Learn Git in Y minutes: https://learnxinyminutes.com/docs/git/ 
+- Coding Blocks Podcast: Comparing Git Workflows: https://www.codingblocks.net/podcast/comparing-git-workflows/ 
+- Gitflow Cheatsheet: https://danielkummer.github.io/git-flow-cheatsheet/ 
+- Gitflow: https://nvie.com/posts/a-successful-git-branching-model/ 
+- Atlassian‘s Gitflow Zusammenfassung:https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
+- Microsoft Recommendation: https://docs.microsoft.com/en-us/azure/devops/repos/git/git-branching-guidance?view=azure-devops&viewFallbackFrom=vsts
+- Git Workflows: http://drincruz.github.io/slides/git-workflow-comparison/#/8 
+- Git Spiel Oh my Git! : https://ohmygit.org/
+- Auschecken von Commits: https://www.git-tower.com/learn/git/faq/git-checkout-commits/
+- Wenn was schief geht: https://ohshitgit.com/ 
+
+## Hausaufgaben
+
+### Einheit 1
+
+- Udacity Kurs zum Thema Git: https://www.udacity.com/course/version-control-with-git--ud123
+- 1x in GitLab (https://git.it.hs-heilbronn.de) anmelden
+- C-Crashkurs durcharbeiten: https://github.com/aheil/hhn-c
+
+
