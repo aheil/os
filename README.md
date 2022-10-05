@@ -306,19 +306,24 @@ Verschieden Ansätze für Git Workflows
 
 #### Definition Prozess
 
-**»Vereinfachte Definition«: Prozess** 
+**»Vereinfachte Definition«: Prozess**
+
 Ein ausgeführtes bzw. laufendes Programm
 
 ![](img/os.01.taskmng1.png)
 
+
+
 #### Programme
 
-* Was ist überhaupt ein Programm?
+Was ist überhaupt ein Programm?
+
     * Besteht aus Code (Bits) und ggf. statischen Daten
     * Wartet auf der Festplatte und tut nichts
     * Erst durch die Ausführung wird ein Programm zum Prozess
 
-* Was benötigt ein Programm?
+Was benötigt ein Programm?
+
     * Benötigt zur Ausführung eine CPU 
     * Benötigt für den auszuführenden Code und die Daten Speicher 
 
@@ -344,10 +349,12 @@ Beispiel rechts: Windows Task Manager mit 262 Prozesse
 
 #### Was wird für Virtualisierung benötigt?
 
-* »Low Level Machinery« 
+»Low Level Machinery« 
+
     * Methoden und Protokolle für die grundlegende Funktionalität 
 
-* »High Level Intelligence«
+»High Level Intelligence«
+
     * Irgendetwas Geschicktes zum Stoppen und Starten von Programmen 
     * Zusätzliches Regelwerk (engl. policies)
     * Regeln wie viele Prozesse auf einer CPU ausgeführt werden dürfen
@@ -356,6 +363,7 @@ Beispiel rechts: Windows Task Manager mit 262 Prozesse
 #### Abstraktion von Prozessen
 
 Prozesse bestehen grundlegend aus
+
 * Speicher, in dem die Programmanweisungen bzw. Instruktionen (engl. instructions) liegen
 * Speicher, in dem die Daten geschrieben werden 
 * Vom Prozess adressierbarer Speicher (engl. address space)
@@ -365,13 +373,15 @@ Prozesse bestehen grundlegend aus
 
 #### Spezielle Register, die benötigt werden
 
-* Program Counter (Abk. PC) oder auch Instruction Counter (Abk. IC)
-    * Hier steht die nächste Anweisung, die ausgeführt werden soll
+Program Counter (Abk. PC) oder auch Instruction Counter (Abk. IC)
+
+* Hier steht die nächste Anweisung, die ausgeführt werden soll
 
 * Stack Pointer, Frame Pointer, Funktionsparameter, lokale Variablen und Rücksprungadressen (engl. return address) - mehr dazu später
 
-* Register für I/O-Informationen
-    * Liste der Dateien, die der Prozess aktuell geöffnet hat  
+Register für I/O-Informationen
+
+* Liste der Dateien, die der Prozess aktuell geöffnet hat  
 
 #### Prozess-API 
 
@@ -406,6 +416,7 @@ Weitere Möglichkeiten sind je nach Betriebssystem unterschiedlich, z.B.:
 
 6. Das Betriebssystem unterstütz nun den Prozess, indem es z.B. dem Prozess mehr Speicher gibt, wenn der Heap vergrößert werden muss 
 7. Nun  werden noch Input/Output-Resourcen erzeugt (sie ahnen es, später mehr dazu)
+
     * Unter UNIX sind dies die drei sog. »File Descriptors« (https://sites.ualberta.ca/dept/chemeng/AIX-43/share/man/info/C/a_doc_lib/aixuser/usrosdev/std_input_output.htm)
         * Standard Input, 
         * Standard Output und 
@@ -414,6 +425,7 @@ Weitere Möglichkeiten sind je nach Betriebssystem unterschiedlich, z.B.:
 #### Prozess Status
 
 Was bedeuten eigentlich die Status...?
+
 * Laufend
 * Schlafend 
 * Gestoppt
@@ -467,6 +479,17 @@ Alle Informationen über einen Prozess stehen in einem Prozesskontrollblock (eng
 * Die Prozess-API besteht aus Aufrufen, die in Zusammenhang mit Prozessen ausgeführt werden können, z.B. zum Erzeugen oder Beenden von Prozessen
 * Unterschiedliche Ereignisse führen zu Statusänderungen im Prozess (z.B. der Aufruf einer blockierenden I/O-Operation)
 * Eine Prozessliste enthält alle Informationen über die Prozesse auf einem System
+
+#### Wiederholungsfragen Prozesse und Prozess-API 
+
+##### Welche Status von Prozessen haben Sie kennen gelernt? 
+
+- [[x]] Laufend
+- [[ ]] Wartend
+- [[x]] Schlafend
+- [[x]] Gestoppt
+- [[ ]] Vampir
+- [[x]] Zombie
 
 ## Hausaufgaben
 
