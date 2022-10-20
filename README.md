@@ -2,7 +2,7 @@
 
 author:   Andreas Heil
 email:    andreas.heil@hs-heilbronn.de
-version:  0.1
+version:  0.2
 language: de
 narrator: DE German Male
 
