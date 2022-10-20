@@ -978,22 +978,6 @@ Spannende Frage: Wie lange sollte die Zeitspanne *s* sein?
 
 ![](img/os.04.benice.png)
 
-
----
-
-marp: true
-theme: defalut
-paginate: true
-footer: 
-
----
-<style>
-img[alt~="center"] {
-  display: block;
-  margin: 0 auto;
-}
-</style>
-
 ## Scheduler Teil 3
 
 ### Lottery Scheduling
