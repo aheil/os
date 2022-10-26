@@ -294,6 +294,7 @@ Verschieden Ansätze für Git Workflows
 - Git Spiel Oh my Git! : https://ohmygit.org/
 - Auschecken von Commits: https://www.git-tower.com/learn/git/faq/git-checkout-commits/
 - Wenn was schief geht: https://ohshitgit.com/ 
+- Learn Git Branching: https://learngitbranching.js.org/
 
 ## Virtualisierung  
 
