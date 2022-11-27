@@ -35,8 +35,8 @@ Für Student:innen in meinem Kurs gibt es in jedem Semester ein [ILIAS Raum](htt
 
 | Einheit # | Datum | Thema | Hausaufgabe |
 | --- | --- | --- |
-|  1 | 29.09.2022 | [Einführung in Git]() | Git Kurs  |
-|  2 | 06.10.2022 | Virtualisierung | [C Crashkurs](https://github.com/aheil/hhn-c) |
+|  1 | 29.09.2022 | [Einführung in Git](https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/01_git.md) | Git Kurs  |
+|  2 | 06.10.2022 | Virtualisierung | [C Crashkurs](https://liascript.github.io/course/?https://github.com/aheil/hhn-c) |
 |  3 | 13.10.2022 | Scheduling | |
 |  4 | 20.10.2022 | N.N. | |
 |  5 | 27.10.2022 | N.N. | |
@@ -146,6 +146,7 @@ Zur Abgabe ist es erforderlich, dass die Aufgaben zuvor im hochschuleigenen GitL
 
 Die Note ergibt sich aus insgesamt 100 Punkten: 
 
+<!-- data-type="none"  -->
 | Aktivitäten | Anteil an der Note |
 | --- | --- | 
 | Programmieraufgaben | 30% |
