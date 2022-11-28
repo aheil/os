@@ -20,7 +20,7 @@ comment:
 <!-- data-type="none" -->
 | Parameter | Kursinformationen |
 | --- | --- |
-| **Veranstaltung:** | `262007 DevOps`|
+| **Veranstaltung:** | `262007 Betriebssysteme`|
 | **Semester** | `SEB2` |
 | **Hochschule:** | `Hochschule Heilbronn` |
 | **Inhalte:** | `Einführung in Git` |

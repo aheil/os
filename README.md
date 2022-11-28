@@ -45,8 +45,8 @@ Für Student:innen in meinem Kurs gibt es in jedem Semester ein [ILIAS Raum](htt
 |  8 | - | [Threads](https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/08_threads.md) | |
 | 9 | - | [Semaphoren]((https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/09_semaphoren.md)) | |
 | 10 | - | [I/O](https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/10_io.md) | |
-| 11 | - | [Dateisysteme]((https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/11_dateisysteme.md)) | |
-| 12 | - | [Implementierung von Dateisystemen]((https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/12_dateisystemimplementierung.md)) | |
+| 11 | - | [Dateisysteme](https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/11_dateisysteme.md) | |
+| 12 | - | [Implementierung von Dateisystemen](https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/12_dateisystemimplementierung.md) | |
 
 
 ## Kursübersicht
