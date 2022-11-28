@@ -17,7 +17,7 @@ comment:
 -->
 
 
-# Speicherverwaltung
+# Fortgeschrittene Speicherverwaltung
 
 <!-- data-type="none" -->
 | Parameter | Kursinformationen |
@@ -25,7 +25,7 @@ comment:
 | **Veranstaltung:** | `262007 Betriebssysteme`|
 | **Semester** | `SEB2` |
 | **Hochschule:** | `Hochschule Heilbronn` |
-| **Inhalte:** | `Speicherverwaltung` |
+| **Inhalte:** | `Fortgeschrittene Speicherverwaltung` |
 | Startseite | [https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/os/master/README.md#1](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/os/master/README.md#1) | 
 | **Link auf den GitHub:** | [https://github.com/aheil/os/blob/main/lectures/06_speicherverwaltung.md](https://github.com/aheil/os/blob/main/lectures/06_speicherverwaltung.md) |
 | **Autoren** | @author |
