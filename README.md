@@ -35,23 +35,19 @@ Für Student:innen in meinem Kurs gibt es in jedem Semester ein [ILIAS Raum](htt
 
 | Einheit # | Datum | Thema | Hausaufgabe |
 | --- | --- | --- | --- |
-|  1 | 29.09.2022 | [Einführung in Git](https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/01_git.md) | Git Kurs  |
-|  2 | 06.10.2022 | [Virtualisierung](https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/02_virtualisierung.md) | [C Crashkurs](https://liascript.github.io/course/?https://github.com/aheil/hhn-c) |
-|  3 | 13.10.2022 | [Scheduler](https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/03_virtualisierung.md) | |
-|  4 | 20.10.2022 | [Fortgeschrittene Scheduler](https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/04_virtualisierung.md) | |
-|  5 | 27.10.2022 | N.N. | |
-|  6 | 03.11.2022 | N.N. | |
-|  7 | 10.11.2022 | N.N. | |
-|  8 | 17.11.2022 | N.N. | |
-|  - | 24.11.2022 | Entfällt (Fortbildung) | |
-|  - | 01.12.2022 | Entfällt (Blockwoche SEB) | |
-| 09 | 08.12.2022 | N.N. | |
-| 10 | 15.12.2022 | N.N. | |
-| 11 | 22.12.2022 | N.N. | |
-| - | 29.12.2022 | Vorlesungsfrei | |
-| - | 05.01.2023 | Vorlesungsfrei | |
-| 12 | 12.01.2023 | N.N. | |
-| 13 | 19.01.2023 | N.N. | |
+|  1 | - | [Einführung in Git](https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/01_git.md) | Git Kurs  |
+|  2 | - | [Virtualisierung](https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/02_virtualisierung.md) | [C Crashkurs](https://liascript.github.io/course/?https://github.com/aheil/hhn-c) |
+|  3 | - | [Scheduler](https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/03_virtualisierung.md) | |
+|  4 | - | [Fortgeschrittene Scheduler](https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/04_virtualisierung.md) | |
+|  5 | - | Speicher | |
+|  6 | - | Speicherverwaltung | |
+|  7 | - | Swapping | |
+|  8 | - | Threads | |
+|  - | - | Entfällt (Blockwoche SEB) | |
+| 9 | - | Semaphoren | |
+| 10 | - | I/O | |
+| 11 | - | Dateisysteme | |
+| 12 | - | Implementierung von Dateisystemen | |
 
 
 ## Kursübersicht
