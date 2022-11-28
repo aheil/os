@@ -17,7 +17,7 @@ comment:
 -->
 
 
-# Virtualisierung
+# Semaphoren
 
 <!-- data-type="none" -->
 | Parameter | Kursinformationen |

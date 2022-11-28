@@ -17,7 +17,7 @@ comment:
 -->
 
 
-# Virtualisierung
+# Swapping
 
 <!-- data-type="none" -->
 | Parameter | Kursinformationen |

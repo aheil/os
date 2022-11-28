@@ -16,7 +16,7 @@ comment:
 
 -->
 
-# Virtualisierung
+# Scheduler
 
 <!-- data-type="none" -->
 | Parameter | Kursinformationen |

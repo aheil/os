@@ -17,7 +17,7 @@ comment:
 -->
 
 
-# Virtualisierung
+# Threads
 
 <!-- data-type="none" -->
 | Parameter | Kursinformationen |

@@ -17,7 +17,7 @@ comment:
 -->
 
 
-# Virtualisierung
+# Fortgeschrittene Scheduler
 
 <!-- data-type="none" -->
 | Parameter | Kursinformationen |

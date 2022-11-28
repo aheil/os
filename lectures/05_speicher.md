@@ -17,7 +17,7 @@ comment:
 -->
 
 
-# Virtualisierung
+# Speicher
 
 <!-- data-type="none" -->
 | Parameter | Kursinformationen |
