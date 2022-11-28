@@ -37,8 +37,8 @@ Für Student:innen in meinem Kurs gibt es in jedem Semester ein [ILIAS Raum](htt
 | --- | --- | --- | --- |
 |  1 | - | [Einführung in Git](https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/01_git.md) | Git Kurs  |
 |  2 | - | [Virtualisierung](https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/02_virtualisierung.md) | [C Crashkurs](https://liascript.github.io/course/?https://github.com/aheil/hhn-c) |
-|  3 | - | [Scheduler](https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/03_virtualisierung.md) | |
-|  4 | - | [Fortgeschrittene Scheduler](https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/04_virtualisierung.md) | |
+|  3 | - | [Scheduler](https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/03_scheduler.md) | |
+|  4 | - | [Fortgeschrittene Scheduler](https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/04_scheduler.md) | |
 |  5 | - | [Speicher](https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/05_speicher.md) | |
 |  6 | - | [Speicherverwaltung](https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/06_speicherverwaltung.md) | |
 |  7 | - | [Swapping](https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/07_swapping.md) | |
