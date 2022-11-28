@@ -39,15 +39,14 @@ Für Student:innen in meinem Kurs gibt es in jedem Semester ein [ILIAS Raum](htt
 |  2 | - | [Virtualisierung](https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/02_virtualisierung.md) | [C Crashkurs](https://liascript.github.io/course/?https://github.com/aheil/hhn-c) |
 |  3 | - | [Scheduler](https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/03_virtualisierung.md) | |
 |  4 | - | [Fortgeschrittene Scheduler](https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/04_virtualisierung.md) | |
-|  5 | - | Speicher | |
-|  6 | - | Speicherverwaltung | |
-|  7 | - | Swapping | |
-|  8 | - | Threads | |
-|  - | - | Entfällt (Blockwoche SEB) | |
-| 9 | - | Semaphoren | |
-| 10 | - | I/O | |
-| 11 | - | Dateisysteme | |
-| 12 | - | Implementierung von Dateisystemen | |
+|  5 | - | [Speicher](https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/05_speicher.md) | |
+|  6 | - | [Speicherverwaltung](https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/06_speicherverwaltung.md) | |
+|  7 | - | [Swapping](https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/07_swapping.md) | |
+|  8 | - | [Threads](https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/08_threads.md) | |
+| 9 | - | [Semaphoren]((https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/09_semaphoren.md)) | |
+| 10 | - | [I/O](https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/10_io.md) | |
+| 11 | - | [Dateisysteme]((https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/11_dateisysteme.md)) | |
+| 12 | - | [Implementierung von Dateisystemen]((https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/12_dateisystemimplementierung.md)) | |
 
 
 ## Kursübersicht
