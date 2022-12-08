@@ -425,7 +425,7 @@ Exception Handlers werden benötigt und müssen vom Betriebssystem bereitgestell
 * Heute: Durch Caches kein Engpass mehr, da Befehls- und Speicherzugriffe weitestgehend entkoppelt
 * Vorteil: Ein Bus macht das Programmieren einfacher, keine Race-Conditions und Daten-Inkohärenz  (deterministisches Programm auch bei Multi-CPU)
 
-# Harvard Architektur
+### Harvard Architektur
 
 ![](../img/os.05.harvard.de.png)
 
