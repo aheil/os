@@ -49,6 +49,16 @@ Für Student:innen in meinem Kurs gibt es in jedem Semester ein [ILIAS Raum](htt
 | 12 | - | [Implementierung von Dateisystemen](https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/12_dateisystemimplementierung.md) | |
 
 
+## Aufnahmen 
+
+Aufzeichnungen der Live-Streams der  Vorlesung Betriebssysteme im Sommersemester 2022. 
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLBXz7ZC5wx7hHW0gA8Pscri7Fy7yuTgQn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+YouTube Link: https://youtube.com/playlist?list=PLBXz7ZC5wx7hHW0gA8Pscri7Fy7yuTgQn
+
 ## Kursübersicht
 
 **Dozent**
