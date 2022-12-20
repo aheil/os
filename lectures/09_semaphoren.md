@@ -345,7 +345,7 @@ void *consumer(void *arg) {
 
 ************************************
 
-## Konotrollfragen
+## Kontrollfragen
 
 Was ist der Hauptzweck von Semaphoren?
 
