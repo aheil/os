@@ -110,7 +110,7 @@ Wie kann das funktionieren?! Das schauen wir auf den folgenden Beispielen an!
 
 ************************************
 
-### Semaphore als Lock
+## Semaphore als Lock
 
 **Verwendung der Semaphore als Lock:**
 
@@ -143,7 +143,7 @@ Wie kann das funktionieren?! Das schauen wir auf den folgenden Beispielen an!
 
 ************************************
 
-### Semaphoren zur Signalisierung
+## Semaphoren zur Signalisierung
 
 > Semaphoren können auch genutzt werden, um mehrer Threads zu synchronisieren
 
@@ -247,7 +247,7 @@ void *producer(void *arg) {
   for (i = 0; i < loops; i++) {
     sem_wait(&empty); // Line P1    
     put(i); // Line P2
-    sem_post(&full); // Line P3  }
+    sem_post(&full); // Line P3
   }
 }
 ```
@@ -344,3 +344,34 @@ void *consumer(void *arg) {
 
 
 ************************************
+
+## Konotrollfragen
+
+Was ist der Hauptzweck von Semaphoren?
+
+-[(x)] Um den Zugriff auf gemeinsam genutzte Ressourcen zu synchronisieren
+-[( )] Um den Zugriff auf nicht gemeinsam genutzte Ressourcen zu synchronisieren
+-[( )] Um den Zugriff auf Dateien zu synchronisieren
+-[( )] Um den Zugriff auf Netzwerkverbindungen zu synchronisieren
+
+Welche der folgenden Aussagen beschreibt Semaphoren **am besten**?
+
+-[( )] Semaphoren sind ein Mechanismus zur Synchronisierung von Threads innerhalb eines Prozesses
+-[(x)] Semaphoren sind ein Mechanismus zur Synchronisierung von Prozessen innerhalb eines Systems
+-[( )] Semaphoren sind ein Mechanismus zur Synchronisierung von Netzwerkverbindungen
+-[( )] Semaphoren sind ein Mechanismus zur Synchronisierung von Dateizugriffen
+
+Welches ist der richtige Weg, um eine Semaphore für Threads zu initialisieren?
+
+-[(x)] sem_init(&sem, 0, 1);
+-[( )] sem_init(sem, 0, 1);
+-[( )] sem_init(sem, 1, 1);
+-[( )] sem_init(&sem, 1, 0);
+
+
+Was ist der Hauptunterschied zwischen Semaphoren und Mutexen?
+
+-[( )] Semaphoren können von mehreren Threads gleichzeitig besetzt werden, während Mutexes nur von einem Thread besetzt werden können
+-[( )] Semaphoren können von mehreren Prozessen gleichzeitig besetzt werden, während Mutexes nur von einem Prozess besetzt werden können
+-[( )] Semaphoren können von mehreren Prozessen und Threads gleichzeitig besetzt werden, während Mutexes nur von einem Thread oder Prozess besetzt werden können
+-[(x)] Semaphoren können von mehreren Threads gleichzeitig besetzt werden, während Mutexes nur von einem Thread oder Prozess besetzt werden können
