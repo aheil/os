@@ -33,6 +33,7 @@ Für Student:innen in meinem Kurs gibt es in jedem Semester ein [ILIAS Raum](htt
 
 ## Kalender und Inhalte
 
+<!-- data-type="none"  -->
 | Einheit # | Datum | Thema | Hausaufgabe |
 | --- | --- | --- | --- |
 |  1 | - | [Einführung in Git](https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/01_git.md) | Git Kurs  |
@@ -44,7 +45,8 @@ Für Student:innen in meinem Kurs gibt es in jedem Semester ein [ILIAS Raum](htt
 |  7 | - | [Swapping](https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/07_swapping.md) | |
 |  8 | - | [Threads](https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/08_threads.md) | |
 | 9 | - | [Semaphoren](https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/09_semaphoren.md) | |
-| 10 | - | [I/O](https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/10_io.md) | |
+| 9.1 | - | [Bugs durch Nebenläufigkeit](https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/09_1_nebenlaeufigkeit.md) | |
+| 10 | - | [I/O](https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/09_1_nebenlaeufigkeit.md) | |
 | 11 | - | [Dateisysteme](https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/11_dateisysteme.md) | |
 | 12 | - | [Implementierung von Dateisystemen](https://liascript.github.io/course/?https://github.com/aheil/os/blob/gh-pages/lectures/12_dateisystemimplementierung.md) | |
 
@@ -58,6 +60,16 @@ Aufzeichnungen der Live-Streams der  Vorlesung Betriebssysteme im Sommersemester
 
 
 YouTube Link: https://youtube.com/playlist?list=PLBXz7ZC5wx7hHW0gA8Pscri7Fy7yuTgQn
+
+## Übungsaufgaben und Abgaben
+
+<!-- data-type="none"  -->
+| Aufgabe # | Thema | Link |
+| --- | --- | --- |
+| 1 | Stack | [https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/os/master/labs/stack.md](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/os/master/labs/stack.md) | Pflicht |
+| 2 | Free List| [https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/os/master/labs/freelist.md](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/os/master/labs/freelist.md)|
+| 3 | Semaphore |  [https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/os/master/labs/semaphore.md](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/os/master/labs/semaphore.md) |
+| 4 | I/O Device ||
 
 ## Kursübersicht
 

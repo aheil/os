@@ -2,6 +2,17 @@
 
 In dieser Aufgabe implementieren Sie die Datenstruktur Stack in der Sprach C, wie sie in der Vorlesung vorgestellt wurde.  
 
+<!-- data-type="none" -->
+| Parameter | Kursinformationen |
+| --- | --- |
+| **Veranstaltung:** | `262007 Betriebssysteme`|
+| **Semester** | `SEB2` |
+| **Hochschule:** | `Hochschule Heilbronn` |
+| **Inhalte:** | `Übungsaufgabe: Stack Implementierung` |
+| Startseite | [https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/os/master/README.md#1](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/os/master/README.md#1) | 
+| **Link auf den GitHub:** | [https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/os/master/labs/stack.md](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/os/master/labs/stack.md) |
+| **Autoren** | @author |
+
 ## Voraussetzungen
 
 Nutzen Sie hierfür [gcc](https://gcc.gnu.org/).
