@@ -8,7 +8,7 @@ In dieser Aufgabe implementieren Sie die Datenstruktur Free List in der Sprache 
 | **Veranstaltung:** | `262007 Betriebssysteme`|
 | **Semester** | `SEB2` |
 | **Hochschule:** | `Hochschule Heilbronn` |
-| **Inhalte:** | `Übungsaufgabe: Stack Implementierung` |
+| **Inhalte:** | `Übungsaufgabe: Free List Implementierung` |
 | Startseite | [https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/os/master/README.md#1](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/os/master/README.md#1) | 
 | **Link auf den GitHub:** | [https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/os/master/labs/freelist.md](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/os/master/labs/freelist.md) |
 | **Autoren** | @author |
