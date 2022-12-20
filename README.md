@@ -70,7 +70,7 @@ YouTube Link: https://youtube.com/playlist?list=PLBXz7ZC5wx7hHW0gA8Pscri7Fy7yuTg
 | 1 | Stack | [https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/os/master/labs/stack.md](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/os/master/labs/stack.md) | Pflicht |
 | 2 | Free List| [https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/os/master/labs/freelist.md](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/os/master/labs/freelist.md)|
 | 3 | Semaphore |  [https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/os/master/labs/semaphore.md](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/os/master/labs/semaphore.md) |
-| 4 | I/O Device | [https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/os/master/labs/io_device.md](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/os/master/labs/io_device.md) |
+| 4 | I/O Device | [https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/os/master/labs/canonical_device.md](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/os/master/labs/canonical_device.md) |
 
 ## Kursübersicht
 
