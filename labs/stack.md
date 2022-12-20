@@ -82,6 +82,10 @@ Die Bewertung Ihrer Abgabe findet automatisch statt. Stellen Sie hierzu folgende
 
 ## Hinweise 
 
-* In der Aufgabestellung wird die Rückgabe des Wertes `Null` gefordert. *gcc* sollte beim Kompilieren eine Warnung der Form `warning: returning ’void *’ from a function with return type ‘int’ makes integer from pointer without a cast [-Wint-conversion]`
+In der Aufgabestellung wird die Rückgabe des Wertes `Null` gefordert. *gcc* sollte beim Kompilieren eine Warnung der Form 
 
-  liefern. Starten Sie *gcc* mit der Option `-Wno-int-conversion` um diese Warnung zu deaktivieren. Weitere Informationen zu den *gcc* Warnungen erhalten Sie auf den GCC Seiten unter [Options to Request or Suppress Warnings](https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html).
+```bash
+warning: returning ’void *’ from a function with return type ‘int’ makes integer from pointer without a cast [-Wint-conversion]
+```
+
+liefern. Starten Sie *gcc* mit der Option `-Wno-int-conversion` um diese Warnung zu deaktivieren. Weitere Informationen zu den *gcc* Warnungen erhalten Sie auf den GCC Seiten unter [Options to Request or Suppress Warnings](https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html).
