@@ -249,7 +249,9 @@ Alle Informationen über einen Prozess stehen in einem Prozesskontrollblock (eng
 * Unterschiedliche Ereignisse führen zu Statusänderungen im Prozess (z.B. der Aufruf einer blockierenden I/O-Operation)
 * Eine Prozessliste enthält alle Informationen über die Prozesse auf einem System
 
-### Quiz
+## Kontrollfragen
+
+1. Welche Status von Prozessen gibt es?
 
 - [[x]] Laufend
 - [[ ]] Wartend
@@ -257,6 +259,12 @@ Alle Informationen über einen Prozess stehen in einem Prozesskontrollblock (eng
 - [[x]] Gestoppt
 - [[ ]] Vampir
 - [[x]] Zombie
+
+2. Was ist die Hauptfunktion von Virtualisierung von Prozessen?
+- [( )] Umfassende Sicherheit bieten
+- [(X)] Hardware-Ressourcen teilen
+- [( )] Betriebssysteme simulieren
+- [( )] Netzwerktopologien simulieren
 
 ### Weiterführende Informationen
 
