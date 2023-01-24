@@ -171,7 +171,7 @@ Weitere Möglichkeiten sind je nach Betriebssystem unterschiedlich, z.B.:
     * In C für dynamischen Speicherzuordnung via `malloc()` und `free()`
     * Exkurs: Memoryleaks baut man übrigens, indem man in C vergisst `free()` aufzurufen
 
-![](img/os.01.processcreation.png)
+![](../img/os.01.processcreation.png)
 
 6. Das Betriebssystem unterstütz nun den Prozess, indem es z.B. dem Prozess mehr Speicher gibt, wenn der Heap vergrößert werden muss
 
@@ -211,7 +211,7 @@ Quelle: https://man7.org/linux/man-pages/man1/top.1.html
 
 > Ist ein Prozess geblockt, wartet das Betriebssystem auf die I/O-Operation, um dann den Prozess wieder in den Status *Ready* zu verschieben. 
 
- ![](img/os.01.status.png)
+ ![](../img/os.01.status.png)
 
  {{5}}
  ************************************
@@ -234,7 +234,7 @@ Wir benötigen dafür
 
  ************************************
 
- ### Exkurs: Datenstruktur von xv6-Prozessen
+### Exkurs: Datenstruktur von xv6-Prozessen
 
 Alle Informationen über einen Prozess stehen in einem Prozesskontrollblock (engl. process control block, kurz PCB) 
 
