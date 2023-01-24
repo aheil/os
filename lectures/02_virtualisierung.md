@@ -240,6 +240,10 @@ Alle Informationen über einen Prozess stehen in einem Prozesskontrollblock (eng
 
 ![](../img/os.02.pcb.png)
 
+**xv6 Source Code**
+
+- xv6 Source Code auf GitHub: [https://github.com/mit-pdos/xv6-public](https://github.com/mit-pdos/xv6-public)
+- xv6 PCB Source Code: [https://github.com/mit-pdos/xv6-public/blob/master/proc.h](https://github.com/mit-pdos/xv6-public/blob/master/proc.h)
 
 ### Zusammenfassung
 
