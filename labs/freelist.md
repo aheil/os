@@ -32,11 +32,13 @@ In der Wahl des Linux Systems sind sie frei, alle Beispiele in der Vorlesung wer
 3. Auf Basis Ihres Codes  wird ein Zufallsgenerator gestartet, der willkürlich Speicherblöcke anfordert und wieder freigibt. Bei jeder Änderung ist die Linked List zu aktualisieren, so dass darin alle freien Speicherbereiche enthalten sind. 
 
 4. Nutzen Sie eine Header-Datei (`freelist.h`) der Form:
+
 ```c
 int position(int size);
 void insert(int position, int size);
 void freemem(int position);
-  ``` 
+```
+
 5.  Die Funktion `position()` liefert den die erste Position an der die geforderte Größe eingefügt werden kann. Wird keine passender Speicherblock gefunden liefert die Funktion den Rückgabewert -1. 
 
 3. Jedes Mal wenn ein Speicherbereich "reserviert" wird, schreiben Sie entsprechende Daten in Ihre Datenstruktur. Wird Speicher frei gegeben, werden die Daten gelöscht. 
