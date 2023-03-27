@@ -192,12 +192,12 @@ Wie könnten wir das besser machen?
 
 * Neue Regel
 
-    * Regel 5: Nach definierten Zeit _s_ werden alle Jobs wieder in die oberste Queue verschoben
+  * Regel 5: Nach definierten Zeit _s_ werden alle Jobs wieder in die oberste Queue verschoben
 
-* Regel 5 löst zwei Probleme:
+* Regel 5 löst zwei Probleme
 
-    * Prozesse laufen nicht mehr Gefahr der »Starvation«
-    * Wenn ein Job »plötzlich« interaktiv würde, kann er entsprechend priorisiert werden (s. nächste Seite)
+  * Prozesse laufen nicht mehr Gefahr der »Starvation« 
+  * Wenn ein Job »plötzlich« interaktiv würde, kann er entsprechend priorisiert werden (s. folgende Seiten) 
 
 {{1}}
 ************************************
