@@ -33,7 +33,7 @@ comment:
 
 ## Lernziele 
 
-* FUnktionsweise realer Scheduler **kennen lernen**
+* Funktionsweise realer Scheduler **kennen lernen**
 
 ## I/O und Overlapping
 
