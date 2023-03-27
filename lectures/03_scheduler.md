@@ -91,8 +91,6 @@ Das Programm...
 * Führt eine sog. Return-From-Trap-Instruktion aus
 * Kehrt in den User Mode zurück
 
-************************************
-
 {{1}}
 ************************************
 
@@ -236,8 +234,7 @@ First in, First out (abk. FIFO) oder manchmal auch First Come, First Serve (abk.
 
 [^2]: Photo by Paul Townsend, licensed under Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)
 
-
-************************************#
+************************************
 
 ### Shortes Job First
 
@@ -273,13 +270,13 @@ First in, First out (abk. FIFO) oder manchmal auch First Come, First Serve (abk.
 * Shortest Time-to-Completion First (STCF)
 
 * SJF ist non-preemptive ▶ versuchen wir es preemptive
-
+* Was bedeutet überhaupt preemptive bzw. non-preemptive?
 
 {{1}}
 ************************************
 
 **Exkurs: Non-Preemptive vs. Preemptive** 
-_
+
 * Non-Preemptive 
 
   * Stammt aus den Zeiten von sog. Batch-Systemen
@@ -303,9 +300,7 @@ _
 
 * $\frac{(120-0)+(20-10)+(30-10)}{3}=50$
 
-![](../img/os.03.stcf.png)[^3]
-
-[^3]: Bild von Gerd Altmann auf Pixabay
+![](../img/os.03.stcf.png)
 
 ************************************
 
@@ -318,7 +313,9 @@ _
 * Nun kommt die Hausaufgabe vom letzten Mal ins Spiel: Sie erinnern sich an den Unterschied zwischen Foreground- und Background-Jobs?  
 * Was ist denn, wenn andauernd neue kürzere Jobs eintreffen, die keine Benutzereingabe erfordern… 🥱
 
-![](../img/os.03.wait.jpg)
+![](../img/os.03.wait.jpg)[^3]
+
+[^3]: Bild von Gerd Altmann auf Pixabay
 
 ************************************
 
