@@ -191,8 +191,8 @@ Wie könnten wir das besser machen?
 ### Versuch 2: Priority Boost
 
 * Neue Regel
-    
-    * Regel 5: Nach definierten Zeit *s* werden alle Jobs wieder in die oberste Queue verschoben
+
+    * Regel 5: Nach definierten Zeit _s_ werden alle Jobs wieder in die oberste Queue verschoben
 
 * Regel 5 löst zwei Probleme:
 
@@ -204,11 +204,11 @@ Wie könnten wir das besser machen?
 
 **Voodoo Constant** 
 
-Spannende Frage: Wie lange sollte die Zeitspanne *s* sein?
+Spannende Frage: Wie lange sollte die Zeitspanne _s_ sein?
 
-* Der Wert *s* heißt nach John Ousterhout »Voodoo Constant«.
+* Der Wert _s_ heißt nach John Ousterhout »Voodoo Constant«.
 * Für die Bestimmung sog. Voodoo-Konstanten benötigt das System etwas »schwarze Magie« zu deren Bestimmung
-* Dilemma: Wenn *s* zu groß gewählt wird, können CPU-intensive Jobs doch verhungern, ist sie zu klein gewählt bekommen interaktive Jobs nicht genügend CPU  
+* Dilemma: Wenn _s_ zu groß gewählt wird, können CPU-intensive Jobs doch verhungern, ist sie zu klein gewählt bekommen interaktive Jobs nicht genügend CPU  
 * Generell sollten Voodoo-Konstanten vermieden werden (Ousterhout's Law)
 
 ************************************
