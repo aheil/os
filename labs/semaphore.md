@@ -82,6 +82,7 @@ Dieses Programm erstellt eine Semaphore namens `sem` und initialisiert sie mit d
 
 Die Bewertung Ihrer Abgabe findet automatisch statt. Stellen Sie hierzu folgende Punkte sicher:
 
+* Ihre Lösung befindet sich im Ordner **aufgabe3**.
 * Ihre Implementierung befindet sich in einer Datei mit dem Namen **stack.c**. 
 * Sie nutzen eine Header-Datei in der der obige Header hinterlegt ist. 
 * Zur Abgabe erhalten Sie einen Zugang zum hochschulinternen [GitLab](https://git.it.hs-heilbronn.de/).

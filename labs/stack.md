@@ -35,7 +35,7 @@ int peek();
 
 2. Ihr Stack verfügt über eine maximale Größe von 100 Elementen. 
 
-2. Ihr Code sollte zu einem gewissen Maße robust sein, stellen Sie daher sicher dass folgende Bedingungen eingehalten werden: 
+3. Ihr Code sollte zu einem gewissen Maße robust sein, stellen Sie daher sicher dass folgende Bedingungen eingehalten werden: 
 
     a. Beim überschreiten der maximal zulässigen Anzahl von Einträgen durch den Aufruf von `push()` liefert Ihr Code folgende Fehlermeldung: 
 
@@ -59,12 +59,14 @@ int peek();
 
     **Hinweis: Achten Sie darauf, dass bei der Ausgabe der Fehlermeldung diese immer mit einem ZTeilenumbruch (`\n`) endet.**
 
+4. Hinweis: Ihre Datei(en) dürfen keine `main()`-Methode enthalten. Sollten Sie dennoch eine `main()`-Methode erstellen wollen, tun Sie dies bitte nur in einer Datei **main.c**
 
 ## Abgabe
 
 Die Bewertung Ihrer Abgabe findet automatisch statt. Stellen Sie hierzu folgende Punkte sicher:
 
-* Ihre Implementierung befindet sich in einer Datei mit dem Namen **stack.c**. 
+* Ihre Lösung befindet sich im Ordner **aufgabe1**.
+* Ihre Implementierung befindet sich in einer Datei mit dem Namen **stack.c**.
 * Sie nutzen eine Header-Datei in der der obige Header hinterlegt ist. 
 * Zur Abgabe erhalten Sie einen Zugang zum hochschulinternen [GitLab](https://git.it.hs-heilbronn.de/).
 * Ihre Lösung checken Sie in Ihrem Repository ein.

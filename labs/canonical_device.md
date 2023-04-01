@@ -74,6 +74,7 @@ In der Wahl der Linux Distribution sind sie frei, alle Beispiele in der Vorlesun
 
 Die Bewertung Ihrer Abgabe findet automatisch statt. Stellen Sie hierzu folgende Punkte sicher:
 
+* Ihre Lösung befindet sich im Ordner **aufgabe4**.
 * Zur Abgabe erhalten Sie einen Zugang zum hochschulinternen [GitLab](https://git.it.hs-heilbronn.de/).
 * Ihre Lösung checken Sie in Ihrem Repository ein.
 * Die eigentliche Abgabe erfolgt über das hochschuleigene [Commit-System](https://commit.it.hs-heilbronn.de/). Der Zugriff ist ausschließlich im Hochschulnetz oder über VPN möglich. 
