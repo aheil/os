@@ -47,12 +47,13 @@ void freemem(int position);
 
 5. Implementieren Sie entsprechende Ausgaben auf der Konsole, so das der jeweilige Status der Free List erkennbar ist. Orientieren Sie sich hierbei an der Darstellung der Free List aus der Vorlesung. 
 
-6. Hinweis: Ihre Datei darf keine `main()`-Methode enthalten.
+6. Hinweis: Ihre Datei(en) dürfen keine `main()`-Methode enthalten. Sollten Sie dennoch eine `main()`-Methode erstellen wollen, tun Sie dies bitte nur in einer Datei **main.c**.
 
 ## Abgabe
 
 Die Bewertung Ihrer Abgabe findet automatisch statt. Stellen Sie hierzu folgende Punkte sicher:
 
+* Ihre Lösung befindet sich im Ordner **aufgabe2**.
 * Ihre Implementierung befindet sich in einer Datei mit dem Namen **freelist.c**. 
 * Sie nutzen eine Header-Datei in der die obigen Prototypen verwendet werden. 
 * Zur Abgabe erhalten Sie einen Zugang zum hochschulinternen [GitLab](https://git.it.hs-heilbronn.de/).
