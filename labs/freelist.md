@@ -37,17 +37,18 @@ In der Wahl des Linux Systems sind sie frei, alle Beispiele in der Vorlesung wer
 int position(int size);
 void insert(int position, int size);
 void freemem(int position);
+void print_freelist();
 ```
 
 5.  Die Funktion `position()` liefert den die erste Position an der die geforderte Größe eingefügt werden kann. Wird keine passender Speicherblock gefunden liefert die Funktion den Rückgabewert -1. 
 
-3. Jedes Mal wenn ein Speicherbereich "reserviert" wird, schreiben Sie entsprechende Daten in Ihre Datenstruktur. Wird Speicher frei gegeben, werden die Daten gelöscht. 
+6. Jedes Mal wenn ein Speicherbereich mit der Funktion `insert()` "reserviert" wird, schreiben Sie entsprechende Daten in Ihre Datenstruktur. Wird Speicher mittels der Funktion `freemem()` freigegeben, werden die Daten gelöscht. 
 
-4. Ihr Programm wird mind. 100 Iterationen durchlaufen. 
+7. Die Funktion `print_freelist()` gibt den aktuellen Zustand Ihrer Free List auf der Konsole (stdout) aus. Implementieren Sie entsprechende Ausgaben auf der Konsole, so das der jeweilige Status der Free List erkennbar ist. Orientieren Sie sich hierbei an der Darstellung der Free List aus der Vorlesung.
 
-5. Implementieren Sie entsprechende Ausgaben auf der Konsole, so das der jeweilige Status der Free List erkennbar ist. Orientieren Sie sich hierbei an der Darstellung der Free List aus der Vorlesung. 
+8. Ihr Programm wird mind. 100 Iterationen durchlaufen. 
 
-6. Hinweis: Ihre Datei(en) dürfen keine `main()`-Methode enthalten. Sollten Sie dennoch eine `main()`-Methode erstellen wollen, tun Sie dies bitte nur in einer Datei **main.c**.
+9. Hinweis: Ihre Datei(en) dürfen keine `main()`-Methode enthalten. Sollten Sie dennoch eine `main()`-Methode erstellen wollen, tun Sie dies bitte nur in einer Datei **main.c**.
 
 ## Abgabe
 
