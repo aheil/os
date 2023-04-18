@@ -39,7 +39,7 @@ int peek();
 
     a. Beim überschreiten der maximal zulässigen Anzahl von Einträgen durch den Aufruf von `push()` liefert Ihr Code folgende Fehlermeldung: 
 
-    > ERROR: Size 100 of stack exeeded when adding value X
+    > ERROR: Size 100 of stack exceeded when adding value X
 
     Wobei X der Wert der Variable ist, welcher versucht wurde auf den Stack zu legen.
 
