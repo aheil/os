@@ -25,7 +25,21 @@ In der Wahl der Linux Distribution sind sie frei, alle Beispiele in der Vorlesun
 
 ## Aufgabenstellung 
 
-1. Implementieren Sie einen Semaphore auf Basis folgender Anwendung: 
+1. Implementieren Sie eine Semaphore auf Basis folgender Header-Datei (`sem.h`): 
+
+```c
+typedef struct
+{
+    // ...
+} hhn_sem_t;
+
+int hhn_sem_wait(hhn_sem_t *s);
+int hhn_sem_post(hhn_sem_t *__sem);
+int hhn_sem_init(hhn_sem_t *__sem, int __pshared, int __value);
+int hhn_sem_destroy(hhn_sem_t *__sem);
+```
+
+2. Ziel ist es die implementierung aus `semaphore.h` analog durch die implementierung aus `sem.h` zu ersetzen.
 
 ```c
 #include <stdio.h>
@@ -64,9 +78,10 @@ int main(void)
 
 Dieses Programm erstellt eine Semaphore namens `sem` und initialisiert sie mit dem Wert 1. Es erstellt dann einen neuen Thread, der die Funktion `thread_func` ausführt. In der Hauptfunktion und im neuen Thread wird jeweils eine Schleife ausgeführt, in der die Semaphore mit der Funktion `sem_wait` gesperrt wird, um den Zugriff auf eine gemeinsam genutzte Ressource zu synchronisieren. Nachdem die gemeinsam genutzte Ressource verwendet wurde, wird die Semaphore mit der Funktion `sem_post` freigegeben. Am Ende des Programms wird die Semaphore mit der Funktion `sem_destroy` freigegeben.
 
-2. Implementieren Sie eine Struktur `sem_t` und die, für das vorherige Programm erforderlichen Funktionen.
+3. Implementieren Sie eine Struktur `hhn_sem_t` und die, für das vorherige Programm erforderlichen Funktionen (`hhn_sem_wait`, `hhn_sem_post`, `hhn_sem_init`, `hhn_sem_destroy`).
 
-3. Deklarieren Sie alle dafür erforderlichen Funktionen in einer Header Datei `sem.h`, tauschen Sie den Eintrag entsprechend in Ihrem Programm, so dass Ihre Implementierung der Semaphore verwendet wird.
+
+1. Deklarieren Sie alle dafür erforderlichen Funktionen in einer Header Datei `sem.h`, tauschen Sie den Eintrag entsprechend in Ihrem Programm, so dass Ihre Implementierung der Semaphore verwendet wird.
 
 ```c
 #include <stdio.h>
@@ -74,7 +89,7 @@ Dieses Programm erstellt eine Semaphore namens `sem` und initialisiert sie mit d
 #include "sem.h" 
 ```
 
-4. Zur Abgabe reichen Sie sowohl Ihr Hauptprogramm, das neue Header-File (`sem.h`) als auch die Datei mit der Implementierung Ihrer Semaphore ein. 
+5. Zur Abgabe reichen Sie sowohl Ihr Hauptprogramm, das neue Header-File (`sem.h`) als auch die Datei mit der Implementierung Ihrer Semaphore ein. 
 
 > Hinweis: Ziel der Aufgabenstellung ist es, dass Sie die Grundfunktionalität einer Semaphore nachbilden können. Die Implementierung Ihrer Semaphore muss daher nicht Thread-sicher sein. 
 
@@ -83,7 +98,7 @@ Dieses Programm erstellt eine Semaphore namens `sem` und initialisiert sie mit d
 Die Bewertung Ihrer Abgabe findet automatisch statt. Stellen Sie hierzu folgende Punkte sicher:
 
 * Ihre Lösung befindet sich im Ordner **aufgabe3**.
-* Ihre Implementierung befindet sich in einer Datei mit dem Namen **stack.c**. 
+* Ihre Implementierung befindet sich in einer Datei mit dem Namen **sem.c**. 
 * Sie nutzen eine Header-Datei in der der obige Header hinterlegt ist. 
 * Zur Abgabe erhalten Sie einen Zugang zum hochschulinternen [GitLab](https://git.it.hs-heilbronn.de/).
 * Ihre Lösung checken Sie in Ihrem Repository ein.
@@ -98,13 +113,4 @@ Die Bewertung Ihrer Abgabe findet automatisch statt. Stellen Sie hierzu folgende
 * Abgaben, die nicht fristgerecht eingereicht werden, werden nicht bewertet. 
 * Nutzen Sie zur Abgabe ausschließlich das beschriebene Verfahren. Abgaben, die per E-Mail oder anderen Wegen eingereicht werden, werden nicht bewertet. 
 * Abgaben, die aufgrund eines Fehlers nicht durch die Tests laufen, werden entsprechend mit weniger Punkten bewertet.
-
-## Hinweise 
-
-In der Aufgabestellung wird die Rückgabe des Wertes `Null` gefordert. *gcc* sollte beim Kompilieren eine Warnung der Form 
-
-```bash
-warning: returning ’void *’ from a function with return type ‘int’ makes integer from pointer without a cast [-Wint-conversion]
-```
-
-liefern. Starten Sie *gcc* mit der Option `-Wno-int-conversion` um diese Warnung zu deaktivieren. Weitere Informationen zu den *gcc* Warnungen erhalten Sie auf den GCC Seiten unter [Options to Request or Suppress Warnings](https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html).
+* 
