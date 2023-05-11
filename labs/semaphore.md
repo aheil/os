@@ -81,7 +81,7 @@ Dieses Programm erstellt eine Semaphore namens `sem` und initialisiert sie mit d
 3. Implementieren Sie eine Struktur `hhn_sem_t` und die, für das vorherige Programm erforderlichen Funktionen (`hhn_sem_wait`, `hhn_sem_post`, `hhn_sem_init`, `hhn_sem_destroy`).
 
 
-1. Deklarieren Sie alle dafür erforderlichen Funktionen in einer Header Datei `sem.h`, tauschen Sie den Eintrag entsprechend in Ihrem Programm, so dass Ihre Implementierung der Semaphore verwendet wird.
+4. Deklarieren Sie alle dafür erforderlichen Funktionen in einer Header Datei `sem.h`, tauschen Sie den Eintrag entsprechend in Ihrem Programm, so dass Ihre Implementierung der Semaphore verwendet wird.
 
 ```c
 #include <stdio.h>
