@@ -37,7 +37,7 @@ void setSharedData(int index, char data);
 
 // data stored in the virtual device
 // can not be accessed from another thread other than the virtual device
-char getInternalData(index);
+char getInternalData(int index);
 void setInternalData(int index, char data);
 ```
 
