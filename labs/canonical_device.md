@@ -78,10 +78,12 @@ Das Feld `internalData` hat eine länge von 1.024 Byte.
 - Implementieren Sie auf Basis folgender Header-Datei (`device.h`):
 
 ```c
+#include <pthread.h>
+
 // start the virtual device thread
-void device_start();
+void device_start(pthread_t *thread);
 // exit the virtual device thread
-void device_kill();
+void device_kill(pthread_t thread);
 // write buffer to the virtual device the buffer is bufferLength large
 void device_write(char* buffer, int bufferLength);
 // read the data from the device thread and return the size of the read data
