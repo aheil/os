@@ -112,7 +112,7 @@ Grundlegende Regeln
 * Wenn die ganze CPU-Zeit auf A und B verteilt wird, wie kommen dann aber C und D zum Zug? 
 
 
-![](//img/os.03.mlfq.png)
+![](../img/os.04.mlfq.png)
 
 ************************************
 
