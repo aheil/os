@@ -58,6 +58,7 @@ Wie gehen wir mit großen Adressräumen um?
 * Was ist eine Speichersegment?
 * Zusammenhängender Speicherbereich
 * In unserem Fall drei Segmente
+
   * Programm-Code
   * Heap
   * Stack
@@ -136,6 +137,7 @@ Berechnung:
 ## Fragmentierung
 
 Speicherfragmentierung (engl. external fragmentation)
+
 * Ursprüngliche Annahme: Alle virtuellen Adressräume sind gleich groß, das ist leider in der Realität nicht so
 * Für Segmente müssen passende Speicherbereiche gesucht werden 
 * Physikalischer Speicher besteht somit schnell aus einer Vielzahl an belegten Speicherabschnitten und Löchern
@@ -145,6 +147,7 @@ Speicherfragmentierung (engl. external fragmentation)
 
 * Unter MS-DOS gab es Anfangs ein 640KB Limit
 * Um den Speicher optimal auszunutzen musste der Speicher händisch optimiert werden, z.B. 
+
   * durch Nutzung zusätzlicher Tools zur Speicherverwaltung
   * händisches Anordnen der zu ladenden Treiber, um Lücken im 
   * Speicher möglichst zu vermeiden (minimieren)
@@ -270,6 +273,7 @@ movl <virtual address>, %eax
 * Die restlichen Bits können zur Adressierung innerhalb der Seite verwendet werden (= Offset)
 
 * Beispiel:
+
   * Zugriff auf virtuelle Adresse 21
   * 21 im Dezimalsystem in ist 010101 Binär, ist 15 im Hexadezimalsystem
   * Somit Zugriff auf Byte5 in Page 1

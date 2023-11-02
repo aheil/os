@@ -181,8 +181,10 @@ free(x);
 
 * `malloc` und `free` beziehen sich immer nur auf den virtuellen Adressraum eines Prozesses
 * Auch wenn ein Speicherleck gebaut wird und der gesamte Heap voll läuft gilt:
+
   * Das Betriebssystem  holt sich nach Prozessende den gesamten Speicher zurück 
   * Kann aber Probleme bei langlaufenden Prozessen (Web Server o.ä. machen)
+
 * Viel größeres Problem wenn im Betriebssystem selbst ein Speicherleck enthalten ist 
 * `malloc` und `free` sind selbst keine SysCalls 
 * `brk` und `sbrk` sind SysCalls zum Ändern des Heaps
@@ -291,10 +293,12 @@ strcpy (dst, scr);
 * Jeder Zugriff auf den virtuellen Adressraum wird durch die Hardware übersetzt 
 * Virtuelle Adresse wird dabei in physikalische Adresse umgewandelt
 * Aufgabe des Betriebssystems
+
   * Verwaltung des Speichers (engl. memory management)
   * Verwaltung der freien Speicherbereiche 
 
 Annahmen zum Einstieg:
+
 * Annahme 1: Adressraum ist kleiner als der physikalische Speicher
 * Annahme 2: Jeder Adressraum ist gleich groß
 
@@ -378,14 +382,19 @@ Damit ein Betriebssystem, das alles kann, existieren einige Anforderungen an die
 
 1. **Privilegierter Modus**
   Wird benötigt, um Programme im User Modus daran zu hindern privilegierte Operationen auszuführen 
+
 2. **Base- & Bounds-Register**
   Registerpaar (pro CPU) für Address Translation und Prüfungen der Speicherlimits
+
 3. **Übersetzung und Prüfung virtueller Adressen, Prüfung ob diese innerhalb der vorgegebenen Grenzen liegen**
   Schaltung für die Berechnung und Prüfung
+
 4. **Privilegierte Instruktionen um Base-/Bounds-Register zu ändern**
   Betriebssystem muss dies vor Programmstart setzen können
+
 5. **Privilegierte Instruktionen, um Exception Handler zu registrieren**
 Betriebssystem muss der Hardware sagen, welcher Code im Fehlerfall ausgeführt werden soll
+
 6. **Möglichkeit Exceptions zu werfen**
 Wenn Prozess versucht außerhalb des virtuellen Adressraums auf Speicher zuzugreifen oder beim Versuch privilegierte Operationen auszuführen
 
@@ -409,6 +418,7 @@ Exception Handlers werden benötigt und müssen vom Betriebssystem bereitgestell
 **Kurze Wiederholung**
 
 * Einteilung des Adressraums 
+
   * Statischer Programm-Code
   * Heap- und Stack
 
