@@ -49,6 +49,51 @@ Was wäre die Alternative? Code-Dateien per E-Mail verschicken? &#x20;
 * **Zustand eines Projekts wiederherstellen**: zum **Testen**, für ein **Release** oder um die Einführung eines Fehlers zu finden bzw. den Bug zu beheben.\
 
 
+#### Was nutzen Entwickler?
+
+<figure><img src=".gitbook/assets/os.01.survey_2015.png" alt=""><figcaption><p>Quelle: <a href="https://insights.stackoverflow.com/survey/2015">https://insights.stackoverflow.com/survey/2015</a></p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/os.01.survey_2018.png" alt=""><figcaption><p>Quelle: <a href="https://insights.stackoverflow.com/survey/2018">https://insights.stackoverflow.com/survey/2018</a></p></figcaption></figure>
+
+### Eine kurze Geschichte von Git
+
+* Linux Community nutzte BitKeeper zur Verwaltung des Kernel Source Codes
+* Durch Lizenzänderung des Herstellers konnte BitKeeper nicht mehr genutzt werden
+* Linus Torvalds wollte ein System, das ähnlich BitKeeper funktionierte, aber die Nachteile der anderen Systeme nicht mehr aufwies (z.B. lange Zeiten bei Branches durch Kopieren aller Dateien)
+* Innerhalb weniger Tage wurde die erste Version von Git entwickelt:
+  * April 2005 Ankündigung des Projektes
+  * April 2005 Self-Hosting des Projektes
+  * Juni 2005 wurde der Linux 2.6 Kernel bereits durch Git verwaltet
+
+#### Git Grundlagen
+
+* _Git Repository_: Vereinfacht ausgedrückt, ein Verzeichnis, in dem die Dateien “überwacht” werden
+* Metadaten (einschl. der Historie) werden in einem versteckten Unterverzeichnis `.git` verwaltet.
+* Git ist eine verteilte Versionsverwaltung
+* Keine Notwendigkeit eines zentralen Repositories
+* _Clonen_ bzw. _Forken_ eines Repositories legt eine vollständige Kopie an. Änderungen können dann in das ursprüngliche Repository zurückgeführt (engl. merge) werden.
+* Jede Datei in dem überwachten Verzeichnis, befindet sich in einem bestimmten Zustand:
+
+<figure><img src=".gitbook/assets/os.01.git_dateistatus.png" alt=""><figcaption></figcaption></figure>
+
+#### Nützliches für den Einstieg 
+
+**Lokale Änderungen** anzeigen (engl. unstaged changes): `git diff [dateiname]`
+
+**Änderungshistorie**: `git log` für Commits, `git –p log` für ein Preview
+
+**Checkout**: Der Checkout einer früheren Version eines Repositories ersetzt alle Dateien mit dieser Version (time travel)
+
+**Branches**: Alle Änderungen werden in dem Branch (dt. Zweig) gespeichert ohne den Hauptzweig (engl. master od. main branch) zu beeinflussen („kaputt zu machen“)
+
+**Remote**: “Entfernte“ Kopie eines Repositories (z.B: GitLab, GitHub) – Achtung: Selbst auf GitLab/GitHub ist nicht das zentrale Repository, sondern nur eine entfernte Kopie Synchronsiation mit dem lokalen Repository z.B. mit `git push`, `git pull`
+
+**Stash**: Änderungen, die noch nicht committet wurden, können mit `git stash` „zwischengespeichert“ und mit `git stash apply` wieder hergestellt werden
+
+**Fork**: Server-seitiger Clone eines Repositories (vorrangig auf GitHub genutzt)
+
+
+
 ### Aufgaben
 
 1. Stellen Sie sicher, dass Git auf Ihrem Rechner vorhanden ist
