@@ -8,7 +8,7 @@
 * Git Grundlagen **kennenlernen und anwenden können**
 * **Verstehen** warum Git Workflows hilfreich sind
 
-### Was ist Versionsverwaltung? 
+### Warum Versionsverwaltung? 
 
 Es gibt alternative Bezeichnungen:
 
@@ -28,20 +28,23 @@ Das heißt: **wer hat was wann geändert**.
 
 So eine Historie ist auch **für einzelner Entwickler sinnvoll**:
 
-* Änderungen über die Zeit nachvollziehen
-* "Zurückrollen" zu einem bestimmten Zeitpunkt
-* Löschen ohne Reue
+* **Änderungen über die Zeit** nachvollziehen
+* "**Zurückrollen**" zu einem bestimmten Zeitpunkt
+* **Löschen** ohne Reue
 
 Was wäre bei einem Entwickler die Alternative?
 
 Viele (sehr viele) Kopien einer Datei anfertigen: jeden Tag, nach jeder Änderung. Wie werden die Änderungen protokolliert? Wie kann man das bei sehr vielen Dateien praktikabel gestalten.
 
-Bei mehrere Entwicklern kommen weitere Herausforderungen hinzu:
+Bei mehreren Entwicklern kommen weitere Herausforderungen hinzu:
 
+* Wie kommen die anderen -Entwickler&#x20;
 * Wie kann man sehen, we**r welche Änderungen** gemacht hat
 * Wie lassen sich Konflikte auflösen, **wenn mehrere Entwickler Änderungen an der gleichen Datei** (insb. der gleichen Zeile) durchgeführt haben?
 
-Versionierung von Quell-Code erlaubt all die zuvor genannten Probleme zu lösen, außerdem lässt sich
+Was wäre die Alternative? Code-Dateien per E-Mail verschicken? &#x20;
+
+**Versionierung** von Quell-Code erlaubt all die zuvor genannten Probleme zu lösen, außerdem lässt sich der
 
 * **Zustand eines Projekts wiederherstellen**: zum **Testen**, für ein **Release** oder um die Einführung eines Fehlers zu finden bzw. den Bug zu beheben.\
 
