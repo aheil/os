@@ -10,8 +10,34 @@
    **Hinweise**: Sie erhalten beim ersten Versuch eine Fehlermeldung, dadurch lern das System jedoch Ihren Account kennen und Sie können einem Repository zugewiesen werden.
 3. Melden Sie sich im jeweiligen ILIAS-Raum ([SEB ](https://ilias.hs-heilbronn.de/ilias.php?baseClass=ilrepositorygui\&ref\_id=360705)bzw. [AIB](https://ilias.hs-heilbronn.de/ilias.php?baseClass=ilrepositorygui\&ref\_id=607216)) an. Abonnieren Sie dort das Forum. Hierüber erhalten Sie wichtige Informationen (z.B. Ausfall der Vorlesung etc.):\
    <img src=".gitbook/assets/image.png" alt="Benachrichtigungen für gesamtes Forum starten" data-size="original">
-4. Finden Sie ein Team-Mitglied (2er-Gruppen).\
-   Laden Sie in ILIAS unter Abgaben eine JSON-Datei in folgendem Format hoch. Im Laufe des Tages erhalten Sie von GitLab das Benachrichtigen über Ihr Repository.&#x20;
+4.  Finden Sie ein Team-Mitglied (2er-Gruppen).\
+    Laden Sie in ILIAS unter Abgaben eine JSON-Datei in folgendem Format hoch.\
+    \
+
+
+    ```
+    {
+        "name": "",
+        "members": [
+          {
+              "lastname": "Mustermann",
+              "firstname": "Max",
+              "id": 12345,
+              "email": "maxmu@stud.hs-heilbronn.de"
+          },
+          {
+              "lastname": "Musterperson",
+              "firstname": "Maxi",
+              "id": 676890,
+              "email": "maxim@stud.hs-heilbronn.de"
+          },
+        ]
+     }
+    ```
+
+    \
+    \
+    Im Laufe des Tages erhalten Sie von GitLab das Benachrichtigen über Ihr Repository.&#x20;
 
 ### Hausaufgabe
 
