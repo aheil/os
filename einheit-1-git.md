@@ -92,7 +92,26 @@ Was wäre die Alternative? Code-Dateien per E-Mail verschicken? &#x20;
 
 **Fork**: Server-seitiger Clone eines Repositories (vorrangig auf GitHub genutzt)
 
+#### Git Workflows
 
+Trotz oder gerade wegen der verteilten Verwaltung kann so einiges schief gehen. Auch wen auf dem main bzw. master immer zurückgerollt werden kann, gilt: \
+
+
+<figure><img src=".gitbook/assets/os.01.git_one_does_not.jpg" alt=""><figcaption><p>Bildquelle: <a href="https://imgflip.com/">https://imgflip.com/</a></p></figcaption></figure>
+
+Das Team hält sich an spezielle Regeln, wann neue Branches erzeugt werden und wann diese wieder zurück in den master bzw. main gemerged werden dürfen.&#x20;
+
+Das Ziel ist immer das gleiche: Der master bzw. main soll zu jeden Zeitpunkt stabil sein, d.h. im besten Fall für den fehlerfreien Build einer aktuellen und lauffähigen Software verwendet werden können.
+
+Dabie gibt es verschiedene Ansätze für Git Workflows.
+
+* Centralized Workflow
+* Feature Branch Workflow
+* Gitflow
+* Fork & Merge
+* Microsoft Git Branching Strategy
+
+In GitOps wird ein anderer Ansatz verfolgt: Hier werden möglichst alle Änderungen direkt im master/main durchgeführt. Dies ist aber nur durch einen sehr hohen Grad an Automatisierung im Build- und Testprozess möglich. Teaser: Das wird in der Vorlesung DevOps behandelt und spielt zunächst keine Rolle für uns.
 
 ### Aufgaben
 
@@ -203,6 +222,8 @@ Stellen Sie sicher, dass sich im Root-Verzeichnis Ihres Repositories eine Datei 
 
 ### Weiterführendes Material
 
+#### Git
+
 * Git Command-line Tool: [https://github.com/nschneid/git-command-overview](https://github.com/nschneid/git-command-overview)
 * GitHub: [https://github.com/](https://github.com/)
 * GitLab: [https://about.gitlab.com/](https://about.gitlab.com/)
@@ -223,4 +244,6 @@ Stellen Sie sicher, dass sich im Root-Verzeichnis Ihres Repositories eine Datei 
 * Wenn was schief geht: [https://ohshitgit.com/](https://ohshitgit.com/)
 * Learn Git Branching: [https://learngitbranching.js.org/](https://learngitbranching.js.org/)
 
-\
+#### Misc
+
+* One Does not simply walk into Mordor Meme: [https://knowyourmeme.com/memes/one-does-not-simply-walk-into-mordor](https://knowyourmeme.com/memes/one-does-not-simply-walk-into-mordor)\
