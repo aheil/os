@@ -17,22 +17,22 @@ description: >-
 
 ​
 
-| Datum      | Thema                  | Bemerkung      |
-| ---------- | ---------------------- | -------------- |
-| 11.03.2024 | Einführung / Einheit 1 | ​              |
-| 22.03.2024 | Einheit 2              | ​              |
-| 29.03.2024 | Einheit 3              | ​              |
-| 01.04.2024 | Vorlesungsfrei         | Ostermontag    |
-| 08.04.2024 | Einheit 4              | ​              |
-| 15.04.2024 | Einheit 5              | ​              |
-| 22.04.2024 | Einheit 6              | ​              |
-| 29.04.2024 | Einheit 7              | ​              |
-| 06.05.2024 | Einheit 8              | ​              |
-| 17.05.2024 | entfällt               | Blockwoche SEB |
-| 24.05.2024 | Vorlesungsfrei         | Pfingstmontag  |
-| 27.05.2024 | Einheit 9              | ​              |
-| 03.06.2024 | Einheit 10             | ​              |
-| 10.06.2024 | Einheit 11             | ​              |
-| 17.06.2024 | Einheit 12             | ​              |
-| 24.06.2024 | Einheit 13             | ​              |
-| TBA        | Klausur                | ​              |
+|            |                        |                                                 |
+| ---------- | ---------------------- | ----------------------------------------------- |
+| 11.03.2024 | Einführung / Einheit 1 | ​Deadline Git Check-Ins: 15.03.2024, 21:00 Uhr  |
+| 22.03.2024 | Einheit 2              | ​                                               |
+| 29.03.2024 | Einheit 3              | ​                                               |
+| 01.04.2024 | Vorlesungsfrei         | Ostermontag                                     |
+| 08.04.2024 | Einheit 4              | ​                                               |
+| 15.04.2024 | Einheit 5              | ​                                               |
+| 22.04.2024 | Einheit 6              | ​                                               |
+| 29.04.2024 | Einheit 7              | ​                                               |
+| 06.05.2024 | Einheit 8              | ​                                               |
+| 17.05.2024 | entfällt               | Blockwoche SEB                                  |
+| 24.05.2024 | Vorlesungsfrei         | Pfingstmontag                                   |
+| 27.05.2024 | Einheit 9              | ​                                               |
+| 03.06.2024 | Einheit 10             | ​                                               |
+| 10.06.2024 | Einheit 11             | ​                                               |
+| 17.06.2024 | Einheit 12             | ​                                               |
+| 24.06.2024 | Einheit 13             | ​                                               |
+| TBA        | Klausur                | ​                                               |
