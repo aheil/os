@@ -77,4 +77,7 @@ A: Nope. E-Mail basiert auf unzuverlässigen Protokollen (RFC 5322, 2045, 2046, 
 A: Besser nicht. Die Aufgaben sind so entworfen, dass Sie diese ohne Probleme auch alleine bewältigen können. Es ist nicht verboten, dass Sie die Bearbeitung der Aufgabe mit einem anderen Team bearbeiten. Teilen Sie unverzüglich mit, wenn Ihr Team-Mitglied nicht mehr zur Verfügung steht.
 
 **F: Ich studieren im Studiengang AIB. Ich habe den Kurs im Sommersemester nicht bestanden. Kann ich den Kurs im Wintersemester wiederholen?**\
-A: Ja, dem steht nichts im Weg. Bitte prüfen Sie, dass es für Sie organisatorisch möglich ist an der Veranstaltung teilzunehmen und kontaktieren Sie mich im Vorfeld bzw. in der ersten Veranstaltung.
+A: Ja, dem steht nichts im Weg. Bitte prüfen Sie, dass es für Sie organisatorisch möglich ist an der Veranstaltung teilzunehmen und kontaktieren Sie mich im Vorfeld bzw. sprechen Sie mich im ersten Termin der Veranstaltung diesbezüglich an.
+
+**F: Ich habe Interaktive Programme (Programmieren 1) nicht bestanden, darf ich an der Veranstaltung trotzdem teilnehmen?**\
+A: Ja.
