@@ -41,7 +41,11 @@
 
 ### Hausaufgabe
 
-Machen Sie sich mit Git vertraut. Hierfür erstellen Sie über Git-Commits ein Dialog aus Shakespear\`s "Rome und Julia". Am Besten erarbeiten Sie diese Aufgabe bereits im Team, da beide Team-Mitglieder abwechselnd einchecken müssen.
+**Git Grundlagen**\
+Sofern noch nicht geschehen, erarbeiten Sie den Kurs [Version Control with Git](https://www.udacity.com/course/version-control-with-git--ud123) bis zum übernächsten Termin.&#x20;
+
+**Git Übung**\
+Erstellen Sie über Git-Commits ein Dialog aus Shakespear\`s "Rome und Julia". Am Besten erarbeiten Sie diese Aufgabe bereits im Team, da beide Team-Mitglieder abwechselnd einchecken müssen.
 
 Nutzen Sie Git-Befehle wie `git add`, `git commit`, `git push`, `git pull` und `git log`, um ihre Änderungen zu verwalten und den Dialog im Verlauf des Git Logs nachzuvollziehen.
 
