@@ -38,7 +38,7 @@ Alle Abgaben und Übungsaufgaben zählen insgesamt 50% zu Ihrer Note.
 
 #### Klausur <a href="#klausur" id="klausur"></a>
 
-Am Ende des Semesters findet eine **60-minütige Klausur** statt. Das Bestehen der Klausur ist Voraussetzung für das Bestehen des Kurses. Sollten Sie die Klausur nicht bestehen, sind für den Wiederholungsversuch die jeweiligen Aufgaben im Folgesemester erneut abzulegen.
+Am Ende des Semesters findet eine **90-minütige Klausur** statt. Das Bestehen der Klausur ist Voraussetzung für das Bestehen des Kurses. Sollten Sie die Klausur nicht bestehen, sind für den Wiederholungsversuch die jeweiligen Aufgaben im Folgesemester erneut abzulegen.
 
 Studierende des Studiengangs AIB können nach Rücksprache für den Wiederholungsversuch auch an der Veranstaltung und der Klausur im Wintersemester teilnehmen.
 
