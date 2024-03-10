@@ -1,8 +1,13 @@
+---
+description: >-
+  In der ersten Einheit wird Git behandelt, weil Git für die Verwaltung des
+  Linux Kernels entwickelt wurde. Nein, im Ernst, Git ist ein grundlegendes
+  Werkzeug für Software-Entwickler und daher relevant.
+---
+
 # Einheit 1: Git
 
 ### Lernziele
-
-
 
 * Hintergründe, Sinn und Zweck von Versionsverwaltung **kennenlernen**
 * Git Grundlagen **kennenlernen und anwenden können**
@@ -46,8 +51,7 @@ Was wäre die Alternative? Code-Dateien per E-Mail verschicken? &#x20;
 
 **Versionierung** von Quell-Code erlaubt all die zuvor genannten Probleme zu lösen, außerdem lässt sich der
 
-* **Zustand eines Projekts wiederherstellen**: zum **Testen**, für ein **Release** oder um die Einführung eines Fehlers zu finden bzw. den Bug zu beheben.\
-
+* **Zustand eines Projekts wiederherstellen**: zum **Testen**, für ein **Release** oder um die Einführung eines Fehlers zu finden bzw. den Bug zu beheben.
 
 #### Was nutzen Entwickler?
 
@@ -99,9 +103,9 @@ Trotz oder gerade wegen der verteilten Verwaltung kann so einiges schief gehen. 
 
 <figure><img src=".gitbook/assets/os.01.git_one_does_not.jpg" alt=""><figcaption><p>Bildquelle: <a href="https://imgflip.com/">https://imgflip.com/</a></p></figcaption></figure>
 
-Das Team hält sich an spezielle Regeln, wann neue Branches erzeugt werden und wann diese wieder zurück in den master bzw. main gemerged werden dürfen.&#x20;
+Das Team hält sich an spezielle Regeln, **wann neue Branches erzeugt werden** und wann diese wieder **zurück in den master bzw. main gemerged werden** dürfen.&#x20;
 
-Das Ziel ist immer das gleiche: Der master bzw. main soll zu jeden Zeitpunkt stabil sein, d.h. im besten Fall für den fehlerfreien Build einer aktuellen und lauffähigen Software verwendet werden können.
+Das Ziel ist immer das gleiche: **Der master bzw. main soll zu jeden Zeitpunkt stabil sein**, d.h. im besten Fall für den fehlerfreien Build einer aktuellen und lauffähigen Software verwendet werden können.
 
 Dabie gibt es verschiedene Ansätze für Git Workflows.
 
