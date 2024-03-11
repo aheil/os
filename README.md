@@ -52,7 +52,7 @@ Für Studierende der Hochschule Heilbronn steht ein ILIAS Raum für [SEB](https:
 
 #### Discord&#x20;
 
-[https://discord.com/channels/674012582138347532/677967828351188993](https://discord.com/channels/674012582138347532/677967828351188993)
+[https://discord.gg/zyXJG3pV](https://discord.gg/zyXJG3pV)
 
 **FAQ**
 
