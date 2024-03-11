@@ -50,6 +50,10 @@ Die Klausur zählt 50% zu Ihrer Note.
 
 Für Studierende der Hochschule Heilbronn steht ein ILIAS Raum für [SEB](https://ilias.hs-heilbronn.de/goto.php?target=crs\_360705\&client\_id=iliashhn) bzw. [AIB](https://ilias.hs-heilbronn.de/ilias.php?baseClass=ilrepositorygui\&ref\_id=607216) für den Kurs mit Forum und ggf. mit weiteren Informationen bereit.
 
+#### Discord&#x20;
+
+[https://discord.com/channels/674012582138347532/677967828351188993](https://discord.com/channels/674012582138347532/677967828351188993)
+
 **FAQ**
 
 **F: Ich habe in der Klausur eine 4.0, habe ich den Kurs dann bestanden?**\
