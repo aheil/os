@@ -71,25 +71,75 @@ Erklärung zu den verwendeten Assembler-Befehlen:&#x20;
 
 Der Maschinencode wird nun in ein betriebssystemspezifisches Dateiformat verpackt, dass vom Betriebssystem ausgeführt werden kann (s. [Hausaufgaben](einheit-2-c-programmierung.md#hausaufgabe)).&#x20;
 
+
+
+## Aufgabe:&#x20;
+
+* Installieren Sie auf Ihrem System `gcc`&#x20;
+  * Linux- und MacOS-Nutzer stellen sicher, dass gcc auf Ihrem System läuft
+  * Windows Nutzer installieren hierfür Windows Subsystem for Linux 2.0 (via Windows Store) und dort die Distribution Ubuntu.&#x20;
+    * Stellen Sie sicher, dass `gcc` installiert ist&#x20;
+  * Testen Sie, dass gcc installiert ist&#x20;
+
+```
+> gcc 
+> gcc: fatal error: no input files 
+> compilation terminated.
+```
+
+* &#x20;Erstellen Sie eine Datei `helloworld.c`&#x20;
+  * Fügen Sie folgende Inhalt in der Datei ein&#x20;
+
+```c
+#include <stdio.h>
+
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}
+```
+
+* Kompilieren Sie die Datei mit&#x20;
+
+<pre class="language-bash"><code class="lang-bash"><strong>gcc hello_world.c
+</strong></code></pre>
+
+Starten Sie das Progamm mit&#x20;
+
+```
+./a.out 
+```
+
+**Hinweis:** Nutzen Sie den ersten C-Crashkurs um diese Aufgabe zu lösen.
+
 ## **Hausaufgabe**
 
-In diesem Kurs erstellen wir vorrangig ausführbare Programme. Lesen Sie sich hierzu die folgenden drei Wikipedia-Artikel durch:&#x20;
+### Teil 1
+
+In diesem Kurs erstellen wir vorrangig ausführbare Programme mit C. Lesen Sie sich hierzu die folgenden drei Wikipedia-Artikel durch:&#x20;
 
 * [PE Format](https://en.wikipedia.org/wiki/Portable\_Executable)
 * [a.out Format](https://en.wikipedia.org/wiki/A.out)
 * [ELF Format](https://en.wikipedia.org/wiki/Executable\_and\_Linkable\_Format)
 
+### Teil 2
+
+* Bearbeiten Sie den C-Crashkurs im Team:  [https://github.com/aheil/hhn-c](https://github.com/aheil/hhn-c)&#x20;
+* Nach der Bearbeitung des Kurses erstellen Sie ein C Programm, das
+  * einen String "Hello World" in einem Char-Array speichert und&#x20;
+  * exakt folgende Ausgabe auf dem Screen erzeugt:&#x20;
+
+```
+// Some code
+Text: Hello World
+Speicheradresse:  0x7ffdbf4a3a10
+```
+
+Hinweis: Die Speicheradresse weicht bei Ihnen selbstverständlich ab.&#x20;
+
+* Checken Sie das Code-File in Ihrer Gruppe unter dem Ordner `hello_world` in Ihrem Repository ein.&#x20;
+
 ## Weiterführende Links
 
-* Phasen bei der Complierung von C-Code: [https://abhishek-anand.medium.com/compilation-process-of-a-c-program-f06c22e91fd4](https://abhishek-anand.medium.com/compilation-process-of-a-c-program-f06c22e91fd4)
-
-\
-
-
-\
-
-
-\
-
-
-\
+* Phasen bei der Kompilierung von C-Code: [https://abhishek-anand.medium.com/compilation-process-of-a-c-program-f06c22e91fd4](https://abhishek-anand.medium.com/compilation-process-of-a-c-program-f06c22e91fd4)
+* C-Crshkurs:  [https://github.com/aheil/hhn-c](https://github.com/aheil/hhn-c)\
