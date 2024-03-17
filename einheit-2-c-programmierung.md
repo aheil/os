@@ -8,7 +8,7 @@ C ist eine Programmiersprache, die in der Betriebssystemprogrammierung aus versc
 
 **Portabilität**: C ist portabel und kann mit relativ wenig Aufwand **auf verschiedenen Plattformen eingesetzt** werden. Dies ist wichtig für Betriebssysteme, die unterschiedlichen Architekturen adressieren.
 
-Warum sind sog. managed Sprachen wie Java oder .NET nicht für doe Betriebssystemprogrammierung geeignet?
+Warum sind sog. managed Sprachen wie Java oder .NET nicht für die Betriebssystemprogrammierung geeignet?
 
 **Bootstrapping**: Betriebssysteme müssen sich **selbst initialisieren**. Die Verwendung von Managed Sprachen für diesen Zweck ist problematisch, da sie auf eine bereits laufende Laufzeitumgebung angewiesen sind.
 
@@ -20,7 +20,7 @@ Warum sind sog. managed Sprachen wie Java oder .NET nicht für doe Betriebssyste
 
 ## Wie funktioniert Java (Wdhl.)?
 
-* Der Java Compiler (`javac`) erzeugt keinen maschinenlesebaren code, sondern eine Zwischendarstellung, den sog. **Bytecode**.
+* Der Java Compiler (`javac`) erzeugt keinen maschinenlesbaren code, sondern eine Zwischendarstellung, den sog. **Bytecode**.
 * Wird das Java Programm gestartet (`java`), startet der **Java-Interpreter**, der den Bytecode Zeile für Zeile ausführt.&#x20;
 * Während das Programm ausgeführt wird, analysiert der **JIT-Kompiler** fortlaufend das Programm und entscheidet, ob es vorteilhaft ist, bestimmte Teile des Codes in Maschinencode zu übersetzen. Der Maschinencode ist dann plattformspezifisch.
 
@@ -29,7 +29,7 @@ Warum sind sog. managed Sprachen wie Java oder .NET nicht für doe Betriebssyste
 Der C-Compiler wandelt den mit C programmierten Code in Maschinensprache um, der vom Zielsystem direkt ausgeführt werden kann. Dieser Prozess umfasst mehrere Phasen:
 
 * **Präprozessor**: Der **Präprozessor bereitet den Code** vor, er ersetzt Makros, fügt die Include-Dateien ein, stellt sicher, dass jeder Zeile durch ein Newline-Zeichen getrennt ist und entfernt Kommentare. Das Ergebnis ist eine überarbeitete Code-Datei.
-* **Analysephase** (Frontend-Phase): Hier wird der Sourecode auf korrekte Syntax geprüft, dabei werden bereits Optimierungen in der Syntax vorgenommen. Der Compiler erzeugt hier einen Zwischencode, der noch nicht maschinenlesbar ist.
+* **Analysephase** (Frontend-Phase): Hier wird der Sourcecode auf korrekte Syntax geprüft, dabei werden bereits Optimierungen in der Syntax vorgenommen. Der Compiler erzeugt hier einen Zwischencode, der noch nicht maschinenlesbar ist.
 * **Code-Generierung** (Backend-Phase): Der Zwischencode wird in Assemblercode übersetzt und maschinenspezifische Optimierungen vorgenommen.&#x20;
 * **Linker-Phase**: Der sog. Linker vervollständigt den Code, liest die erforderlichen Bibliotheken ein und setzt alle erforderlichen Adressen ein (hierzu in einer späteren Einheit mehr). Die Ausgabe des Linkers ist der ausführbare Maschinencode.
 
