@@ -21,7 +21,7 @@ Warum sind sog. managed Sprachen wie Java oder .NET nicht für die Betriebssyste
 ## Wie funktioniert Java (Wdhl.)?
 
 * Der Java Compiler (`javac`) erzeugt keinen maschinenlesbaren code, sondern eine Zwischendarstellung, den sog. **Bytecode**.
-* Wird das Java Programm gestartet (`java`), startet der **Java-Interpreter**, der den Bytecode Zeile für Zeile ausführt.&#x20;
+* Wird das Java Programm gestartet (`java`), startet der **Java-Interpreter**, der den Bytecode Zeile für Zeile ausführt.
 * Während das Programm ausgeführt wird, analysiert der **JIT-Kompiler** fortlaufend das Programm und entscheidet, ob es vorteilhaft ist, bestimmte Teile des Codes in Maschinencode zu übersetzen. Der Maschinencode ist dann plattformspezifisch.
 
 ## Wie funktioniert C?
@@ -30,10 +30,10 @@ Der C-Compiler wandelt den mit C programmierten Code in Maschinensprache um, der
 
 * **Präprozessor**: Der **Präprozessor bereitet den Code** vor, er ersetzt Makros, fügt die Include-Dateien ein, stellt sicher, dass jeder Zeile durch ein Newline-Zeichen getrennt ist und entfernt Kommentare. Das Ergebnis ist eine überarbeitete Code-Datei.
 * **Analysephase** (Frontend-Phase): Hier wird der Sourcecode auf korrekte Syntax geprüft, dabei werden bereits Optimierungen in der Syntax vorgenommen. Der Compiler erzeugt hier einen Zwischencode, der noch nicht maschinenlesbar ist.
-* **Code-Generierung** (Backend-Phase): Der Zwischencode wird in Assemblercode übersetzt und maschinenspezifische Optimierungen vorgenommen.&#x20;
+* **Code-Generierung** (Backend-Phase): Der Zwischencode wird in Assemblercode übersetzt und maschinenspezifische Optimierungen vorgenommen.
 * **Linker-Phase**: Der sog. Linker vervollständigt den Code, liest die erforderlichen Bibliotheken ein und setzt alle erforderlichen Adressen ein (hierzu in einer späteren Einheit mehr). Die Ausgabe des Linkers ist der ausführbare Maschinencode.
 
-Beispiel für ein Makro:&#x20;
+Beispiel für ein Makro:
 
 ```c
 #define MAX(a, b) ((a) > (b) ? (a) : (b))
@@ -43,13 +43,13 @@ Beispiel für ein Makro:&#x20;
 int result = MAX(x, y);
 ```
 
-Nach der Präprozessorphase sähe der Code dann so aus:&#x20;
+Nach der Präprozessorphase sähe der Code dann so aus:
 
 ```c
 int result = ((a) > (b) ? (a) : (b));
 ```
 
-Nach der Code-Generieung sähe der Code dann so aus:&#x20;
+Nach der Code-Generieung sähe der Code dann so aus:
 
 ```assembly
 ; Annahme: a und b sind bereits in Registern geladen
@@ -63,23 +63,24 @@ MOV result, a
 L2:
 ```
 
-Erklärung zu den verwendeten Assembler-Befehlen:&#x20;
+Erklärung zu den verwendeten Assembler-Befehlen:
 
 `CMP` = Vergleich\
 `JG`= Springe, wenn größer\
 `MOV` =Verschieben
 
-Der Maschinencode wird nun in ein betriebssystemspezifisches Dateiformat verpackt, dass vom Betriebssystem ausgeführt werden kann (s. [Hausaufgaben](einheit-2-c-programmierung.md#hausaufgabe)).&#x20;
+Der Maschinencode wird nun in ein betriebssystemspezifisches Dateiformat verpackt, dass vom Betriebssystem ausgeführt werden kann (s. [Hausaufgaben](einheit-2-c-programmierung.md#hausaufgabe)).
 
+## Aufgabe:
 
-
-## Aufgabe:&#x20;
-
-* Installieren Sie auf Ihrem System `gcc`&#x20;
+* Installieren Sie auf Ihrem System `gcc`
   * Linux- und MacOS-Nutzer stellen sicher, dass gcc auf Ihrem System läuft
-  * Windows Nutzer installieren hierfür Windows Subsystem for Linux 2.0 (via Windows Store) und dort die Distribution Ubuntu.&#x20;
-    * Stellen Sie sicher, dass `gcc` installiert ist&#x20;
-  * Testen Sie, dass gcc installiert ist&#x20;
+  * Windows Nutzer installieren hierfür Windows Subsystem for Linux 2.0 (via Windows Store) und dort die Distribution Ubuntu.
+  * Bei der Installatoin von Ubunttu müssen Sie einen User anlegen
+    * Nur Kleinbuchstaben!&#x20;
+    * Tipp: Einfaches Passwort ;-)
+  * Stellen Sie sicher, dass `gcc` installiert ist
+  * Testen Sie, dass gcc installiert ist
 
 ```
 > gcc 
@@ -87,8 +88,23 @@ Der Maschinencode wird nun in ein betriebssystemspezifisches Dateiformat verpack
 > compilation terminated.
 ```
 
-* &#x20;Erstellen Sie eine Datei `helloworld.c`&#x20;
-  * Fügen Sie folgende Inhalt in der Datei ein&#x20;
+* Befehle auf der Kommandozeile
+  * ls -> analog zu dir&#x20;
+  * cd .. -> Verzeichnis hoch
+  * cd / -> auf das Root-Verzeichnis wechseln
+* WSL macht den C-Ordner verfügbar unter `/mnt/c`
+
+Installation von `gcc`auf der Kommandozeile
+
+* `sudo apt-get update`
+* `sudo apt-get install gcc`
+
+
+
+
+
+* Erstellen Sie eine Datei `helloworld.c`
+  * Fügen Sie folgende Inhalt in der Datei ein
 
 ```c
 #include <stdio.h>
@@ -99,12 +115,12 @@ int main() {
 }
 ```
 
-* Kompilieren Sie die Datei mit&#x20;
+* Kompilieren Sie die Datei mit
 
 <pre class="language-bash"><code class="lang-bash"><strong>gcc hello_world.c
 </strong></code></pre>
 
-Starten Sie das Progamm mit&#x20;
+Starten Sie das Progamm mit
 
 ```
 ./a.out 
@@ -116,7 +132,7 @@ Starten Sie das Progamm mit&#x20;
 
 ### Teil 1
 
-In diesem Kurs erstellen wir vorrangig ausführbare Programme mit C. Lesen Sie sich hierzu die folgenden drei Wikipedia-Artikel durch:&#x20;
+In diesem Kurs erstellen wir vorrangig ausführbare Programme mit C. Lesen Sie sich hierzu die folgenden drei Wikipedia-Artikel durch:
 
 * [PE Format](https://en.wikipedia.org/wiki/Portable\_Executable)
 * [a.out Format](https://en.wikipedia.org/wiki/A.out)
@@ -124,10 +140,10 @@ In diesem Kurs erstellen wir vorrangig ausführbare Programme mit C. Lesen Sie s
 
 ### Teil 2
 
-* Bearbeiten Sie den C-Crashkurs im Team:  [https://github.com/aheil/hhn-c](https://github.com/aheil/hhn-c)&#x20;
+* Bearbeiten Sie den C-Crashkurs im Team: [https://github.com/aheil/hhn-c](https://github.com/aheil/hhn-c)
 * Nach der Bearbeitung des Kurses erstellen Sie ein C Programm, das
-  * einen String "Hello World" in einem Char-Array speichert und&#x20;
-  * exakt folgende Ausgabe auf dem Screen erzeugt:&#x20;
+  * einen String "Hello World" in einem Char-Array speichert und
+  * exakt folgende Ausgabe auf dem Screen erzeugt:
 
 ```
 // Some code
@@ -135,11 +151,11 @@ Text: Hello World
 Speicheradresse:  0x7ffdbf4a3a10
 ```
 
-Hinweis: Die Speicheradresse weicht bei Ihnen selbstverständlich ab.&#x20;
+Hinweis: Die Speicheradresse weicht bei Ihnen selbstverständlich ab.
 
-* Checken Sie das Code-File in Ihrer Gruppe unter dem Ordner `hello_world` in Ihrem Repository ein.&#x20;
+* Checken Sie das Code-File in Ihrer Gruppe unter dem Ordner `hello_world` in Ihrem Repository ein.
 
 ## Weiterführende Links
 
 * Phasen bei der Kompilierung von C-Code: [https://abhishek-anand.medium.com/compilation-process-of-a-c-program-f06c22e91fd4](https://abhishek-anand.medium.com/compilation-process-of-a-c-program-f06c22e91fd4)
-* C-Crshkurs:  [https://github.com/aheil/hhn-c](https://github.com/aheil/hhn-c)\
+* C-Crshkurs: [https://github.com/aheil/hhn-c](https://github.com/aheil/hhn-c)\\
