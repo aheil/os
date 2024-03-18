@@ -76,7 +76,7 @@ Der Maschinencode wird nun in ein betriebssystemspezifisches Dateiformat verpack
 * Installieren Sie auf Ihrem System `gcc`
   * Linux- und MacOS-Nutzer stellen sicher, dass gcc auf Ihrem System läuft
   * Windows Nutzer installieren hierfür Windows Subsystem for Linux 2.0 (via Windows Store) und dort die Distribution Ubuntu.
-  * Bei der Installatoin von Ubunttu müssen Sie einen User anlegen
+  * Bei der Installation von Ubuntu müssen Sie einen User anlegen
     * Nur Kleinbuchstaben!&#x20;
     * Tipp: Einfaches Passwort ;-)
   * Stellen Sie sicher, dass `gcc` installiert ist
