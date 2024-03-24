@@ -1,6 +1,6 @@
 # Einheit 3: Virtualisierung
 
-## Lernziele und Kompetenzen
+Lernziele und Kompetenzen
 
 * **Verstehen** wie sich Prozesse zusammensetzen und Prozesse vom Betriebssystem verwaltet werden.
 * **Verstehen** wie Prozesse im Betriebssystem gesteuert werden.
@@ -84,14 +84,63 @@ Weitere Möglichkeiten sind je nach Betriebssystem unterschiedlich, z.B.: `suspe
    * In C für dynamischen Speicherzuordnung via `malloc()` und `free().`
    * Exkurs: **Memoryleaks** baut man übrigens, indem man in C vergisst `free()`aufzurufen.
 6. Das Betriebssystem unterstütz nun den Prozess, indem es z.B. dem Prozess mehr Speicher gibt, wenn der Heap vergrößert werden muss.
-7.  Nun werden noch Input/Output-Resourcen erzeugt (später mehr dazu).
+7. Nun werden noch Input/Output-Resourcen erzeugt (später mehr dazu).
+   * Unter UNIX sind dies die drei sog. [File Descriptors](https://sites.ualberta.ca/dept/chemeng/AIX-43/share/man/info/C/a\_doc\_lib/aixuser/usrosdev/std\_input\_output.htm):
+     * **Standard Input (0)**
+     * **Standard Output (1)** und
+     * **Standard Error Output (2)**
 
-    * Unter UNIX sind dies die drei sog. [File Descriptors](https://sites.ualberta.ca/dept/chemeng/AIX-43/share/man/info/C/a\_doc\_lib/aixuser/usrosdev/std\_input\_output.htm):
-      * **Standard Input (0)**
-      * **Standard Output (1)** und
-      * **Standard Error Output (2)**\
+### Exkurs: Datenstruktur von xv6-Prozessen
 
+Alle Informationen über einen Prozess stehen in einem **Prozesskontrollblock** (engl. **process control block**, kurz **PCB**).
 
-    <figure><img src=".gitbook/assets/os.01.processcreation.png" alt=""><figcaption><p>Starten eines Programmes</p></figcaption></figure>
+Im [xv6](https://en.wikipedia.org/wiki/Xv6) Quellcode, kann dies recht einfach nachgelesen werden:&#x20;
 
-\
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>xv6 PCB Quellcode</p></figcaption></figure>
+
+* [xv6 Source Code auf GitHub](https://github.com/mit-pdos/xv6-public)
+* [xv6 PCB Source Code](https://github.com/mit-pdos/xv6-public/blob/master/proc.h)
+
+### Prozess Status &#x20;
+
+### Was bedeutend eigentlich die Prozess Status?&#x20;
+
+* Laufend
+* Schlafend
+* Gestoppt
+* Zombie
+
+Für uns sind zunächst drei Status relevant: **Ready**, **Running**, **Blocked**.
+
+* **Ready:** Prozess könnte laufen, aber das OS hat entschieden, den Prozess noch nicht laufen zu lassen. Waurm das so ist, lernen wir bei den Schedulern.&#x20;
+* **Running:** Prozess läuft auf einer CPU
+
+Laut [Linux manual page](https://man7.org/linux/man-pages/man1/top.1.html):
+
+> Tasks shown as running should be more properly thought of as 'ready to run' -- their task\_struct is simply represented on the Linux run-queue. Even without a true SMP machine, you may see numerous tasks in this state depending on top's delay interval and nice value.
+
+* **Blocked:** Prozess hat eine Aktion ausgeführt, die erst abgeschlossen werden kann, wenn ein anderes Ereignis stattgefunden hat - typischerweise handelt es sich hierbei um eine I/O-Operation.
+
+> Ist ein Prozess geblockt, wartet das Betriebssystem auf die I/O-Operation, um dann den Prozess wieder in den Status _Ready_ zu verschieben.
+
+Dabei sind folgende Statusübergänge möglich:
+
+<figure><img src=".gitbook/assets/os.01.status.png" alt=""><figcaption><p>Mögliche Statusübergänge</p></figcaption></figure>
+
+**Hinweis**: Ja, es heißt die [Status](https://www.dwds.de/wb/Status). Nicht Stati, und nicht Statusse.
+
+Abschließende Gedanken zu Prozessen:
+
+Wer entscheidet eigentlich welcher Prozess als nächster gestartet wird?
+
+* Der sog. »Scheduler« trifft diese Entscheidung (später mehr dazu)
+* Bevor wir uns den Scheduler anschauen, müssen wir uns allerdings noch ein paar weitere Gedanken über Prozesse machen…
+
+Wir benötigen dafür
+
+* Eine Datenstruktur für Prozesse (laufend, geblocked etc.)
+* Eine Liste aller Prozesse
+* Eine Liste aller blockierten Prozesse
+* Eine Möglichkeit, Register bei Stoppen weg zu speichern und beim Anlaufen des Prozesses wieder zu laden (engl. context switch)
+
+> Und was passiert eigentlich, wenn ein Prozess beendet ist, aber noch nicht alles »aufgeräumt« wurde? In UNIX-Systemen haben solche Prozesse einen eigenen Status: **Zombie**
