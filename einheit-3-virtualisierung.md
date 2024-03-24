@@ -153,4 +153,8 @@ Wir benötigen dafür
 * Unterschiedliche Ereignisse führen zu Statusänderungen im Prozess (z.B. der Aufruf einer blockierenden I/O-Operation)
 * Eine Prozessliste enthält alle Informationen über die Prozesse auf einem System.
 
+Weiterführende Inforamtionen:
+
+* Windows-Prozesse mit PowerShell anzeigen, auslesen und beenden: [https://www.scriptrunner.com/de/blog/windows-prozesse-mit-powershell-anzeigen-auslesen-und-beenden/](https://www.scriptrunner.com/de/blog/windows-prozesse-mit-powershell-anzeigen-auslesen-und-beenden/)
+
 \
