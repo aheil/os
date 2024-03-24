@@ -29,11 +29,12 @@ Hierzu betrachten wir, wie Prozesse im Rechner abgelegt sind:&#x20;
 
 * Programmanweisungen bzw. Instruktionen (engl. instructions), also der ausführbaren Maschinencode liegen im Speicher.
 * Daten, die im Prozess gelesen oder geschrieben werden, liegen im Speichern.
-* Der Prozess muss einen Teil des Speicher daher adressieren können (adressierbarer Speicher bzw. engl. address space).
-* Die CPU liest die Instruktionen und Daten aus Registern und schreibt in diese Register.
-* Dateien auf die der Prozess zugreift um Daten daraus zu lesen oder zu schreiben.
+* Der Prozess muss einen Teil des Speicher daher adressieren können (**adressierbarer Speicher** bzw. engl. address space).
+* Die CPU liest die Instruktionen und Daten aus Registern und schreibt in diese Register. Hierzu gehören der **Program Counter** (Abk. PC) oder auch Instruction Counter (Abk. IC): Hier steht die Adresse der nächsten Anweisung, die ausgeführt werden soll.
+* Dateien auf die der Prozess zugreift, um Daten daraus zu lesen oder zu schreiben, Liste der Dateien, die der Prozess aktuell geöffnet hat, also eine **Liste der Dateien, die der Prozess aktuell geöffnet hat.**
+* Weiter werden Register für I/O-Informationen (Input/Output), Stack Pointer, Frame Pointer, Funktionsparameter, lokale Variablen und Rücksprungadressen (engl. return address) benötigt. - mehr dazu später.&#x20;
 
-> Alle diese Informationen können jederzeit »weggespeichert« und »wiederhergestellt« werden.
+> Alle diese Informationen können jederzeit »weggespeichert« und »wiederhergestellt« werden
 
 
 
