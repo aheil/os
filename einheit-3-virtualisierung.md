@@ -144,3 +144,13 @@ Wir benötigen dafür
 * Eine Möglichkeit, Register bei Stoppen weg zu speichern und beim Anlaufen des Prozesses wieder zu laden (engl. context switch)
 
 > Und was passiert eigentlich, wenn ein Prozess beendet ist, aber noch nicht alles »aufgeräumt« wurde? In UNIX-Systemen haben solche Prozesse einen eigenen Status: **Zombie**
+
+### Zusammenfassung
+
+* Prozesse sind die grundlegende Abstraktion eines Programmes
+* Zu jedem Zeitpunkt kann ein Prozess über seinen Status, den Speicherinhalt, seinen Adressraums, den Inhalt der CPU-Register (einschl. program counter und stack pointer) und den I/O-Informationen (d.h. geöffnete Dateien) beschrieben werden
+* Die Prozess-API besteht aus Aufrufen, die in Zusammenhang mit Prozessen ausgeführt werden können, z.B. zum Erzeugen oder Beenden von Prozessen
+* Unterschiedliche Ereignisse führen zu Statusänderungen im Prozess (z.B. der Aufruf einer blockierenden I/O-Operation)
+* Eine Prozessliste enthält alle Informationen über die Prozesse auf einem System.
+
+\
