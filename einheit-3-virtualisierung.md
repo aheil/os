@@ -56,8 +56,6 @@ Sehr vereinfacht betrachtet:
 * Zusätzliches Regelwerk (engl. policies), z.B. Regeln wie viele Prozesse auf einer CPU ausgeführt werden dürfen
 * Jemand oder etwas, der bzw. das steuert, welcher Prozess als nächstes ausgeführt wird
 
-## Prozess API&#x20;
-
 ### **Prozess-API**
 
 Programmierschnittstelle (engl. Application Programming Interface, Abk. API, hier process api), die jedes Betriebssystem beinhalten muss (wird später noch weiter vertieft).
