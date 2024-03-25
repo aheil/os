@@ -155,7 +155,17 @@ Hinweis: Die Speicheradresse weicht bei Ihnen selbstverständlich ab.
 
 * Checken Sie das Code-File in Ihrer Gruppe unter dem Ordner `hello_world` in Ihrem Repository ein.
 
+## Linux Terminal&#x20;
+
+Einführungskurs in die Konosle unter Linux (Ubunt) gibt es hier:\
+Durcharbeiten (ca. 1-1,5h), nicht nur lesen!
+
+{% embed url="https://ubuntu.com/tutorials/command-line-for-beginners#1-overview" %}
+
+
+
 ## Weiterführende Links
 
 * Phasen bei der Kompilierung von C-Code: [https://abhishek-anand.medium.com/compilation-process-of-a-c-program-f06c22e91fd4](https://abhishek-anand.medium.com/compilation-process-of-a-c-program-f06c22e91fd4)
 * C-Crshkurs: [https://github.com/aheil/hhn-c](https://github.com/aheil/hhn-c)\\
+* Command Line for Beginners: [https://ubuntu.com/tutorials/command-line-for-beginners#1-overview](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
