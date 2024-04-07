@@ -21,10 +21,10 @@ description: >-
 | ---------- | ---------------------- | ----------------------------------------------- |
 |            |                        |                                                 |
 | 11.03.2024 | Einführung / Einheit 1 | ​Deadline Git Check-Ins: 15.03.2024, 21:00 Uhr  |
-| 18.03.2024 | Einheit 2              | ​                                               |
+| 18.03.2024 | Einheit 2:             | ​                                               |
 | 25.03.2024 | Einheit 3              | ​                                               |
 | 01.04.2024 | Vorlesungsfrei         | Ostermontag                                     |
-| 08.04.2024 | Einheit 4              | ​                                               |
+| 08.04.2024 | Einheit 4              | ​Deadline Lab 01 (Stack): 14.04.2024, 21:00 Uhr |
 | 15.04.2024 | Einheit 5              | ​                                               |
 | 22.04.2024 | Einheit 6              | ​                                               |
 | 29.04.2024 | Einheit 7              | ​                                               |
