@@ -16,7 +16,7 @@
 * Betriebssystem im Speicherbereich 0KB bis 64KB
 * Das laufende Programm nutzt den gesamten restlichen Speicher ab 64KB
 
-<figure><img src=".gitbook/assets/os.05.simplememory.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/os.05.simplememory.png" alt="" width="318"><figcaption></figcaption></figure>
 
 ## **Adressräume**
 
@@ -28,7 +28,7 @@
 * Auf diesen Adressraum hat nur der Prozess selbst Zugriff, kein anderer Prozess kann auf diesen Adresraum zugreifen
 * Genügt der Speicher nicht, muss bei jedem Context Switch der Adressraum weggespeichert und später neu geladen werden
 
-<figure><img src=".gitbook/assets/os.05.memory_many_proc (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/os.05.memory_many_proc (2).png" alt="" width="281"><figcaption></figcaption></figure>
 
 * Adressräume sind also einfach zu verwendende Abstraktionen des Speichers
 * Ein Adressraum beinhaltet alle Bestandteile des laufenden Programms
@@ -43,7 +43,7 @@
   * Heap wächst "positiv"
   * Stack wächst "negativ"
 
-<figure><img src=".gitbook/assets/os.05.address_space.png" alt="" width="374"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/os.05.address_space.png" alt="" width="560"><figcaption></figcaption></figure>
 
 * Da der Prozess nicht weiß, dass er sich in einem Adressraum befindet, »denkt« er wurde bei Adresse 0 KB in den Speicher geladen
 * Für jeden Prozess beginnt der Adressraum an Adresse 0 KB&#x20;
@@ -207,9 +207,9 @@ Schreiben Sie ein Java Programm, das schnellstmöglich eine [OutOfMemoryError](h
 
 Recherchieren Sie, wie sich das Verhalten Ihres Programmes beeinflussen lässt, in dem Sie mehr Stack zur Verfügung stellen. Rufen Sie das Programm so auf, dass es ca. die doppelte Zeit läuft, bis der _OutOfMemoryError_ auftritt. &#x20;
 
-Hausaufgabe
+## Hausaufgabe
 
-Bearbeit Sie die Programmieraufgabe 1 (Lab 01: Stack)\
+Bearbeiten Sie die Programmieraufgabe 1 ([Lab 01: Stack](lab-01-stack.md))\
 
 
 \
