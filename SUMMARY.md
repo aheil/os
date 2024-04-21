@@ -8,3 +8,4 @@
 * [Einheit 4: Speicher](einheit-4-speicher.md)
 * [Lab 01: Stack](lab-01-stack.md)
 * [Einheit 5: Scheduler](einheit-5-scheduler.md)
+* [Einheit 6: Fortgeschrittene Scheduler](einheit-6-fortgeschrittene-scheduler.md)
