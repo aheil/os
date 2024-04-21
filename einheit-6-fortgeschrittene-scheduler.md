@@ -289,7 +289,10 @@ $$
   * »Starvation« wird vermieden
   * Nachteil: Jobs, die nur kurz schlafen, bekommen hierdurch keinen fairen Anteil
 
+## Hausaufgabe
 
+\
+Machen Sie sich mit dem Befehl `nice` (Linux) **und** `start` (Windows) vertraut
 
 \
 \
