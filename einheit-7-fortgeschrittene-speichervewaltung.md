@@ -146,3 +146,96 @@ INSTALL=c:\drivers\ctmouse.exe
 DEVICEHIGH=c:\drivers\qcdrom.sys /D:mycdrom
 INSTALL=c:\drivers\shcdx33a.com /D:mydrom
 ```
+
+## Paging
+
+* Bisher gelernt: Segmentierung führt früher oder später dazu, dass der Speicher fragmentiert…
+* Glücklicherweise nutzen Betriebssysteme noch einen zweiten Mechanismus der Speicherverwaltung: Paging
+* Dabei wird der Speicher in fixe Einheiten aufgeteilt
+  * Jede solche fixe Einheit heißt Page (dt. Speicherseite)
+  * Der physikalische Speicher ist demnach eine Aneinanderreihung von gleichgroßen Slots
+  * Jeder solcher Slot heißt Page Frame (dt. Seitenrahmen)
+  * Jeder Frame kann eine Page enthalten
+
+## Paging Beispiele
+
+Hier ein einfaches Beispiel:
+
+* 64-Byte virtueller Adressraum
+* 4 Pages a 16-Byte Pages
+* Betriebssystem muss »nur« vier freie Page Frames finden
+* Dafür gibt es eine Free List mit freien Page Frames
+* Datenstruktur mit den Einträgen wo eine Page im physikalischen Speicher liegt, heißt Page Table (dt. Seitentabelle)
+* Es gibt eine Page Table pro Prozess
+
+## Zuordnung von Frames
+
+<figure><img src=".gitbook/assets/os.12.paging.de.png" alt=""><figcaption></figcaption></figure>
+
+### Paging und Address Translation
+
+* Unser Beispiel zuvor hatte ein 64-Byte Adressraum
+* Nun versuchen wir Daten aus einer virtuellen Adresse `<virtual address>` in das Register `eax` zu laden
+* Hierfür benötigen wir zwei Komponenten
+  * Virtual Page Number (VPN)
+  * Offset (innerhalb der Page)
+
+
+
+<figure><img src=".gitbook/assets/os.12.addresstranslation_1.de.png" alt=""><figcaption></figcaption></figure>
+
+In Assembler:
+
+```
+movl <virtual address>, %eax
+```
+
+* Wir haben 16-Byte Seiten in einem 64-Byte Adressraum
+* Es müssen 4 Seiten adressiert werden können
+* Daher die 2-Bit Virtual Page Number (VPN)
+* Die restlichen Bits können zur Adressierung innerhalb der Seite verwendet werden (= Offset)
+* Beispiel:
+  * Zugriff auf virtuelle Adresse 21
+  * 21 im Dezimalsystem in ist 010101 Binär, ist 15 im Hexadezimalsystem
+  * Somit Zugriff auf Byte5 in Page 1
+
+![](.gitbook/assets/os.12.addresstranslation\_2.de.png)\
+
+
+In Asssembler:
+
+```
+movl 15h, %eax
+```
+
+* Die physikalische Adresse1 von Page 1 ist 7 (= 111)
+* Physical Frame Number (PFN) oder auch Physical Page Number (PPN)\
+
+
+<figure><img src=".gitbook/assets/os.12.addresstranslation_3.de.png" alt=""><figcaption></figcaption></figure>
+
+## Wo liegen Page Tables?
+
+* Page Tables können sehr groß werden
+  * Pro Eintrag 20-Bit VPN + 12-Bit Offset für 4KB Pages
+  * 20-Bit VPN bedeuten 220 Adressberechnungen pro Prozess (ca. 1 Million)
+  * 100 Prozesse in einem 32-Bit System bedeuten ca. 400 MB nur für die Page Tables
+  * In 64-Bit Systemen nochmals einiges mehr
+* Daher keine extra Hardware (Speicher) in der MMU
+* Anstelle dessen werden Sie im Hauptspeicher vorgehalten
+  * Konkret im virtuellen Speicher des Betriebssystems vorgehalten
+
+## Beispiel: x86 Page-Table-Eintrag
+
+* Present Bit (P): Liegt die Page im Hauptspeicher oder auf Disk (Swapping kommt später)
+* Read/Write Bit (R/W): Darf in die Page geschrieben werden
+* User/Supervisor Bit (U/S): Kann ein User-Mode Prozess auf die Page zugreifen
+* PWT, PCD, PAT u. G: Beschreiben Hardware-Caching
+* Accessed Bit (A): Wird für einen sog. “Least recently used page”-Algorithmus genutzt
+* Dirty Bit (D): Wurde der Speicherinhalt verändert
+* PFN: Page Frame Number
+
+\
+
+
+<figure><img src=".gitbook/assets/os.12.x86_page_table.de (1).png" alt=""><figcaption></figcaption></figure>
