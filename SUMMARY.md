@@ -12,3 +12,4 @@
 * [Einheit 7: Fortgeschrittene Speichervewaltung](einheit-7-fortgeschrittene-speichervewaltung.md)
 * [Exkurs: Free List](exkurs-free-list.md)
 * [Lab 02: Free List](lab-02-free-list.md)
+* [Einheit 8: Threads](einheit-8-threads.md)
