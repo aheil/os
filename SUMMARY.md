@@ -9,3 +9,4 @@
 * [Lab 01: Stack](lab-01-stack.md)
 * [Einheit 5: Scheduler](einheit-5-scheduler.md)
 * [Einheit 6: Fortgeschrittene Scheduler](einheit-6-fortgeschrittene-scheduler.md)
+* [Einheit 7: Fortgeschrittene Speichervewaltung](einheit-7-fortgeschrittene-speichervewaltung.md)
