@@ -18,3 +18,4 @@
 * [Einheit 11:](einheit-11.md)
 * [Einheit 12:](einheit-12.md)
 * [Einheit 13:](einheit-13.md)
+* [Exkurs: Bugs durch Nebenläufigkeit](exkurs-bugs-durch-nebenlaeufigkeit.md)
