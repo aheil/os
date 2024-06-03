@@ -19,3 +19,4 @@
 * [Einheit 11: Harddisks & Dateisysteme](einheit-11-harddisks-and-dateisysteme.md)
 * [Einheit 12: Virtualisierung & Container Technologien](einheit-12-virtualisierung-and-container-technologien.md)
 * [Einheit 13:](einheit-13.md)
+* [Lab 03: Semaphore](lab-03-semaphore.md)
