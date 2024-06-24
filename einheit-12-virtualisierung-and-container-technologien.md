@@ -52,7 +52,7 @@ Es gibt verschiedene Möglichkeiten umfangreiche Anwendungen zu installieren. Wi
   * Die Ressourcen stehen weder dem Host-System, noch den anderen virtuellen Maschinen zur Verfügung
   * Die virtuelle Maschine bringt ihren ganz eigenen Hardware Abstraction Layer und simuliert die ganze Hardware
 
-![](broken-reference)
+![](https://app.gitbook.com/o/X1bCz6ER8DUcLZ6cDEWc/s/obQn6v8Z1iiTuGdkOJUH/\~/changes/46/02\_container)
 
 **Container Modell**
 
