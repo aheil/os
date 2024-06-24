@@ -338,3 +338,78 @@ RAID Level 5
 * Die meisten Werte sind identisch zu RAID-4
 * Wahlfreie Leseoperationen sind etwas besser, da alle Disks genutzt werden können
 * Wahlfreie Schreiboperationen verbessern sich signifikant, da Requests nun parallel ausgeführt werden können.
+
+## Übungsaufgaen
+
+### Einfache XOR Berechnung
+
+Gegeben sind zwei Binärzahlen: 1010 und 1100. Berechnen Sie das Ergebnis der XOR-Operation zwischen diesen beiden Zahlen.
+
+1 XOR 1 = 0\
+0 XOR 1 = 1\
+1 XOR 0 = 1\
+0 XOR 0 = 0
+
+Die gesuchte Binärzahl ist demnach 0110.\
+\
+In diesem Fall handelt es sich um **gerade Parität** (auch als “even parity” bezeichnet). Die XOR-Operation zwischen den beiden Binärzahlen 1010 und 1100 ergibt die Binärzahl 0110, die eine gerade Anzahl von Einsen enthält. Daher ist dies ein Beispiel für gerade Parität.&#x20;
+
+### XOR Berechnung mit mehreren Datenblöcken
+
+* **Disk 1 =**1111
+* **Disk 2 =**1110
+* **Disk 3 =**1100
+* **Disk 4 =**1000
+
+**Die Berechnung des ersten Bits jedes Datenblocks ergibt folgende Berechnung**
+
+1 XOR 1 XOR 1 XOR 1&#x20;
+
+\= ((1 XOR 1) XOR 1) XOR 1
+
+\= (0 XOR 1) XOR 1
+
+\= 1 XOR 1n
+
+\= 0
+
+**Die Berechnung des zweiten Bits jedes Datenblocks ergibt folgende Berechnung**
+
+1 XOR 1 XOR 1 XOR 0&#x20;
+
+\= ((1 XOR 1) XOR 1) XOR 0
+
+\= (0 XOR 1) XOR 0
+
+\= 1 XOR 0
+
+\= 1
+
+**Die Berechnung des dritten Bits jedes Datenblocks ergibt folgende Berechnung**
+
+1 XOR 1 XOR 0 XOR 0&#x20;
+
+\= ((1 XOR 1) XOR 0) XOR 0
+
+\= (0 XOR 0) XOR 0
+
+\= 0 XOR 0
+
+\= 0
+
+**Die Berechnung des letzten Bits jedes Datenblocks ergibt folgende Berechnung**
+
+1 XOR 0 XOR 0 XOR 0&#x20;
+
+\= ((1 XOR 0) XOR 0) XOR 0
+
+\= (1 XOR 0) XOR 0
+
+\= 1 XOR 0
+
+\= 1
+
+Die Berechnung ergibt demnach folgenden Paritätsblock:
+
+**Disk 5 =** 0101
+
