@@ -52,7 +52,7 @@ Es gibt verschiedene Möglichkeiten umfangreiche Anwendungen zu installieren. Wi
   * Die Ressourcen stehen weder dem Host-System, noch den anderen virtuellen Maschinen zur Verfügung
   * Die virtuelle Maschine bringt ihren ganz eigenen Hardware Abstraction Layer und simuliert die ganze Hardware
 
-![](https://app.gitbook.com/o/X1bCz6ER8DUcLZ6cDEWc/s/obQn6v8Z1iiTuGdkOJUH/\~/changes/46/02\_container)
+<figure><img src=".gitbook/assets/devops.02.vms (1).png" alt=""><figcaption></figcaption></figure>
 
 **Container Modell**
 
@@ -64,7 +64,7 @@ z.B.
 * Je ein Container pro Service
 * Je ein Container pro Datenbank
 
-![](broken-reference)
+<figure><img src=".gitbook/assets/devops.02.containers.png" alt=""><figcaption></figcaption></figure>
 
 **Vorteile**
 
@@ -88,13 +88,13 @@ z.B.
 
 **Was ist ein Container von Julia Evans**
 
-![(© by Julia Evans, Zine used with pending permissions)](broken-reference)
+<figure><img src=".gitbook/assets/devops.02.julia_evans_container_zine.jpg" alt=""><figcaption><p>(© by Julia Evans, Zine used with pending permissions)</p></figcaption></figure>
 
 
 
 **Beispiel einer Software in Containern**
 
-![](broken-reference)
+<figure><img src=".gitbook/assets/devops.02.example_arch.de.png" alt=""><figcaption></figcaption></figure>
 
 **Automatisierung mit Containern**
 
@@ -128,7 +128,7 @@ Alles auf einer Maschine oder jeder Dienst in einem eigenen Container?
 
 * Container können über verschiedene Maschinen verteilt werden
 
-![](broken-reference)
+<figure><img src=".gitbook/assets/devops.02.microservice_example_arch.de.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -136,11 +136,11 @@ Alles auf einer Maschine oder jeder Dienst in einem eigenen Container?
 
 Container können über eigene Netzwerke miteinander kommunizieren
 
-![](broken-reference)
+<figure><img src=".gitbook/assets/devops.02.network.de.png" alt=""><figcaption></figcaption></figure>
 
 **Nutzung von Standard-Ports in Containern**
 
-![](broken-reference)
+<figure><img src=".gitbook/assets/devops.02.ports.de.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -148,13 +148,13 @@ Container können über eigene Netzwerke miteinander kommunizieren
 
 Ein Reverse Proxy löst dabei so manche Probleme einzelner Maschinen...
 
-![](broken-reference)
+<figure><img src=".gitbook/assets/devops.02.reverseproxy.de.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
 ## Container Umgebungen
 
-![](broken-reference)
+<figure><img src=".gitbook/assets/devops.02.image_vs_container.png" alt=""><figcaption></figcaption></figure>
 
 ## Docker Compose
 
@@ -189,7 +189,7 @@ networks:
 * Vielleicht ein Skript das alles DB-Einträge an jemanden übermittelt?
 * Beim offiziellen Image weniger kritisch
 
-![](broken-reference)
+<figure><img src=".gitbook/assets/devops.02.dockerhub.png" alt=""><figcaption></figcaption></figure>
 
 ## Image erstellen
 
