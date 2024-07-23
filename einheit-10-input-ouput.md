@@ -193,8 +193,22 @@ Nachteil: Durch die generische Schnittstelle können nicht immer alle (tollen) F
 
 Beispiel: SCSI Error-Funktionalität ist unter Linux über die einfachere ATA/DIE Schnittstelle nicht nutzbar.
 
-Bedeutung von Gerätetreibern:Bis zu 70% des Codes eines Betriebssystems (Linux und Windows annähernd gleich viel) steckt heute inzwischen in Gerätetreibern.
+Bedeutung von Gerätetreibern: Bis zu 70% des Codes eines Betriebssystems (Linux und Windows annähernd gleich viel) steckt heute inzwischen in Gerätetreibern.
 
-**Problem** : Dieser Code wird nicht von Kernel-Entwicklern gebaut.
+**Problem**: Dieser Code wird nicht von Kernel-Entwicklern gebaut. Fehlern im Gerätetreiber, die im Kernel-Mode laufen, können unter Windows einen Bluescreen ([BSoD](https://weblogs.asp.net/wallym/77425)) verursachen. Ob die Ursache an Windows oder einem Gerätetreiber lag, ist dem Anwender nicht zwingend ersichtlich.
+
+### Exkurs: Crowdstrike BSoD
+
+Juli 2024 konnten Millionen von PCs aufgrund eines Updates der Firma Crowdstrike nicht mehr starten. Das Problem betraf Flughäfen, Warenhäuser, Krankenhäuser und viele weitere Einrichtungen weltweit. Aus der Fehlermeldung war den Anwendern jedoch nicht klar, worin das eigentliche Problem lag. Offensichtlich war: Windows startet nicht mehr.
+
+Das Problem lag in CrowdStrike’s `csagent.sys` und wurde durch ein fehlerhaftes Update der Sicherheitssoftware verursacht. Dieses Update führte dazu, dass mehrere Millionen von Windows-Systemen weltweit nicht mehr gestartet werden konnten. Die betroffenen Geräte zeigten einen Bluescreen of Death (BSOD) mit der Fehlermeldung `PAGE_FAULT_IN_NONEPAGED_AREA` an, ausgelöst durch die Datei `csagent.sys`.
+
+Erste forensische Analysen des Memory Dumps des Blue Screen of Death (BSOD) deuten darauf hin, dass das Problem auf einen sogenannten Null-Pointer-Fehler in CrowdStrike’s `csagent.sys` zurückzuführen ist. Der Code versuchte anscheinend, auf eine ungültige Speicheradresse (`0x9c` bzw`156`) zuzugreifen ([heise.de](https://www.heise.de/hintergrund/Fataler-Fehler-bei-CrowdStrike-Schuld-war-ein-Null-Pointer-9807896.html)).
+
+Eine Möglichkeit für mehr Transparenz, wäre ein BSoD, der z.B. direkt zur Hersteller-Seite verweist:
+
+<figure><img src=".gitbook/assets/bsod_csagent_crowdstrike_conceptart.jpg" alt=""><figcaption><p>Concept design of a better BoSD. Cleary indicating the cause of the error and pointing to the direct support. Remark: This is a conceptual BSoD, indicated for teaching purposes only. Create with: <a href="https://bsodmaker.net/">https://bsodmaker.net/</a></p></figcaption></figure>
+
+
 
 \
