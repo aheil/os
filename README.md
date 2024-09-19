@@ -44,7 +44,7 @@ Studierende des Studiengangs AIB können nach Rücksprache für den Wiederholung
 
 **Zugelassen für die Klausur ist ein doppelseitig beschriftetes DIN A4-Blatt** (handschriftlich oder gedruckt). Das Blatt ist mit der Klausur abzugeben.
 
-Die Klausur zählt 50% zu Ihrer Note.
+Die Klausur zählt 70% zu Ihrer Note.
 
 #### ILIAS <a href="#ilias" id="ilias"></a>
 
