@@ -50,9 +50,7 @@ Die Klausur zählt 70% zu Ihrer Note.
 
 Für Studierende der Hochschule Heilbronn steht ein ILIAS Raum für [SEB](https://ilias.hs-heilbronn.de/goto.php?target=crs\_360705\&client\_id=iliashhn) bzw. [AIB](https://ilias.hs-heilbronn.de/ilias.php?baseClass=ilrepositorygui\&ref\_id=607216) für den Kurs mit Forum und ggf. mit weiteren Informationen bereit.
 
-#### Discord&#x20;
 
-[https://discord.gg/zyXJG3pV](https://discord.gg/zyXJG3pV)
 
 **FAQ**
 
