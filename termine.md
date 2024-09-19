@@ -25,7 +25,7 @@ description: >-
 | 12.12.2024 |                        | ​                   |
 | 19.12.2024 |                        | ​                   |
 | 26.10.2024 | Vorlesungsfrei         | Weihnachtsferien​   |
-| 02.01.2024 | Vorlesungsfrei         | Weihnachtsferien​   |
-| 09.01.2024 |                        | ​                   |
-| 16.01.2024 | Klausurvorbereitung    | ​                   |
+| 02.01.2025 | Vorlesungsfrei         | Weihnachtsferien​   |
+| 09.01.2025 |                        | ​                   |
+| 16.01.2025 | Klausurvorbereitung    | ​                   |
 | TBA        | Klausur                |                     |
