@@ -2,7 +2,8 @@
 
 * [Kursinformationen](README.md)
   * [Termine](termine.md)
-* [Einheit 1: Git](einheit-1-git.md)
+* [Einheit 1: Git](einheit-1-git/README.md)
+  * [Einheit 1: Hausaufgabe](einheit-1-git/einheit-1-hausaufgabe.md)
 * [Einheit 2: C Programmierung](einheit-2-c-programmierung.md)
 * [Einheit 3: Virtualisierung](einheit-3-virtualisierung.md)
 * [Einheit 4: Speicher](einheit-4-speicher.md)
