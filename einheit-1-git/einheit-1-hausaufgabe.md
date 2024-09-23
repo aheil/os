@@ -112,94 +112,87 @@ Das Commit log soll am Ende so aussehen (via `git log)`:&#x20;
 
 <pre><code>commit c9a3e2e (HEAD -> main)
 Author: Maxi &#x3C;maxim@stud.hs-heilbronn.de>
-Date:   Thu Mar 10 12:00:00 2024
+Date:   Thu Mar 10 12:05:13 2024
 
     Julia: Die Heiligen rühren sich nicht,
           obgleich sie beten.
 
-Romeo:
-O, dann, mein holder Heil’ger, lass die Lippen
-Tun, was die Hände tun: in Andacht beten.
-
-Amme:
-Nein, Herr, das wäre nicht weise. Lasst ihn.
-
-Tybalt:
-Ich will ihn schlagen, trotz des Friedens.
-
-Amme:
-Was ist das für ein Lärm? Was gibt es, Herr?
-
-Tybalt:
-Dieser, bei meiner Ehre, ist ein Montague.
-Wie kam er hier herein? Das ist ein Schurke.
-
-Julia:
-Die Heiligen rühren sich nicht, obgleich sie beten.
-
-Romeo:
-O, dann, mein holder Heil’ger, lass die Lippen
-Tun, was die Hände tun: in Andacht beten.
-
-Julia:
-Ja, Pilger, Lippen, die zum Beten taugen.
-
-Romeo:
-Haben nicht Pilger Lippen, heilige Lippen?
-
-Julia:
-Guter Pilger, zu viel Ehrerbietung
-Zeigt deine Hand, die nur die Hand der Andacht
-Berührt, und so wird Hand durch Hand geheiligt.
-
-Romeo:
-Wenn ich entweiht mit meiner unwerten Hand
-Diese heilige Stätte, so gleicht dies
-Ein zärtlicher Kuss dem frommen Pilgergruß.
-
----
-
-
+commit a7f8d4b
 Author: Max &#x3C;maxmu@stud.hs-heilbronn.de>
 Date:   Thu Mar 10 12:00:00 2024
 
-    Romeo: Wenn ich entweiht mit meiner unwerten Hand
-           Diese heilige Stätte, so gleicht dies
-           Ein zärtlicher Kuss dem frommen Pilgergruß.
+      Romeo: O, dann, mein holder Heil’ger,
+            lass die Lippen Tun, was die 
+            Hände tun: in Andacht beten.
 
-commit a7f8d4b
-Author:  &#x3C;julia@example.com>
-Date:   Thu Mar 10 11:50:00 2024
+commit b465c31
+Author: Maximilian &#x3C;maxim2@stud.hs-heilbronn.de>
+Date: Thu Mar 10 11:45:43 2024
 
-    Julia: Guter Pilger, zu viel Ehrerbietung
-<strong>           Zeigt deine Hand, die nur die Hand der Andacht
-</strong>           Berührt, und so wird Hand durch Hand geheiligt.
+      Amme: Nein, Herr, das wäre nicht 
+            weise. Lasst ihn.
 
-commit f32e89d
-Author: Romeo &#x3C;romeo@example.com>
-Date:   Thu Mar 10 11:40:00 2024
+commit 2a3b4c5
+Author: Miriam &#x3C;miriam@stud.hs-heilbronn.de>
+<strong>
+</strong><strong>      Tybalt: Ich will ihn schlagen, trotz
+</strong><strong>            des Friedens.
+</strong>
+commit 6d7e8f9
+Author: Maximilian &#x3C;maxim2@stud.hs-heilbronn.de>
 
-    Romeo: Weil sie sich in ihren Augen widerspiegeln würde,
-          bis ich die Rückkehr von Lucentio sehe,
-          Ich will dir mit meinen Augen zeigen,
-          was Shakespeare sagt: „Guten Tropfen Salz“,
-          du vergisst dann schnell.
+      Amme: Was ist das für ein Lärm? Was 
+            gibt es, Herr?
 
-commit b57a6c1
-Author: Julia &#x3C;julia@example.com>
-Date:   Thu Mar 10 11:30:00 2024
+commit 4a3f2b1
+Author: Miriam &#x3C;miriam@stud.hs-heilbronn.de>
 
-    Julia: Nun, da du willst, werde ich dich vergeben,
-          Wenn du mir gehorchst liebevoll.
-          Willkommen wird der Regen bald nachlassen.
+      Tybalt: Dieser, bei meiner Ehre, ist
+            ein Montague. Wie kam er hier herein?
+            Das ist ein Schurke.
 
-commit e1c4d77
-Author: Romeo &#x3C;romeo@example.com>
-Date:   Thu Mar 10 11:20:00 2024
+commit 9c7d6e5
+Author: Maxi &#x3C;maxim@stud.hs-heilbronn.de>
 
-    Romeo: Meine Ehegatten hätten eine bessere Erscheinung,
-          wenn es nicht für die Zähne wäre, die den weißen Verstand einfärben.
-          Wir haben gute Absichten, zu schlafen.
+      Julia: Die Heiligen rühren sich nicht, 
+            obgleich sie beten.
+
+commit 1f2e3d4
+Author: Max &#x3C;maxmu@stud.hs-heilbronn.de>
+
+      Romeo: O, dann, mein holder Heil’ger,
+            lass die Lippen Tun, was die
+            Hände tun: in Andacht beten.
+
+commit 8b7a6c9
+Author: Maxi &#x3C;maxim@stud.hs-heilbronn.de>
+
+      Julia: Ja, Pilger, Lippen, die zum 
+            Beten taugen.
+
+commit 3d4e5f6
+Author: Max &#x3C;maxmu@stud.hs-heilbronn.de>
+
+      Romeo: Haben nicht Pilger Lippen,
+            heilige Lippen?
+
+commit 7a8b9c0
+Author: Maxi &#x3C;maxim@stud.hs-heilbronn.de>
+
+      Julia: Guter Pilger, zu viel Ehrerbietung
+            Zeigt deine Hand, die nur die Hand
+            der Andacht Berührt, und so wird Hand
+            durch Hand geheiligt.
+
+commit 5f6e7d8
+Author: Max &#x3C;maxmu@stud.hs-heilbronn.de>
+
+      Romeo: Wenn ich entweiht mit meiner unwerten
+            Hand Diese heilige Stätte, so gleicht
+            dies Ein zärtlicher Kuss dem frommen
+            Pilgergruß.
 </code></pre>
 
 Stellen Sie sicher, dass sich im Root-Verzeichnis Ihres Repositories eine Datei `dialog.txt` befindet, in der die jeweiligen Text-Passagen eingecheckt sind. Die Textpassagen entsprechend der jeweiligen Log-Message. &#x20;
+
+**HINWEIS**: Sollte etwas schiefgehen - leeren Sie die `dialog.txt` Datei und checken Sie (gleichgültigwelches Team-Mitglied) diese mit dem Kommentar "NEUSTART" (`-c "NEUSTART"`) ein , dann beginnen Sie von vorne. Fehlversuche passieren, sind im Rahmen des Lernens "normal" und werden daher auch nicht gewertet. Ziel ist, dass die Checkins am Ende einmal wie oben beschreiben bei Ihnen funktioniert haben.&#x20;
