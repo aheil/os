@@ -41,7 +41,7 @@
               "firstname": "Maximilian",
               "id": 676894,
               "email": "maxim2@stud.hs-heilbronn.de"
-          },
+          }
         ]
      }
     ```
@@ -53,7 +53,7 @@
 ### Hausaufgabe
 
 **Git Grundlagen**\
-Sofern noch nicht geschehen, erarbeiten Sie den Kurs [Version Control with Git](https://www.udacity.com/course/version-control-with-git--ud123) bis zum übernächsten Termin.&#x20;
+Sofern noch nicht geschehen, erarbeiten Sie den Kurs [Version Control with Git](https://www.udacity.com/course/version-control-with-git--ud123) bis zum **übernächsten** Termin.&#x20;
 
 **Git Übung**
 
@@ -195,4 +195,4 @@ Author: Max &#x3C;maxmu@stud.hs-heilbronn.de>
 
 Stellen Sie sicher, dass sich im Root-Verzeichnis Ihres Repositories eine Datei `dialog.txt` befindet, in der die jeweiligen Text-Passagen eingecheckt sind. Die Textpassagen entsprechend der jeweiligen Log-Message. &#x20;
 
-**HINWEIS**: Sollte etwas schiefgehen - leeren Sie die `dialog.txt` Datei und checken Sie (gleichgültigwelches Team-Mitglied) diese mit dem Kommentar "NEUSTART" (`-c "NEUSTART"`) ein , dann beginnen Sie von vorne. Fehlversuche passieren, sind im Rahmen des Lernens "normal" und werden daher auch nicht gewertet. Ziel ist, dass die Checkins am Ende einmal wie oben beschreiben bei Ihnen funktioniert haben.&#x20;
+**HINWEIS**: Sollte etwas schiefgehen - leeren Sie die `dialog.txt` Datei und checken Sie (gleichgültig welches Team-Mitglied) diese mit dem Kommentar "NEUSTART" (`-c "NEUSTART"`) ein , dann beginnen Sie von vorne. Fehlversuche passieren, sind im Rahmen des Lernens "normal" und werden daher auch nicht gewertet. Ziel ist, dass die Checkins am Ende einmal wie oben beschreiben bei Ihnen funktioniert haben.&#x20;
