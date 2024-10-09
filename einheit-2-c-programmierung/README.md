@@ -69,7 +69,7 @@ Erklärung zu den verwendeten Assembler-Befehlen:
 `JG`= Springe, wenn größer\
 `MOV` =Verschieben
 
-Der Maschinencode wird nun in ein betriebssystemspezifisches Dateiformat verpackt, dass vom Betriebssystem ausgeführt werden kann (s. [Hausaufgaben](einheit-2-c-programmierung.md#hausaufgabe)).
+Der Maschinencode wird nun in ein betriebssystemspezifisches Dateiformat verpackt, dass vom Betriebssystem ausgeführt werden kann (s. [Hausaufgaben](./#hausaufgabe)).
 
 ## Aufgabe:
 
@@ -126,34 +126,7 @@ Starten Sie das Progamm mit
 ./a.out 
 ```
 
-**Hinweis:** Nutzen Sie den ersten C-Crashkurs um diese Aufgabe zu lösen.
-
-## **Hausaufgabe**
-
-### Teil 1
-
-In diesem Kurs erstellen wir vorrangig ausführbare Programme mit C. Lesen Sie sich hierzu die folgenden drei Wikipedia-Artikel durch:
-
-* [PE Format](https://en.wikipedia.org/wiki/Portable\_Executable)
-* [a.out Format](https://en.wikipedia.org/wiki/A.out)
-* [ELF Format](https://en.wikipedia.org/wiki/Executable\_and\_Linkable\_Format)
-
-### Teil 2
-
-* Bearbeiten Sie den C-Crashkurs im Team: [https://github.com/aheil/hhn-c](https://github.com/aheil/hhn-c)
-* Nach der Bearbeitung des Kurses erstellen Sie ein C Programm, das
-  * einen String "Hello World" in einem Char-Array speichert und
-  * exakt folgende Ausgabe auf dem Screen erzeugt:
-
-```
-// Some code
-Text: Hello World
-Speicheradresse:  0x7ffdbf4a3a10
-```
-
-Hinweis: Die Speicheradresse weicht bei Ihnen selbstverständlich ab.
-
-* Checken Sie das Code-File in Ihrer Gruppe unter dem Ordner `hello_world` in Ihrem Repository ein.
+##
 
 ## Linux Terminal&#x20;
 
