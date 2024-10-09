@@ -13,7 +13,7 @@ description: >-
 |            |                        |                                           |
 | 26.09.2024 | Einführung / Einheit 1 | ​                                         |
 | 03.10.2024 | Vorlesungsfrei         | ​Tag d. Dt. Einheit                       |
-| 10.10.2024 |                        | ​Abgabe Rome und Julia 09.10.24 21:00 Uhr |
+| 10.10.2024 | Einheit 2 (C)          | ​Abgabe Rome und Julia 09.10.24 21:00 Uhr |
 | 17.10.2024 |                        | Abgabe hello\_world 16.10.2024            |
 | 24.10.2024 | entfällt               | ​                                         |
 | 31.10.2024 |                        | ​                                         |
