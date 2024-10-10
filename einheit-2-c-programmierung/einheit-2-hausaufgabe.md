@@ -25,6 +25,10 @@ Hinweis: Die Speicheradresse weicht bei Ihnen selbstverständlich ab.
 
 ## Abgabe
 
-Checken Sie das Code-File in Ihrer Gruppe unter dem Ordner `hello_world` in Ihrem Repository ein.
+Jedes Team-Mitglied checkt das Code-File in Ihrer Gruppe unter dem Ordner `hello_world` in einem eigene Branch ein.
 
-Achten Sie aufd die korreket Schreibweise des Ordners.
+* Ein Team-Mitglied erstellt den Ordner `hello_world`
+* **Jedes** Team-Mitglied erstellt einen eigenen _branch_ der exakt so heißt wie Ihr alias. (z.B. in meinem Fall _aheil_).
+* In diesem branch checkt das jeweilige Team-Mitglied den eigenen Code ein und pusht diesen checkin in das Repository.
+
+Achten Sie aufd die korreket Schreibweise der Ordner (Kleinschreibung, Unterstrich, Alias).&#x20;
