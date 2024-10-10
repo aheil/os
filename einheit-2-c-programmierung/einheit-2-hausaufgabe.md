@@ -30,5 +30,6 @@ Jedes Team-Mitglied checkt das Code-File in Ihrer Gruppe unter dem Ordner `hello
 * Ein Team-Mitglied erstellt den Ordner `hello_world`
 * **Jedes** Team-Mitglied erstellt einen eigenen _branch_ der exakt so heißt wie Ihr alias. (z.B. in meinem Fall _aheil_).
 * In diesem branch checkt das jeweilige Team-Mitglied den eigenen Code ein und pusht diesen checkin in das Repository.
+* Konkret beduetet dies, im main branch befindet sich keine Datei, in jedem branch der Team-Mitglieder befindet sich jeweils die eigene Datei.
 
-Achten Sie aufd die korreket Schreibweise der Ordner (Kleinschreibung, Unterstrich, Alias).&#x20;
+Achten Sie auf die korrekte Schreibweise der Ordner (Kleinschreibung, Unterstrich, Alias).&#x20;
