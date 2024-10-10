@@ -103,7 +103,7 @@ Installation von `gcc`auf der Kommandozeile
 
 
 
-* Erstellen Sie eine Datei `helloworld.c`
+* Erstellen Sie eine Datei `hello_world.c`
   * Fügen Sie folgende Inhalt in der Datei ein
 
 ```c
