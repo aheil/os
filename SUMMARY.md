@@ -6,7 +6,7 @@
   * [Einheit 1: Hausaufgabe](einheit-1-git/einheit-1-hausaufgabe.md)
 * [Einheit 2: C Programmierung](einheit-2-c-programmierung/README.md)
   * [Einheit 2: Hausaufgabe](einheit-2-c-programmierung/einheit-2-hausaufgabe.md)
-* [Virtualization](einheit-3-virtualisierung.md)
+* [Virtualization](virtualization.md)
 * [Einheit 4: Speicher](einheit-4-speicher.md)
 * [Lab 01: Stack](lab-01-stack.md)
 * [Einheit 5: Scheduler](einheit-5-scheduler.md)
