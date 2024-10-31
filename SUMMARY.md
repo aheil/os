@@ -8,6 +8,7 @@
   * [Einheit 2: Hausaufgabe](einheit-2-c-programmierung/einheit-2-hausaufgabe.md)
 * [Virtualization](virtualization.md)
 * [Speicher](memory/README.md)
+  * [Exercise: Memory](memory/exercise-memory.md)
   * [Lab 01: Stack](memory/lab-01-stack.md)
 * [Einheit 5: Scheduler](einheit-5-scheduler.md)
 * [Einheit 6: Fortgeschrittene Scheduler](einheit-6-fortgeschrittene-scheduler.md)

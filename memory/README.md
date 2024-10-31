@@ -187,25 +187,7 @@ strcpy (dst, scr);
 * Nennt sich »Double Free«
 * Immer wieder gut, um die zugrundeliegenden Bibliotheken zur Speicherverwaltung maximal zu verwirren 😵
 
-## Aufgabe 1: Stack
-
-### Teilaufgabe 1
-
-Schreiben Sie ein Java Programm, dass schnellstmöglich einen [StackOverflowError ](https://docs.oracle.com/javase/8/docs/api/java/lang/StackOverflowError.html)liefert.
-
-### Teilaufgabe 2
-
-Recherchieren Sie, wie sich das Verhalten Ihres Programmes beeinflussen lässt, in dem Sie mehr Stack zur Verfügung stellen. Rufen Sie das Programm so auf, dass es ca. die doppelte Zeit läuft, bis der _StackOverflowError_ auftritt. &#x20;
-
-## Aufgabe 2: Heap
-
-### Teilaufgabe 1
-
-Schreiben Sie ein Java Programm, das schnellstmöglich eine [OutOfMemoryError](https://docs.oracle.com/javase/8/docs/api/java/lang/OutOfMemoryError.html) generiert.&#x20;
-
-### Teilaufgabe 2
-
-Recherchieren Sie, wie sich das Verhalten Ihres Programmes beeinflussen lässt, in dem Sie mehr Stack zur Verfügung stellen. Rufen Sie das Programm so auf, dass es ca. die doppelte Zeit läuft, bis der _OutOfMemoryError_ auftritt. &#x20;
+##
 
 ## Hausaufgabe
 
