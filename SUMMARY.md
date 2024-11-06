@@ -10,7 +10,7 @@
 * [Speicher](memory/README.md)
   * [Exercise: Memory](memory/exercise-memory.md)
   * [Lab 01: Stack](memory/lab-01-stack.md)
-* [Einheit 5: Scheduler](einheit-5-scheduler.md)
+* [Scheduler](scheduler.md)
 * [Einheit 6: Fortgeschrittene Scheduler](einheit-6-fortgeschrittene-scheduler.md)
 * [Einheit 7: Fortgeschrittene Speichervewaltung](einheit-7-fortgeschrittene-speichervewaltung.md)
 * [Exkurs: Free List](exkurs-free-list.md)
