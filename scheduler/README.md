@@ -1,4 +1,4 @@
-# Einheit 5: Scheduler
+# Scheduler
 
 ### Lernziele und Kompetenzen
 
@@ -147,7 +147,7 @@ Einfach und daher auch einfach zu implementieren
   * Was ist die durchschnittliche Turnaround-Zeit?
   * 10+20+303=20
 
-[![](https://github.com/aheil/os/raw/main/img/os.03.fifo.png)](img/os.03.fifo.png)
+[![](https://github.com/aheil/os/raw/main/img/os.03.fifo.png)](../img/os.03.fifo.png)
 
 * Heben wir jetzt die erste Annahme auf
   * Zur Erinnerung: Jeder Job läuft gleich lang
@@ -155,7 +155,7 @@ Einfach und daher auch einfach zu implementieren
   * Gibt es einen Workload, der FIFO »alt aussehen lässt«?
   * 100+110+1203=110
 
-[![](https://github.com/aheil/os/raw/main/img/os.03.fifo\_bad.png)](img/os.03.fifo\_bad.png)
+[![](https://github.com/aheil/os/raw/main/img/os.03.fifo\_bad.png)](../img/os.03.fifo\_bad.png)
 
 **Convoy Effect (dt. Konvoieffekt)**
 
@@ -163,7 +163,7 @@ Einfach und daher auch einfach zu implementieren
 * Mehrere Kunden mit wenigen Waren warten hinter einem einzigen Kunden mit vielen Waren
 * Nur eine Supermarktkasse offen... 😤
 
-[![](https://github.com/aheil/os/raw/main/img/os.03.convoy.jpg)](img/os.03.convoy.jpg)2
+[![](https://github.com/aheil/os/raw/main/img/os.03.convoy.jpg)](../img/os.03.convoy.jpg)2
 
 #### Shortes Job First
 
@@ -174,7 +174,7 @@ Einfach und daher auch einfach zu implementieren
   * SJF reduziert Turnaround-Zeit von 110 auf 50
 * 10+20+1203=50
 
-[![](https://github.com/aheil/os/raw/main/img/os.03.sjf.png)](img/os.03.sjf.png)
+[![](https://github.com/aheil/os/raw/main/img/os.03.sjf.png)](../img/os.03.sjf.png)
 
 **Problem bei SJF**
 
@@ -183,7 +183,7 @@ Einfach und daher auch einfach zu implementieren
 * Turnaround-Zeit hat sich hierdurch verdoppelt
 * 100+(110−10)+(120−10)3=103,33
 
-[![](https://github.com/aheil/os/raw/main/img/os.03.sjf\_bad.png)](img/os.03.sjf\_bad.png)
+[![](https://github.com/aheil/os/raw/main/img/os.03.sjf\_bad.png)](../img/os.03.sjf\_bad.png)
 
 #### Shortest Time-to-Completion First
 
@@ -205,7 +205,7 @@ Einfach und daher auch einfach zu implementieren
 * **Achtung!** Das geht nur wegen unserer letzten noch bestehenden Annahme: Die (Rest-)Laufzeit ist bekannt!
 * (120−0)+(20−10)+(30−10)3=50
 
-[![](https://github.com/aheil/os/raw/main/img/os.03.stcf.png)](img/os.03.stcf.png)
+[![](https://github.com/aheil/os/raw/main/img/os.03.stcf.png)](../img/os.03.stcf.png)
 
 **Problem mit STCF**
 
@@ -213,7 +213,7 @@ Einfach und daher auch einfach zu implementieren
 * Nun kommt die Hausaufgabe vom letzten Mal ins Spiel: Sie erinnern sich an den Unterschied zwischen Foreground- und Background-Jobs?
 * Was ist denn, wenn andauernd neue kürzere Jobs eintreffen, die keine Benutzereingabe erfordern… 🥱
 
-[![](https://github.com/aheil/os/raw/main/img/os.03.wait.jpg)](img/os.03.wait.jpg)3
+[![](https://github.com/aheil/os/raw/main/img/os.03.wait.jpg)](../img/os.03.wait.jpg)3
 
 #### Round Robin
 
@@ -238,7 +238,7 @@ $$
 T_{response}=T_{firstrun}-T_{arrival}
 $$
 
-[![](https://github.com/aheil/os/raw/main/img/os.03.sjf\_responsetime.png)](img/os.03.sjf\_responsetime.png)
+[![](https://github.com/aheil/os/raw/main/img/os.03.sjf\_responsetime.png)](../img/os.03.sjf\_responsetime.png)
 
 **Round Robin**
 
@@ -247,7 +247,7 @@ $$
 * Durchschnittliche Antwortzeit im Vergleich zu SJF (vorherige Folie) ist 1
 * 0+1+23=1
 
-[![](https://github.com/aheil/os/raw/main/img/os.03.rr\_responsetime.png)](img/os.03.rr\_responsetime.png)
+[![](https://github.com/aheil/os/raw/main/img/os.03.rr\_responsetime.png)](../img/os.03.rr\_responsetime.png)
 
 * Der Context Switch kostet Ressourcen
 * D.h. wie lange müssten die Time Slices sein, dass sich ein Context Switch überhaupt lohnt?
@@ -255,61 +255,7 @@ $$
 * Round Robin zieht Ausführungsdauer in die Länge, in manchen Fällen ist die Ausführung sogar schlechter als FIFO
 * Allgemein lässt sich festhalten: Jede Policy die fair ist, d.h. die CPU auf Prozesse aufteilt, führt zu einem schlechten Ergebnis in Bezug auf Turnaround-Zeit
 
-## Aufgaben
-
-### Aufgabe 1: FiFo
-
-Angenommen, Sie haben einen Scheduler, der das FIFO-Prinzip verwendet. Gegeben sind die folgenden Prozesse mit ihrer Ankunftszeit und Ausführungszeit:
-
-| Prozess | Ankunftszeit | Ausführungszeit |
-| ------- | ------------ | --------------- |
-| P1      | 0            | 5               |
-| P2      | 1            | 3               |
-| P3      | 2            | 7               |
-| P4      | 3            | 2               |
-
-Berechnen Sie die durchschnittliche **Wartezeit** für diese Prozesse.
-
-### Aufgabe 2: SJF
-
-Angenommen, Sie haben einen Scheduler, der das SJF-Prinzip verwendet. Gegeben sind die folgenden Prozesse mit ihrer Ankunftszeit und Ausführungszeit:
-
-| Prozess | Ankunftszeit | Ausführungszeit |
-| ------- | ------------ | --------------- |
-| P1      | 0            | 7               |
-| P2      | 2            | 5               |
-| P3      | 3            | 1               |
-| P4      | 5            | 3               |
-
-Berechnen Sie die durchschnittliche **Wartezeit** für diese Prozesse.
-
-### Aufgabe 3: STCF
-
-Angenommen, Sie haben einen Scheduler, der das STCF-Prinzip verwendet. Gegeben sind die folgenden Prozesse mit ihrer Ankunftszeit und Ausführungszeit:\
-\
-
-
-| Prozess | Ankunftszeit | Ausführungszeit |
-| ------- | ------------ | --------------- |
-| P1      | 0            | 8               |
-| P2      | 2            | 4               |
-| P3      | 4            | 6               |
-| P4      | 6            | 2               |
-
-Berechnen Sie die durchschnittliche **Wartezeit** für diese Prozesse.
-
-### **Aufgabe 4: Round Robin**
-
-Angenommen, Sie haben einen Scheduler, der das Round-Robin-Prinzip verwendet mit einer **Zeitscheibe von 3 Einheiten**. Gegeben sind die folgenden Prozesse mit ihrer Ankunftszeit und Ausführungszeit:
-
-| Prozess | Ankunftszeit | Ausführungszeit |
-| ------- | ------------ | --------------- |
-| P1      | 0            | 4               |
-| P2      | 1            | 5               |
-| P3      | 2            | 8               |
-| P4      | 3            | 2               |
-
-Berechnen Sie, **welcher Prozess zuletzt beendet wurde** und **wie lange die Gesamtdauer für diesen Prozess** war.
+##
 
 \
 \
