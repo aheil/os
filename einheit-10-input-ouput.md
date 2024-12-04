@@ -100,7 +100,7 @@ while (STATUS == BUSY) ;
 
 Kennt man vom Arduino oder Raspberry PI... aber was steckt dahinter?
 
-* Sobald die CPU (hier meinen wir die CPU vom Rechner, nicht vom I/O Gerät) für das "Hin- und Herschippern" der Daten genutzt wird, sprechen wir von P_**rogrammed I/O**_ (Abk. PIO)
+* Sobald die CPU (hier meinen wir die CPU vom Rechner, nicht vom I/O Gerät) für das "Hin- und Herschippern" der Daten genutzt wird, sprechen wir von &#x50;_**rogrammed I/O**_ (Abk. PIO)
   * Das Canonical Protokoll funktioniert im Grunde ABER
   * Polling ist kostenintensiv
     * es verschwendet CPU Cycles

@@ -1,4 +1,4 @@
-# Einheit 7: Fortgeschrittene Speichervewaltung
+# Fortgeschrittene Speicherverwaltung
 
 ## Lernziele und Kompetenzen
 
@@ -13,14 +13,14 @@ Wie gehen wir mit großen Adressräumen um?
 * Zwischen Heap und Stack liegt ggf. viel (ungenützter) Speicher
 * Mit 32-Bit lassen sich 4 GB große Adressräume ansprechen
 
-![](.gitbook/assets/os.10.memory.de.png)
+![](../.gitbook/assets/os.10.memory.de.png)
 
 ## Exkurs
 
 * Unter 32-Bit Windows waren die obersten 2 GB physikalischem Speicher für Windows Reserviert: max. 2 GB virtueller Adressraum
 * Unter 32-Bit Linux 1 GB physikalischem Speicher für Betriebssystem: max. 3 GB virtueller Adressraum
 
-![](<.gitbook/assets/os.10.memory.de (1).png>)
+![](<../.gitbook/assets/os.10.memory.de (1).png>)
 
 ## Lösung: Segmentierung
 
@@ -32,7 +32,7 @@ Wie gehen wir mit großen Adressräumen um?
   * Heap
   * Stack
 
-<figure><img src=".gitbook/assets/os.10.segmentierung.de.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/os.10.segmentierung.de.png" alt=""><figcaption></figcaption></figure>
 
 ## Hardware-Unterstützung
 
@@ -40,7 +40,7 @@ Wie gehen wir mit großen Adressräumen um?
 * Frage: Woher weiß die CPU welches Segment gemeint ist?
 * Lösung: Teile der **virtuellen** Speicheradresse werden für das Segment genutzt
 
-<figure><img src=".gitbook/assets/os.10.segment.de.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/os.10.segment.de.png" alt=""><figcaption></figcaption></figure>
 
 ## Base- und Bounds Beispiel
 
@@ -50,7 +50,7 @@ Wie gehen wir mit großen Adressräumen um?
 | Heap    | 34K  | 3K    |
 | Segment | 28K  | 2K    |
 
-<figure><img src=".gitbook/assets/os.10.segmentierung.de (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/os.10.segmentierung.de (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Segmentation Fault
 
@@ -75,7 +75,7 @@ Berechnung:
 * Zum Prüfen der Obergrenze, wir die Größe hinzuaddiert\
 
 
-<figure><img src=".gitbook/assets/os.10.segment_bsp.de.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/os.10.segment_bsp.de.png" alt=""><figcaption></figcaption></figure>
 
 * Was ist mit dem Stack?
   * Hardware-Support durch zusätzliches Bit
@@ -170,7 +170,7 @@ Hier ein einfaches Beispiel:
 
 ## Zuordnung von Frames
 
-<figure><img src=".gitbook/assets/os.12.paging.de.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/os.12.paging.de.png" alt=""><figcaption></figcaption></figure>
 
 ### Paging und Address Translation
 
@@ -182,7 +182,7 @@ Hier ein einfaches Beispiel:
 
 
 
-<figure><img src=".gitbook/assets/os.12.addresstranslation_1.de.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/os.12.addresstranslation_1.de.png" alt=""><figcaption></figcaption></figure>
 
 In Assembler:
 
@@ -199,7 +199,7 @@ movl <virtual address>, %eax
   * 21 im Dezimalsystem in ist 010101 Binär, ist 15 im Hexadezimalsystem
   * Somit Zugriff auf Byte5 in Page 1
 
-![](.gitbook/assets/os.12.addresstranslation\_2.de.png)\
+![](../.gitbook/assets/os.12.addresstranslation_2.de.png)\
 
 
 In Asssembler:
@@ -212,7 +212,7 @@ movl 15h, %eax
 * Physical Frame Number (PFN) oder auch Physical Page Number (PPN)\
 
 
-<figure><img src=".gitbook/assets/os.12.addresstranslation_3.de.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/os.12.addresstranslation_3.de.png" alt=""><figcaption></figcaption></figure>
 
 ## Wo liegen Page Tables?
 
@@ -238,4 +238,4 @@ movl 15h, %eax
 \
 
 
-<figure><img src=".gitbook/assets/os.12.x86_page_table.de (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/os.12.x86_page_table.de (1).png" alt=""><figcaption></figcaption></figure>

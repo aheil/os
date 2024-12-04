@@ -356,10 +356,10 @@ In diesem Fall handelt es sich um **gerade Parität** (auch als “even parity�
 
 ### XOR Berechnung mit mehreren Datenblöcken
 
-* **Disk 1 =**1111
-* **Disk 2 =**1110
-* **Disk 3 =**1100
-* **Disk 4 =**1000
+* **Disk 1 =**&#x31;111
+* **Disk 2 =**&#x31;110
+* **Disk 3 =**&#x31;100
+* **Disk 4 =**&#x31;000
 
 **Die Berechnung des ersten Bits jedes Datenblocks ergibt folgende Berechnung**
 
