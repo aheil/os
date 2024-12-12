@@ -1,4 +1,4 @@
-# Einheit 8: Threads
+# Threads
 
 ## Lernziele
 
@@ -34,7 +34,7 @@
 Threads laufen unabhängig, rufen eigene Routinen mit eigenen lokalen Variablen und Rücksprungadressen auf und benötigen daher dedizierte Stacks (engl. thread-local storage)
 
 \
-![](<.gitbook/assets/os.08.multi\_thread\_address\_space (2).png>)\
+![](<../.gitbook/assets/os.08.multi_thread_address_space (2).png>)\
 \
 **Warum überhaupt Threads verwenden?**
 
@@ -140,7 +140,7 @@ int pthread_join(pthread_t thread, void **value_ptr);
 * In diesem Fall ist ein einfacher Prozeduraufruf einfacher.
 * Wenn der Thread jedoch gestartet wird, und erst im späteren Verlauf des Programms auf seine Beendigung gewartet wird, macht es wieder Sinn
 
-<figure><img src=".gitbook/assets/os.08.thread.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/os.08.thread.png" alt=""><figcaption></figcaption></figure>
 
 Locks\
 
@@ -229,7 +229,7 @@ Grundidee:
 * Aufruf von `lock` testet ob Flag == 1 ist, falls nicht wird dieses auf 1 gesetzt und Thread hat jetzt das Lock
 * Ruft nun ein zweiter Thread `lock` auf, wartet er solange bis das Flag wieder 0 ist
 
-<figure><img src=".gitbook/assets/os.08.simple_lock.de.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/os.08.simple_lock.de.png" alt=""><figcaption></figcaption></figure>
 
 **Probleme**
 
@@ -344,7 +344,7 @@ Wie kann diese Situation verbessert werden? Hier hilft uns das Betriebssystem!
 
 ## Referenzen
 
-1. [https://c9x.me/x86/html/file\_module\_x86\_id\_328.html](https://c9x.me/x86/html/file\_module\_x86\_id\_328.html)&#x20;
-2. [https://c9x.me/x86/html/file\_module\_x86\_id\_41.html](https://c9x.me/x86/html/file\_module\_x86\_id\_41.html)&#x20;
+1. [https://c9x.me/x86/html/file\_module\_x86\_id\_328.html](https://c9x.me/x86/html/file_module_x86_id_328.html)&#x20;
+2. [https://c9x.me/x86/html/file\_module\_x86\_id\_41.html](https://c9x.me/x86/html/file_module_x86_id_41.html)&#x20;
 
 ## &#x20;           
