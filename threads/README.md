@@ -16,22 +16,22 @@
 
 **Was sind Threads?**
 
-* Anstelle nur eines Ausführungsstrangs besitzen »multi-threaded« Programme mehrere Ausführungsstränge
-* Jeder dieser Ausführungsstränge (engl. thread) kann grundsätzlich wie ein Prozess verstanden werden
-* Ein wichtiger Unterschied: Während jeder Prozess seinen ganz eigenen Adressraum besitzt, teilen sich Threads einen Adressraum und können auf dieselben Daten zugreifen
+* Anstelle nur eines Ausführungsstrangs besitzen »multi-threaded« Programme **mehrere Ausführungsstränge**
+* Jeder dieser **Ausführungsstränge** (engl. **thread**) kann grundsätzlich wie ein Prozess verstanden werden
+* Ein wichtiger Unterschied: Während jeder Prozess seinen ganz eigenen Adressraum besitzt, **teilen sich Threads einen Adressraum** und können auf dieselben Daten zugreifen
 
 **Eigenschaften von Threads**
 
 * Threads werden grundsätzlich wie Prozesse behandelt
-  * Benötigen einen Programm Counter (PC) für die nächste Instruktion
-  * Haben eigene Register
-  * Laufen zwei Threads auf einer CPU, muss ein Context-Switch stattfinden
-  * Für den Context Switch wird ein _Thread Control Block_ (TCB) analog zum Process Control Block (PCB) benötigt
-  * Wichtiger Unterschied: Der Adressraum bleibt beim Context-Switch von Threads der gleiche
+  * Benötigen einen **Programm Counter (PC)** für die nächste Instruktion
+  * Haben eigene **Register**
+  * Laufen zwei Threads auf einer CPU, muss ein **Context-Switch** stattfinden
+  * Für den Context Switch wird ein _**Thread Control Block**_**&#x20;(TCB)** analog zum Process Control Block (PCB) benötigt
+  * Wichtiger Unterschied: Der **Adressraum bleibt** beim Context-Switch von Threads **der gleiche**
 
 **Multi-Thread-Adressräume**
 
-Threads laufen unabhängig, rufen eigene Routinen mit eigenen lokalen Variablen und Rücksprungadressen auf und benötigen daher dedizierte Stacks (engl. thread-local storage)
+Threads laufen unabhängig, rufen eigene Routinen mit eigenen lokalen Variablen und Rücksprungadressen auf und benötigen daher **dedizierte Stacks** (engl. thread-local storage)
 
 \
 ![](<../.gitbook/assets/os.08.multi_thread_address_space (2).png>)\
@@ -40,13 +40,13 @@ Threads laufen unabhängig, rufen eigene Routinen mit eigenen lokalen Variablen 
 
 **Offensichtlich:** Parallelisierung, sobald mehrere CPUs bereitstehen, können Aufgaben gleichzeitig durchgeführt werden
 
-**Etwas subtiler:** Würde ein Prozess aufgrund einer I/O-Operation geblockt werden, könnte ein weitere Thread im Prozess weiterlaufen und somit das blockieren des Prozesses vermeiden
+**Etwas subtiler:** Würde ein Prozess aufgrund einer I/O-Operation geblockt werden, könnte ein weitere Thread im Prozess weiterlaufen und somit das **blockieren des Prozesses vermeiden**
 
 **Vorteil:** Threads greifen auf dieselben Daten innerhalb eines Prozesses zu.
 
 **Threads und Determinismus**
 
-* Threads laufen nicht deterministisch, da Routinen im Thread unabhängig vom Aufrufer laufen
+* Threads laufen **nicht deterministisch**, da Routinen im Thread unabhängig vom Aufrufer laufen
 * Was dann tatsächlich läuft wird durch den Scheduler gesteuert
 * Problem verschärft sich noch, da Threads auf dieselben Daten zugreifen
 
@@ -90,11 +90,11 @@ mov %eax, 0x8049a1c
 
 ## Race Conditions
 
-* Ergebnis abhängig vom Timing bei der Ausführung von Code: Race Condition
+* Ergebnis abhängig vom Timing bei der Ausführung von Code: **Race Condition**
 * Führt zu einem nicht-deterministischen Programmfehler, der in der Regel schwer zu finden ist (Ergebnis heißt auf engl. indeterminate)
-* Code, der die Race Condition auslösen kann wird kritischer Abschnitt (engl. critical section) genannt
-* Greift auf eine gemeinsame Variable (engl. shared variable) bzw. gemeinsame Ressource (engl. shared resource).
-* Durch wechselseitigen Ausschluss (engl. mutual exclusion) wird erreicht, dass wenn sich ein Thread in einem kritischen Abschnitt befindet, kein anderer Thread auf diesen Code zugreifen kann…
+* Code, der die Race Condition auslösen kann wird **kritischer Abschnitt** (engl. critical section) genannt
+* Greift auf eine **gemeinsame Variable** (engl. shared variable) bzw. **gemeinsame Ressource** (engl. shared resource).
+* Durch **wechselseitigen Ausschluss** (engl. mutual exclusion) wird erreicht, dass wenn sich ein Thread in einem kritischen Abschnitt befindet, kein anderer Thread auf diesen Code zugreifen kann…
 * Aber wie?
 
 ## Thread API
@@ -107,7 +107,7 @@ Fragestellung: Welche Schnittstellen muss das Betriebssystem bereitstellen, um T
   * Locks = Ausschluss aus kritischem Abschnitt
   * Condition Variable (dt. Monitor = Synchronisationsmechanismus)
 
-4 Argumente erforderlich: `thread`, `attr`, `start routine`, `arg`
+**4 Argumente** erforderlich: `thread`, `attr`, `start routine`, `arg`
 
 ```
 #include <pthread.h>
