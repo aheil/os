@@ -1,4 +1,4 @@
-# Einheit 3: Virtualisierung
+# Virtualization
 
 Lernziele und Kompetenzen
 
@@ -19,7 +19,7 @@ Es Besteht aus **Code** (Bits) und ggf. **statischen Daten,** wartet auf der Fes
 
 Es wird **Speicher** benötigt, in den der auszuführende Code und die Daten geladen werden können.  Zur Ausführung außerdem eine **CPU** benötigt.&#x20;
 
-<figure><img src=".gitbook/assets/os.02.taskmng1.png" alt=""><figcaption><p>Windows Task Manager zeigt die laufenden Prozesse</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/os.02.taskmng1.png" alt=""><figcaption><p>Windows Task Manager zeigt die laufenden Prozesse</p></figcaption></figure>
 
 In der Regel laufen mehr Prozesse auf dem PC, als CPUs vorhanden sind.&#x20;
 
@@ -83,7 +83,7 @@ Weitere Möglichkeiten sind je nach Betriebssystem unterschiedlich, z.B.: `suspe
    * Exkurs: **Memoryleaks** baut man übrigens, indem man in C vergisst `free()`aufzurufen.
 6. Das Betriebssystem unterstütz nun den Prozess, indem es z.B. dem Prozess mehr Speicher gibt, wenn der Heap vergrößert werden muss.
 7. Nun werden noch Input/Output-Resourcen erzeugt (später mehr dazu).
-   * Unter UNIX sind dies die drei sog. [File Descriptors](https://sites.ualberta.ca/dept/chemeng/AIX-43/share/man/info/C/a\_doc\_lib/aixuser/usrosdev/std\_input\_output.htm):
+   * Unter UNIX sind dies die drei sog. [File Descriptors](https://sites.ualberta.ca/dept/chemeng/AIX-43/share/man/info/C/a_doc_lib/aixuser/usrosdev/std_input_output.htm):
      * **Standard Input (0)**
      * **Standard Output (1)** und
      * **Standard Error Output (2)**
@@ -94,7 +94,7 @@ Alle Informationen über einen Prozess stehen in einem **Prozesskontrollblock** 
 
 Im [xv6](https://en.wikipedia.org/wiki/Xv6) Quellcode, kann dies recht einfach nachgelesen werden:&#x20;
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>xv6 PCB Quellcode</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>xv6 PCB Quellcode</p></figcaption></figure>
 
 * [xv6 Source Code auf GitHub](https://github.com/mit-pdos/xv6-public)
 * [xv6 PCB Source Code](https://github.com/mit-pdos/xv6-public/blob/master/proc.h)
@@ -123,7 +123,7 @@ Laut [Linux manual page](https://man7.org/linux/man-pages/man1/top.1.html):
 
 Dabei sind folgende Statusübergänge möglich:
 
-<figure><img src=".gitbook/assets/os.01.status.png" alt=""><figcaption><p>Mögliche Statusübergänge</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/os.01.status.png" alt=""><figcaption><p>Mögliche Statusübergänge</p></figcaption></figure>
 
 **Hinweis**: Ja, es heißt die [Status](https://www.dwds.de/wb/Status). Nicht Stati, und nicht Statusse.
 
