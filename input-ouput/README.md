@@ -1,4 +1,4 @@
-# Einheit 10: Input / Ouput
+# Input / Ouput
 
 ## Lernziele
 
@@ -36,7 +36,7 @@ Geräte zur Ein- und Ausgaben (engl. input/output devices, oder kurz I/O devices
 * Was sind die grundlegenden Mechanismen?
 * Wie können I/O-Operationen effizient gehandhabt werden?
 
-<figure><img src=".gitbook/assets/os.10.io.de.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/os.10.io.de.png" alt=""><figcaption></figcaption></figure>
 
 ### **I/O Chips**
 
@@ -47,7 +47,7 @@ Geräte zur Ein- und Ausgaben (engl. input/output devices, oder kurz I/O devices
 
 
 
-<figure><img src=".gitbook/assets/os.10.bus.de.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/os.10.bus.de.png" alt=""><figcaption></figcaption></figure>
 
 ## Canonical Device
 
@@ -60,7 +60,7 @@ Geräte zur Ein- und Ausgaben (engl. input/output devices, oder kurz I/O devices
   * Allgemeiner Speicher und weitere Chips\
 
 
-<figure><img src=".gitbook/assets/os.10.canonical_device.de.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/os.10.canonical_device.de.png" alt=""><figcaption></figcaption></figure>
 
 ## Canonical Protocol
 
@@ -124,7 +124,7 @@ In dem ersten Beispiel pollt die CPU, bis das Gerät fertig ist.
 Mit einem Interrupt könnte die CPU in der Zwischenzeit etwas anders (sinnvolles) machen (zweites Beispiel).\
 
 
-<figure><img src=".gitbook/assets/os.10.polling.de.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/os.10.polling.de.png" alt=""><figcaption></figcaption></figure>
 
 ### **Performance**
 
@@ -138,7 +138,7 @@ Zu viele Interrupts können das System auch überlasten
 
 In diesem Fall sprechen wir von einem _Livelock._
 
-<figure><img src=".gitbook/assets/os.10.livelock.de.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/os.10.livelock.de.png" alt=""><figcaption></figcaption></figure>
 
 ### **Lösungsidee: Hybrid Ansatz**
 
@@ -172,7 +172,7 @@ Nicht nur das Polling auch bei anderen Aufgaben wird die CPU für eigentlich tri
     * Wie viele Daten kopiert werden sollen
     * An welches Gerät die Daten geschickt werden sollen und ist jetzt quasi fertig!
 
-<figure><img src=".gitbook/assets/os.10.dma.de.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/os.10.dma.de.png" alt=""><figcaption></figcaption></figure>
 
 ## Kommunikation mit dem Gerät
 
@@ -183,7 +183,7 @@ Nun stellt sich noch die Frage, wie die ganzen Geräte mit ihren spezifischen Ha
 Lösung: Wie so oft in der Informatik hilft uns hier die _Abstraktion_!\
 
 
-<figure><img src=".gitbook/assets/os.10.abstraction.de.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/os.10.abstraction.de.png" alt=""><figcaption></figcaption></figure>
 
 ### Gerätetreiber
 
@@ -207,7 +207,7 @@ Erste forensische Analysen des Memory Dumps des Blue Screen of Death (BSOD) deut
 
 Eine Möglichkeit für mehr Transparenz, wäre ein BSoD, der z.B. direkt zur Hersteller-Seite verweist:
 
-<figure><img src=".gitbook/assets/bsod_csagent_crowdstrike_conceptart.jpg" alt=""><figcaption><p>Concept design of a better BoSD. Cleary indicating the cause of the error and pointing to the direct support. Remark: This is a conceptual BSoD, indicated for teaching purposes only. Create with: <a href="https://bsodmaker.net/">https://bsodmaker.net/</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/bsod_csagent_crowdstrike_conceptart.jpg" alt=""><figcaption><p>Concept design of a better BoSD. Cleary indicating the cause of the error and pointing to the direct support. Remark: This is a conceptual BSoD, indicated for teaching purposes only. Create with: <a href="https://bsodmaker.net/">https://bsodmaker.net/</a></p></figcaption></figure>
 
 
 

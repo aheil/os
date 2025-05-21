@@ -12,7 +12,7 @@ Ihr Gerät verfügt über die drei Register Status, Command und Data.
 
 Implementieren Sie den Zugriff auf Ihr Gerät mittels einem **Thread**, d.h. das virtuelle Gerät wird als Thread gestartet. Nutzen Sie zur Synchronisation Mechanismen aus der vorlesung (z.B. the Thread-API oder eine Semaphore oder Conditional zur Signalisierung). Das Steuern des virtuellen Gerätes soll nur über das Interface erfolgen.
 
-<figure><img src=".gitbook/assets/canonical_device.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/canonical_device.png" alt=""><figcaption></figcaption></figure>
 
 ### Teilaufgabe 1: Interface Implementierung
 
