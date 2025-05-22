@@ -22,6 +22,7 @@
   * [Exercise: Deadlock](threads/exercise-deadlock.md)
 * [Semaphore](semaphore/README.md)
   * [Lab 03: Semaphore](semaphore/lab-03-semaphore.md)
+  * [Semaphore Beispiel](semaphore/semaphore-beispiel.md)
 * [Input / Ouput](input-ouput/README.md)
   * [Lab 04: Canonical Treiber Implementierung](input-ouput/lab-04-canonical-treiber-implementierung.md)
 * [Einheit 11: Harddisks & Dateisysteme](einheit-11-harddisks-and-dateisysteme.md)
