@@ -125,4 +125,6 @@ Für das Beispiel der Aufgabenstellung wäre dies&#x20;
 git push --set-upstream origin aheil
 ```
 
-Danach kann der Befehl `git push` ausgeführt werden. Auch hier wird nach dem Passwort Ihres SSH-Schlüssels gefragt.&#x20;
+Danach kann der Befehl `git push` ausgeführt werden. Auch hier wird für den Zugriff  auf das Remote Repository nach dem Passwort Ihres SSH-Schlüssels gefragt.&#x20;
+
+<figure><img src="../.gitbook/assets/video_git_push.gif" alt=""><figcaption></figcaption></figure>
