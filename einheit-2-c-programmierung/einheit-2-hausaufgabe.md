@@ -34,8 +34,9 @@ Jedes Team-Mitglied checkt das Code-File in Ihrer Gruppe unter dem Ordner `hello
 
 * **Jedes** Team-Mitglied erstellt einen eigenen _branch_ der exakt so heißt wie Ihr alias. (z.B. in meinem Fall _aheil_).
 * Jedes Team-Mitglied erstellt in diesem Branch den Ordner `hello_world` .
-* In diesem branch checkt das jeweilige Team-Mitglied den eigenen Code ein und pusht diesen check-in in das Repository.
-* Konkret bedeutet dies, im _main_ branch befindet sich keine Datei, in jedem branch der Team-Mitglieder befindet sich jeweils die eigene Datei.
+* In diesem Ordner erstellt jedes Team mitglied eine Datei `hello_world.c` .
+* Im jeweiligen Branch checkt das Team-Mitglied den eigenen Code ein und pusht diesen Check-in in das Repository.
+* Konkret bedeutet dies, im _main_ branch befindet sich keine Datei, in jedem Branch der Team-Mitglieder befindet sich jeweils die eigene Datei.
 * Achten Sie auf die korrekte Schreibweise der Ordner (Kleinschreibung, Unterstrich, Alias).&#x20;
 
 ## Arbeiten mit GitLab, Git und Branches
@@ -101,3 +102,27 @@ git branch -a
 ```
 
 <figure><img src="../.gitbook/assets/video_git_branch.gif" alt=""><figcaption></figcaption></figure>
+
+**Git Commit**
+
+Nutzen Sie die Befehle `git add`, `git commit` um Ihren Code in das Repository einzuchecken. \
+\
+**Hinweis:** Der Branch als auch Ihre neue Datei (und somit Ihr C-Programm) befinden sich aktuell noch lokal auf der Festplatte. Ein Commit bedeutet lediglich, dass die Änderungen lokal abgespeichert sind.
+
+<figure><img src="../.gitbook/assets/video_git_commit (1).gif" alt=""><figcaption></figcaption></figure>
+
+**Git Push**
+
+Mit dem Push werden die lokalen Änderungen auf das entfernte Repository kopiert. Bevor dies möglich ist, muss der Branch entsprechend auf dem Remote Repository angelegt werden. Nutzen Sie hierzu den Befehl&#x20;
+
+```
+git push --set-upstream origin BRANCHNAME
+```
+
+Für das Beispiel der Aufgabenstellung wäre dies&#x20;
+
+```
+git push --set-upstream origin aheil
+```
+
+Danach kann der Befehl `git push` ausgeführt werden. Auch hier wird nach dem Passwort Ihres SSH-Schlüssels gefragt.&#x20;
