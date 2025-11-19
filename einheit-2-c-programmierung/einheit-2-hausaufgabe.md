@@ -32,7 +32,7 @@ Speicheradresse:  0x7ffdbf4a3a10
 
 Jedes Team-Mitglied checkt das Code-File in Ihrer Gruppe unter dem Ordner `hello_world` in einem **eigene Branch** ein.
 
-* **Jedes** Team-Mitglied erstellt einen eigenen _branch_ der exakt so heißt wie Ihr alias. (z.B. in meinem Fall _aheil_).
+* **Jedes** Team-Mitglied erstellt einen eigenen _branch_ der exakt so heißt wie Ihr alias. (z.B. im vorliegenden Beispiel _aheil_).
 * Jedes Team-Mitglied erstellt in diesem Branch den Ordner `hello_world` .
 * In diesem Ordner erstellt jedes Team mitglied eine Datei `hello_world.c` .
 * Im jeweiligen Branch checkt das Team-Mitglied den eigenen Code ein und pusht diesen Check-in in das Repository.
