@@ -94,7 +94,7 @@ Alle Informationen über einen Prozess stehen in einem **Prozesskontrollblock** 
 
 Im [xv6](https://en.wikipedia.org/wiki/Xv6) Quellcode, kann dies recht einfach nachgelesen werden:&#x20;
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>xv6 PCB Quellcode</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>xv6 PCB Quellcode</p></figcaption></figure>
 
 * [xv6 Source Code auf GitHub](https://github.com/mit-pdos/xv6-public)
 * [xv6 PCB Source Code](https://github.com/mit-pdos/xv6-public/blob/master/proc.h)
