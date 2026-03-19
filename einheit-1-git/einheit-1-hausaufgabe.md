@@ -7,10 +7,11 @@
    2. Windows: [https://git-scm.com/download/win](https://git-scm.com/download/win)
    3. Linux: [https://git-scm.com/download/linux](https://git-scm.com/download/linux)
 2. Sofern Sie noch keinen Zugang um [Hochschul-GitLab](https://git.it.hs-heilbronn.de/) haben, melden Sie sich dort einmalig an.\
-   **Hinweise**: Sie erhalten beim ersten Versuch eine Fehlermeldung, dadurch lern das System jedoch Ihren Account kennen und Sie können einem Repository zugewiesen werden.
-3. Melden Sie sich im jeweiligen ILIAS-Raum ([SEB ](https://ilias.hs-heilbronn.de/ilias.php?baseClass=ilrepositorygui\&ref_id=360705)bzw. [AIB](https://ilias.hs-heilbronn.de/ilias.php?baseClass=ilrepositorygui\&ref_id=607216)) an. Abonnieren Sie dort das Forum. Hierüber erhalten Sie wichtige Informationen (z.B. Ausfall der Vorlesung etc.):\
-   <img src="../.gitbook/assets/image (4).png" alt="Benachrichtigungen für gesamtes Forum starten" data-size="original">
-4.  Finden Sie ein Team-Mitglied (4er-Gruppen).\
+   **Hinweise**: Sie erhalten beim ersten Versuch eine Fehlermeldung, dadurch lern das System jedoch Ihren Account kennen und Sie können einem Repository zugewiesen werden. Sie können sich noch nicht einloggen, erst wenn Sie einem Projekt zugewiesen sind, wird dies möglich sein.
+
+
+
+1.  Finden Sie ein Team-Mitglied (4er-Gruppen).\
     Laden Sie in ILIAS unter Abgaben eine JSON-Datei in folgendem Format hoch.\\
 
     ```
@@ -46,8 +47,10 @@
     ```
 
     \
+    1\. Lassen Sie das Feld "name" leer\
+    2\. Löschen Sie die nicht benötigten Einträge - es darf am Ende kein Komma stehen! \
     \
-    Im Laufe des Tages erhalten Sie von GitLab das Benachrichtigen über Ihr Repository.
+    Sobald die Gruppen angelegt wurden, erhalten Sie von GitLab das Benachrichtigen über Ihr Repository.
 
 ### Hausaufgabe
 
@@ -56,7 +59,7 @@ Sofern noch nicht geschehen, erarbeiten Sie den Kurs [Version Control with Git](
 
 **Git Übung**
 
-_**Lesen Sie diese Aufgabe gründlich bis zum Ende durch!**_
+_**👉 Lesen Sie diese Aufgabe gründlich bis zum Ende durch!**_
 
 Erstellen Sie über Git-Commits ein Dialog aus Shakespear\`s "Rome und Julia". Bearbeiten Sie diese Aufgabe bereits im Team, da alle Team-Mitglieder abwechselnd einchecken müssen. Abwechseln editieren Sie die Datei und fügen Ihre Passage hinzu. Gleichzeitig nutzen Sie diese Passage als Nachricht in Ihrem Commit.
 
@@ -193,5 +196,7 @@ Author: Max &#x3C;maxmu@stud.hs-heilbronn.de>
 </code></pre>
 
 Stellen Sie sicher, dass sich im Root-Verzeichnis Ihres Repositories eine Datei `dialog.txt` befindet, in der die jeweiligen Text-Passagen eingecheckt sind. Die Textpassagen entsprechend der jeweiligen Log-Message.
+
+GitLab gibt Entwicklern der Rolle keine Rechte um auf dem main-Branch zu comitten. Aus diesem Grund erstellen Sie zunächst einen Branch `romeo_und_julia` - alle Teammitglieder checken bitte in diese Branch ein.
 
 **HINWEIS**: Sollte etwas schiefgehen - leeren Sie die `dialog.txt` Datei und checken Sie (gleichgültig welches Team-Mitglied) diese mit dem Kommentar "NEUSTART" (`-m "NEUSTART"`) ein , dann beginnen Sie von vorne. Fehlversuche passieren, sind im Rahmen des Lernens "normal" und werden daher auch nicht gewertet. Ziel ist, dass die Checkins am Ende einmal wie oben beschreiben bei Ihnen funktioniert haben.
