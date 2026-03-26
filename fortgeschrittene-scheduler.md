@@ -1,4 +1,4 @@
-# Einheit 6: Fortgeschrittene Scheduler
+# Fortgeschrittene Scheduler
 
 ### Lernziele
 
@@ -76,8 +76,7 @@ Um die Fragen zu beantworten nähern wir uns der Lösung schrittweisen:
 * Nach jeder Time Slice wird der Job heruntergestuft
 * Am Ende läuft der Job auf der niedrigsten Priorität
 
-\
-
+<br>
 
 <figure><img src=".gitbook/assets/os.04.one_sad_job.png" alt=""><figcaption></figcaption></figure>
 
@@ -146,8 +145,7 @@ Spannende Frage: Wie lange sollte die Zeitspanne _s_ sein?
 * **R 2**: If Priority(A) = Priority(B), A & B run in round-robin fashion using the time slice (quantum length) of the given queue.
 * **R 3**: When a job enters the system, it is placed at the highest priority (the topmost queue).
 * **R 4**: Once a job uses up its time allotment at a given level (regardless of how many times it has given up the CPU), its priority is reduced (i.e., it moves down one queue).
-* **R 5**: After some time period _s_, move all the jobs in the system to the topmost queue.\
-
+* **R 5**: After some time period _s_, move all the jobs in the system to the topmost queue.<br>
 
 **Wird MLFQ überhaupt irgendwo verwendet?**
 
@@ -178,8 +176,7 @@ Anstelle Turnaround-Zeiten zu optimieren, versuchen Fair Share Scheduler sicherz
   * Scheduler muss nun wissen, wie viele Lose es insgesamt gibt (hier: 100)
   * Gewinnerticket gibt an, welcher Prozess läuft
 
-\
-
+<br>
 
 **Lottery Scheduler - Überlegungen**
 
@@ -233,8 +230,7 @@ CFS ermöglicht die Angabe von Prioritäten, damit Prozesse mehr CPU-Ressourcen 
 * In UNIX entspricht das dem »nice level«
 * Kann zwischen -20 und + 19 gesetzt werden
 * 0 ist Standardwert
-* < 0 höhere Prio, > 0 kleinere Prio\
-
+* < 0 höhere Prio, > 0 kleinere Prio<br>
 
 **CFS: Zeitscheibe berechnen**
 
@@ -262,13 +258,11 @@ $$
 * Hinweis:
   * Gewichtung bleibt im Verhältnis gleich, wenn andere Prioritäten gewählt werden
   * Annahme A hat 5 und B hat 10
-  * A und B werden noch im selben Verhältnis wie zuvor gescheduled\
-
+  * A und B werden noch im selben Verhältnis wie zuvor gescheduled<br>
 
 **CFS Prozesslisten**
 
-\
-
+<br>
 
 * Problem: Bei mehreren hundert oder gar 1.000 Prozessen, wie wird der nächste Prozess gefunden?
 * Kurzes Gedankenspiel: Skalieren Listen? Hier müssten man immer aller linear durchsuchen, was in einem linearen Aufwand von 𝑂(𝑛) resultiert.
@@ -299,20 +293,16 @@ Machen Sie sich mit dem Befehl `nice` (Linux) **und** `start` (Windows) vertraut
 \
 \
 \
-\
-
-
-\
-\
-
+<br>
 
 \
-\
-
-
-\
-
-
-
+<br>
 
 \
+<br>
+
+<br>
+
+
+
+<br>

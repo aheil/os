@@ -56,8 +56,7 @@ thd->proc_info = NULL;
 
 ## Order Violation
 
-> **Definition: Order Violation:** The desired order between two (groups of) memory accesses is flipped (i.e., A should always be executed before B, but the order is not enforced during execution)” \[1]\
->
+> **Definition: Order Violation:** The desired order between two (groups of) memory accesses is flipped (i.e., A should always be executed before B, but the order is not enforced during execution)” \[1]<br>
 
 Thread 1:
 

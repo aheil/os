@@ -226,8 +226,7 @@ int main(int argc, char *argv[]) {
 
 **Was wäre wenn?**
 
-... MAX > 1 wäre?\
-
+... MAX > 1 wäre?<br>
 
 **Annahme: Mehrere Producer und mehrere Consumer**
 
@@ -267,8 +266,7 @@ void *consumer(void *arg) {
 }
 ```
 
-**Hinweis**: Werden die Zeilen des Mutex mit der jeweiligen anderen Semaphore paarweise vertauscht (z.B. P1 mit P2) entsteht ein **Deadlock**\
-
+**Hinweis**: Werden die Zeilen des Mutex mit der jeweiligen anderen Semaphore paarweise vertauscht (z.B. P1 mit P2) entsteht ein **Deadlock**<br>
 
 ## Unnützes Wissen
 
@@ -278,6 +276,5 @@ Durch die Positionierung von zwei Flaggen oder Lichtern kann somit ein Code erze
 
 
 
-\
-
+<br>
 

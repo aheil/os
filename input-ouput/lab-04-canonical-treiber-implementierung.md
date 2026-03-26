@@ -123,8 +123,7 @@ Die Bewertung Ihrer Abgabe findet automatisch statt. Stellen Sie hierzu folgende
 * Nutzen Sie zur Abgabe ausschließlich das beschriebene Verfahren. Abgaben, die per E-Mail oder anderen Wegen eingereicht werden, werden nicht bewertet.
 * Abgaben, die aufgrund eines Fehlers nicht durch Tests laufen oder sich nicht kompilieren lassen, werden entsprechend mit weniger Punkten bewertet.
 
-\
+<br>
 
-
 \
-\
+<br>

@@ -72,8 +72,7 @@ Beispiel:
 Berechnung:
 
 * Offset + Base-Register: physikalische Speicheradresse
-* Zum Prüfen der Obergrenze, wir die Größe hinzuaddiert\
-
+* Zum Prüfen der Obergrenze, wir die Größe hinzuaddiert<br>
 
 <figure><img src="../.gitbook/assets/os.10.segment_bsp.de.png" alt=""><figcaption></figcaption></figure>
 
@@ -123,9 +122,8 @@ Hausaufgabe:
 
 * Lesen Sie [The 640K memory limit of MS-DOS](https://www.xtof.info/blog/?p=985)
 
-config.sys\
-
-
+config.sys<br>
+--------------
 
 ```
 SWITCHES=/f#
@@ -199,8 +197,7 @@ movl <virtual address>, %eax
   * 21 im Dezimalsystem in ist 010101 Binär, ist 15 im Hexadezimalsystem
   * Somit Zugriff auf Byte5 in Page 1
 
-![](../.gitbook/assets/os.12.addresstranslation_2.de.png)\
-
+![](../.gitbook/assets/os.12.addresstranslation_2.de.png)<br>
 
 In Asssembler:
 
@@ -209,8 +206,7 @@ movl 15h, %eax
 ```
 
 * Die physikalische Adresse1 von Page 1 ist 7 (= 111)
-* Physical Frame Number (PFN) oder auch Physical Page Number (PPN)\
-
+* Physical Frame Number (PFN) oder auch Physical Page Number (PPN)<br>
 
 <figure><img src="../.gitbook/assets/os.12.addresstranslation_3.de.png" alt=""><figcaption></figcaption></figure>
 
@@ -235,7 +231,6 @@ movl 15h, %eax
 * Dirty Bit (D): Wurde der Speicherinhalt verändert
 * PFN: Page Frame Number
 
-\
-
+<br>
 
 <figure><img src="../.gitbook/assets/os.12.x86_page_table.de (1).png" alt=""><figcaption></figcaption></figure>

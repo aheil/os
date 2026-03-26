@@ -13,7 +13,7 @@ description: >-
 * Git Grundlagen **kennenlernen und anwenden können**
 * **Verstehen** warum Git Workflows hilfreich sind
 
-### Warum Versionsverwaltung? 
+### Warum Versionsverwaltung?<br>
 
 Es gibt alternative Bezeichnungen:
 
@@ -80,7 +80,7 @@ Was wäre die Alternative? Code-Dateien per E-Mail verschicken? &#x20;
 
 <figure><img src="../.gitbook/assets/os.01.git_dateistatus.png" alt=""><figcaption></figcaption></figure>
 
-#### Nützliches für den Einstieg 
+#### Nützliches für den Einstieg<br>
 
 **Lokale Änderungen** anzeigen (engl. unstaged changes): `git diff [dateiname]`
 
@@ -98,8 +98,7 @@ Was wäre die Alternative? Code-Dateien per E-Mail verschicken? &#x20;
 
 #### Git Workflows
 
-Trotz oder gerade wegen der verteilten Verwaltung kann so einiges schief gehen. Auch wen auf dem main bzw. master immer zurückgerollt werden kann, gilt: \
-
+Trotz oder gerade wegen der verteilten Verwaltung kann so einiges schief gehen. Auch wen auf dem main bzw. master immer zurückgerollt werden kann, gilt: <br>
 
 <figure><img src="../.gitbook/assets/os.01.git_one_does_not.jpg" alt=""><figcaption><p>Bildquelle: <a href="https://imgflip.com/">https://imgflip.com/</a></p></figcaption></figure>
 
@@ -143,4 +142,4 @@ In GitOps wird ein anderer Ansatz verfolgt: Hier werden möglichst alle Änderun
 
 #### Misc
 
-* One Does not simply walk into Mordor Meme: [https://knowyourmeme.com/memes/one-does-not-simply-walk-into-mordor](https://knowyourmeme.com/memes/one-does-not-simply-walk-into-mordor)\
+* One Does not simply walk into Mordor Meme: [https://knowyourmeme.com/memes/one-does-not-simply-walk-into-mordor](https://knowyourmeme.com/memes/one-does-not-simply-walk-into-mordor)<br>

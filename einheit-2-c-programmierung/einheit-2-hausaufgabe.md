@@ -49,8 +49,7 @@ Jedes Team-Mitglied checkt das Code-File in Ihrer Gruppe unter dem Ordner `hello
 
 **Repository Clonen**
 
-1.  Loggen Sie sich zunächst am hochschuleigenen GitLab mit Ihren Hochschul-Zugangsdaten ein. Danach wählen Sie das Repository des Kurses bzw. Ihrer Gruppe aus. Kopieren Sie nun die URL Ihres Repositories (Code / _Clone with SSH)._\
-
+1.  Loggen Sie sich zunächst am hochschuleigenen GitLab mit Ihren Hochschul-Zugangsdaten ein. Danach wählen Sie das Repository des Kurses bzw. Ihrer Gruppe aus. Kopieren Sie nun die URL Ihres Repositories (Code / _Clone with SSH)._<br>
 
     <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 2. Wechseln Sie nun auf die Eingabeaufforderung (CMD; Windows Terminal, Terminal, Shell etc.) auf Ihrem Rechner und navigieren Sie in den Ordner, in den Sie das Repository klonen möchten.\

@@ -57,8 +57,7 @@ Geräte zur Ein- und Ausgaben (engl. input/output devices, oder kurz I/O devices
 * Was steckt alles in einem Gerät?
   * Stark Implementierungsabhängig
   * Ein paar Chips, komplexere Geräte sogar mit einer eigenen CPU
-  * Allgemeiner Speicher und weitere Chips\
-
+  * Allgemeiner Speicher und weitere Chips<br>
 
 <figure><img src="../.gitbook/assets/os.10.canonical_device.de.png" alt=""><figcaption></figcaption></figure>
 
@@ -107,7 +106,7 @@ Kennt man vom Arduino oder Raspberry PI... aber was steckt dahinter?
     * es verlangsamt oder blockiert die Ausführung anderer Prozesse
     * es führt die Idee des Overlapping beim Scheduling ad absurdum
 
-### **Interrupts** 
+### **Interrupts**<br>
 
 * Idee: Den CPU Overhead mittels Interrupts reduzieren
 * Grundsätzliche Funktionsweise:
@@ -121,8 +120,7 @@ Kennt man vom Arduino oder Raspberry PI... aber was steckt dahinter?
 
 In dem ersten Beispiel pollt die CPU, bis das Gerät fertig ist.
 
-Mit einem Interrupt könnte die CPU in der Zwischenzeit etwas anders (sinnvolles) machen (zweites Beispiel).\
-
+Mit einem Interrupt könnte die CPU in der Zwischenzeit etwas anders (sinnvolles) machen (zweites Beispiel).<br>
 
 <figure><img src="../.gitbook/assets/os.10.polling.de.png" alt=""><figcaption></figcaption></figure>
 
@@ -132,7 +130,7 @@ Mit einem Interrupt könnte die CPU in der Zwischenzeit etwas anders (sinnvolles
   * Wenn das Gerät so schnell ist, dass beim ersten Poll die Antwort käme, machen Interrupts das System langsamer
   * Der damit zusammenhängenden Context Switch ist im Verhältnis zum „kurz Warten“ teurer
 
-### **Livelocks** 
+### **Livelocks**<br>
 
 Zu viele Interrupts können das System auch überlasten
 
@@ -180,8 +178,7 @@ Nun stellt sich noch die Frage, wie die ganzen Geräte mit ihren spezifischen Ha
 
 > Ziel: Betriebssystem so gut wie es geht geräteneutral halten, also die Details der Geräteinteraktion vom Betriebssystem „verstecken“.
 
-Lösung: Wie so oft in der Informatik hilft uns hier die _Abstraktion_!\
-
+Lösung: Wie so oft in der Informatik hilft uns hier die _Abstraktion_!<br>
 
 <figure><img src="../.gitbook/assets/os.10.abstraction.de.png" alt=""><figcaption></figcaption></figure>
 
@@ -211,4 +208,4 @@ Eine Möglichkeit für mehr Transparenz, wäre ein BSoD, der z.B. direkt zur Her
 
 
 
-\
+<br>

@@ -7,7 +7,7 @@
 * [Einheit 2: C Programmierung](einheit-2-c-programmierung/README.md)
   * [Einheit 2: Hausaufgabe](einheit-2-c-programmierung/einheit-2-hausaufgabe.md)
 * [Virtualization](virtualization/README.md)
-  * [Exercise: Process Creation](virtualization/exercise-process-creation.md)
+  * [Prozesse: Übungsaufgaben](virtualization/prozesse-ubungsaufgaben.md)
 * [Speicher](memory/README.md)
   * [Exercise: Memory](memory/exercise-memory.md)
   * [Lab 01: Stack](memory/lab-01-stack.md)

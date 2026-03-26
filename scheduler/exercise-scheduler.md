@@ -31,8 +31,7 @@ Berechnen Sie die durchschnittliche **Wartezeit** für diese Prozesse.
 ### Aufgabe 3: STCF
 
 Angenommen, Sie haben einen Scheduler, der das STCF-Prinzip verwendet. Gegeben sind die folgenden Prozesse mit ihrer Ankunftszeit und Ausführungszeit:\
-\
-
+<br>
 
 | Prozess | Ankunftszeit | Ausführungszeit |
 | ------- | ------------ | --------------- |

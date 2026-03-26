@@ -7,8 +7,7 @@
 
 Beispiel: Heap
 
-\
-
+<br>
 
 <figure><img src="../.gitbook/assets/os.11.heap.de.png" alt=""><figcaption></figcaption></figure>
 
@@ -25,19 +24,16 @@ Beispiel: Heap
 
 <figure><img src="../.gitbook/assets/os.11.freelist_example.de (1).png" alt=""><figcaption></figcaption></figure>
 
-* Einer der freien Blöcke wird verkleinert…\
-
+* Einer der freien Blöcke wird verkleinert…<br>
 
 <figure><img src="../.gitbook/assets/os.11.freelist_example_2.de.png" alt=""><figcaption></figcaption></figure>
 
 * Zurück zur Ausgangssituation mit drei Blöcken…
 * Was passiert wenn der mittlere Block freigegeben wird?
-* Es entstehen drei Blöcke… keine Gute Idee…\
-
+* Es entstehen drei Blöcke… keine Gute Idee…<br>
 
 <figure><img src="../.gitbook/assets/os.11.freelist_example_3.de.png" alt=""><figcaption></figcaption></figure>
 
-* Daher fasst die zuständige Bibliothek den freien Speicher vor dem Allokieren so gut wie möglich zusammen\
-
+* Daher fasst die zuständige Bibliothek den freien Speicher vor dem Allokieren so gut wie möglich zusammen<br>
 
 <figure><img src="../.gitbook/assets/os.11.freelist_example_4.de.png" alt=""><figcaption></figcaption></figure>

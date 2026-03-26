@@ -191,10 +191,8 @@ strcpy (dst, scr);
 
 ## Hausaufgabe
 
-Bearbeiten Sie die Programmieraufgabe 1 ([Lab 01: Stack](lab-01-stack.md))\
+Bearbeiten Sie die Programmieraufgabe 1 ([Lab 01: Stack](lab-01-stack.md))<br>
 
+<br>
 
-\
-
-
-\
+<br>

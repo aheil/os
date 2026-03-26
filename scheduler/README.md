@@ -47,8 +47,7 @@ Wenn ein Programm im _User Mode_ etwas ausführen möchte, das eigentlich unters
 * System Calls werden von allen modernen Betriebssystemen angeboten
 * POSIX-Systeme (Portable Operating System Interface1) bieten mehrere hundert solcher System Calls an
 
-SysCall Ablauf\
-
+SysCall Ablauf<br>
 
 Das Programm...
 
@@ -155,7 +154,7 @@ Einfach und daher auch einfach zu implementieren
   * Gibt es einen Workload, der FIFO »alt aussehen lässt«?
   * 100+110+1203=110
 
-[![](https://github.com/aheil/os/raw/main/img/os.03.fifo\_bad.png)](../img/os.03.fifo\_bad.png)
+[![](https://github.com/aheil/os/raw/main/img/os.03.fifo_bad.png)](../img/os.03.fifo_bad.png)
 
 **Convoy Effect (dt. Konvoieffekt)**
 
@@ -183,7 +182,7 @@ Einfach und daher auch einfach zu implementieren
 * Turnaround-Zeit hat sich hierdurch verdoppelt
 * 100+(110−10)+(120−10)3=103,33
 
-[![](https://github.com/aheil/os/raw/main/img/os.03.sjf\_bad.png)](../img/os.03.sjf\_bad.png)
+[![](https://github.com/aheil/os/raw/main/img/os.03.sjf_bad.png)](../img/os.03.sjf_bad.png)
 
 #### Shortest Time-to-Completion First
 
@@ -238,7 +237,7 @@ $$
 T_{response}=T_{firstrun}-T_{arrival}
 $$
 
-[![](https://github.com/aheil/os/raw/main/img/os.03.sjf\_responsetime.png)](../img/os.03.sjf\_responsetime.png)
+[![](https://github.com/aheil/os/raw/main/img/os.03.sjf_responsetime.png)](../img/os.03.sjf_responsetime.png)
 
 **Round Robin**
 
@@ -247,7 +246,7 @@ $$
 * Durchschnittliche Antwortzeit im Vergleich zu SJF (vorherige Folie) ist 1
 * 0+1+23=1
 
-[![](https://github.com/aheil/os/raw/main/img/os.03.rr\_responsetime.png)](../img/os.03.rr\_responsetime.png)
+[![](https://github.com/aheil/os/raw/main/img/os.03.rr_responsetime.png)](../img/os.03.rr_responsetime.png)
 
 * Der Context Switch kostet Ressourcen
 * D.h. wie lange müssten die Time Slices sein, dass sich ein Context Switch überhaupt lohnt?
@@ -259,4 +258,4 @@ $$
 
 \
 \
-\
+<br>

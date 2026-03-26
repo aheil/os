@@ -96,8 +96,7 @@ Um dass sequentielle Lesen zu ermöglichen, nutzen manche Disks ein sog. Spurver
 
 Außen befinden sich mehr Sektoren (Physik rulez!), daher werden Platten oft in Zonen (engl. multi-zoned disks). Äußere Zonen besitzen dann mehr Sektoren als innere.
 
-Schreib-/Lesecache zur Performance-Steigerung. Beim Schreiben kann sofort nach dem Cachen bestätigt werden (engl. **writeback**) oder erst nach dem Schreiben auf Platte (engl. writet**h**rough).\
-
+Schreib-/Lesecache zur Performance-Steigerung. Beim Schreiben kann sofort nach dem Cachen bestätigt werden (engl. **writeback**) oder erst nach dem Schreiben auf Platte (engl. writet**h**rough).<br>
 
 **I/O Zeiten**
 

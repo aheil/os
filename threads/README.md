@@ -142,9 +142,8 @@ int pthread_join(pthread_t thread, void **value_ptr);
 
 <figure><img src="../.gitbook/assets/os.08.thread.png" alt=""><figcaption></figcaption></figure>
 
-Locks\
-
-
+Locks<br>
+---------
 
 * Funktionen für den gegenseitigen Ausschluss
 * **Mutex:** Mutual Exclusion Object
@@ -179,8 +178,7 @@ int pthread_cond_signal(pthread_cond_t *cond);
 
 * Durch das Aufrufen einer `lock`-Routine wird versucht Zugriff auf ein ein Lock, also eine Art Token zu erhalten, die das alleinige Ausführungsrecht eines kritischen Abschnitts sicherstellt
 * Ruft jemand anderes nun `lock` auf, kehrt diese Methode solange nicht zurück, wie das Lock nicht freigegeben wurde
-* Erst wenn der ursprüngliche Aufrufer durch `unlock` das Lock wieder frei gibt, kehrt eine der bisher aufgerufene `lock`-Routinen zurück und lässt die Ausführung des kritischen Abschnitts zu\
-
+* Erst wenn der ursprüngliche Aufrufer durch `unlock` das Lock wieder frei gibt, kehrt eine der bisher aufgerufene `lock`-Routinen zurück und lässt die Ausführung des kritischen Abschnitts zu<br>
 
 **Anforderungen an ein Lock**
 
@@ -215,9 +213,8 @@ Nachteil(e):
 * Funktioniert nicht auf Multi-CPU-Systemen
 * Wird, wenn überhaupt, nur vom Betriebssystem intern genutzt, um auf eigene Datenstrukturen zuzugreifen oder um ungünstige Interrupt-Situationen vorzubeugen
 
-Ansatz 2: Einfache Variable\
-
-
+Ansatz 2: Einfache Variable<br>
+-------------------------------
 
 Weshalb kann die Verwendung einer einfachen Variablen als Lock nicht genügen?
 
@@ -308,9 +305,8 @@ int CompareAndSwap(int *ptr, int expected, int new) {
 }
 ```
 
-Yield\
-
-
+Yield<br>
+---------
 
 * Anstelle zu warten, kann ein Thread sich selbst mittels `yield` »entschedulen«, d.h. ein anderer Thread wird anstelle dessen geplant
 * Funktioniert gut bei zwei Threads
@@ -332,8 +328,7 @@ void unlock() {
 } 
 ```
 
-\
-
+<br>
 
 * Bisher wird alles mehr oder weniger dem Zufall überlassen.
 * Der Scheduler entscheidet darüber, welcher Thread als nächstes ausgeführt wird
@@ -347,4 +342,4 @@ Wie kann diese Situation verbessert werden? Hier hilft uns das Betriebssystem!
 1. [https://c9x.me/x86/html/file\_module\_x86\_id\_328.html](https://c9x.me/x86/html/file_module_x86_id_328.html)&#x20;
 2. [https://c9x.me/x86/html/file\_module\_x86\_id\_41.html](https://c9x.me/x86/html/file_module_x86_id_41.html)&#x20;
 
-## &#x20;           
+## &#x20;          <br>
