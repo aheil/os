@@ -53,7 +53,8 @@ int peek();
 Die Bewertung Ihrer Abgabe findet automatisch statt. Stellen Sie hierzu folgende Punkte sicher:
 
 * Ihre Lösung checken Sie in Ihrem Repository ein.
-* Ihre Lösung befindet sich im Ordner **lab01** in Ihrem main Branch.
+* Legen SIe hierfür ein Branch **labs** an.
+* Ihre Lösung befindet sich im Ordner **lab01** in Ihrem _labs_ Branch.
 * Ihre Implementierung befindet sich in einer Datei mit dem Namen **stack.c**.
 * Sie nutzen eine Header-Datei in der der obige Header hinterlegt ist.
 * Zur Abgabe erhalten Sie einen Zugang zum hochschulinternes [GitLab](https://git.it.hs-heilbronn.de/).
