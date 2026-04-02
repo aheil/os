@@ -41,7 +41,7 @@ int peek();
 
     In diesem Fall liefert die Funktion `peek()`keinen Integer-Wert, sondern den Wert `NULL`zurück.
 
-    d. Alle drei Fehlermeldungen werden auf [stderr](https://www.gnu.org/software/libc/manual/html\_node/Standard-Streams.html) ausgegeben.
+    d. Alle drei Fehlermeldungen werden auf [stderr](https://www.gnu.org/software/libc/manual/html_node/Standard-Streams.html) ausgegeben.
 
     **Hinweis: Achten Sie darauf, dass bei der Ausgabe der Fehlermeldung diese immer mit einem Zeilenumbruch (\n) endet.**
 4. Hinweis: Ihre Datei(en) dürfen keine `main()`-Methode enthalten. Sollten Sie dennoch eine `main()`-Methode erstellen wollen, tun Sie dies bitte nur in einer Datei **main.c**
@@ -52,27 +52,23 @@ int peek();
 
 Die Bewertung Ihrer Abgabe findet automatisch statt. Stellen Sie hierzu folgende Punkte sicher:
 
-* Ihre Lösung befindet sich im Ordner **aufgabe1**.
+* Ihre Lösung checken Sie in Ihrem Repository ein.
+* Ihre Lösung befindet sich im Ordner **lab01** in Ihrem main Branch.
 * Ihre Implementierung befindet sich in einer Datei mit dem Namen **stack.c**.
 * Sie nutzen eine Header-Datei in der der obige Header hinterlegt ist.
-* Zur Abgabe erhalten Sie einen Zugang zum hochschulinternen [GitLab](https://git.it.hs-heilbronn.de/).
-* Ihre Lösung checken Sie in Ihrem Repository ein.
+* Zur Abgabe erhalten Sie einen Zugang zum hochschulinternes [GitLab](https://git.it.hs-heilbronn.de/).
 
 ### Bewertung
-
-
 
 * Die Bewertung Ihrer Aufgabe findet anhand einer Reihe von automatisierten Tests statt.
 * Hierzu ist es erforderlich, dass die obigen Schritte exakt eingehalten werden.
 * Ihr Implementierung wird einer Reihe von automatisierten Tests unterzogen, die Ihre Implementierung auf Korrektheit überprüfen.
-* Abgaben, die nicht vollständig sind oder die Abgabekriterien nicht erfüllen werden nicht bewertet.
+* Abgaben, die nicht vollständig sind, nicht kompilieren (beachten Sie die unten genannten Hinweise) oder die Abgabekriterien nicht erfüllen werden nicht bewertet.
 * Abgaben, die nicht fristgerecht eingereicht werden, werden nicht bewertet.
 * Nutzen Sie zur Abgabe ausschließlich das beschriebene Verfahren. Abgaben, die per E-Mail oder anderen Wegen eingereicht werden, werden nicht bewertet.
 * Abgaben, die aufgrund eines Fehlers nicht durch die Tests laufen, werden entsprechend mit weniger Punkten bewertet.
 
 ### Hinweise
-
-
 
 In der Aufgabestellung wird die Rückgabe des Wertes `Null` gefordert. _gcc_ sollte beim Kompilieren eine Warnung der Form
 
@@ -81,3 +77,9 @@ warning: returning ’void *’ from a function with return type ‘int’ makes
 ```
 
 liefern. Starten Sie _gcc_ mit der Option `-Wno-int-conversion` um diese Warnung zu deaktivieren. Weitere Informationen zu den _gcc_ Warnungen erhalten Sie auf den GCC Seiten unter [Options to Request or Suppress Warnings](https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html).
+
+
+
+{% hint style="danger" icon="robot" %}
+**Nutzen Sie für diese Aufgabe keine KI-Assistenzen**. Das gängige Sporachmodelle diese Aufgabenstellung ohne Probleme lösen können ist bekannt. Es geht in dieser Aufgabenstellung darum, dass Sie ein grundlegendes Verständnis für dne Umgang mit der Datenstruktur Stack, dem Arbeiten mit Pointern unter C und dem grundlegenden Umgang mit den WErkzeugen lernen.
+{% endhint %}
