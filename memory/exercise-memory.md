@@ -1,4 +1,4 @@
-# Exercise: Memory
+# Hausaufgabe: Memory
 
 ## Aufgabe 1: Stack
 
@@ -24,15 +24,19 @@ Schreiben Sie ein Java Programm, das schnellstmöglich eine [OutOfMemoryError](h
 
 Recherchieren Sie, wie sich das Verhalten Ihres Programmes beeinflussen lässt, in dem Sie mehr Heap zur Verfügung stellen. Rufen Sie das Programm so auf, dass es ca. die doppelte Zeit läuft, bis der _OutOfMemoryError_ auftritt. &#x20;
 
-Schreiben Sie hierfür eine Klasse **HeapTest.** Das Program soll durch den aufruf der main() Methode automatisch den Fehler verursachen.
+Schreiben Sie hierfür eine Klasse **HeapTest.** Das Program soll durch den Aufruf der main() Methode automatisch den Fehler verursachen.
 
 ## Abgabe
 
-Jedes Team-Mitglied checkt das Code-File in Ihrer Gruppe unter dem Ordner `memory` in einem eigene Branch ein.
+Jedes Team-Mitglied checkt die Code-Files in in dem Ordner `memory` in einem eigene Branch ein.
 
-* Ein Team-Mitglied erstellt den Ordner memory
-* **Jedes** Team-Mitglied erstellt einen eigenen _branch_ der exakt so heißt wie Ihr alias. (z.B. in meinem Fall _aheil_).
-* In diesem branch checkt das jeweilige Team-Mitglied den eigenen Code ein und pusht diesen checkin in das Repository.
-* Konkret beduetet dies, im main branch befindet sich keine Datei, in jedem branch der Team-Mitglieder befindet sich jeweils die eigene Datei.
+* **Jedes** Team-Mitglied erstellt einen eigenen Branch der exakt so heißt wie Ihr alias. (z.B. in meinem Fall _aheil_).
+* Ein Team-Mitglied erstellt den Ordner _memory_ im eigenen Branch
+* In diesem Branch checkt das jeweilige Team-Mitglied den eigenen Code ein und pusht diesen checkin in das Repository.
+* Konkret bedeutet dies, im main Branch befindet sich keine Datei, in jedem branch der Team-Mitglieder befindet sich jeweils die eigene Datei.
 
 Achten Sie auf die korrekte Schreibweise der Ordner (Kleinschreibung, Unterstrich, Alias).&#x20;
+
+{% hint style="danger" icon="robot" %}
+**Nutzen Sie für die Aufgabenstellung keine KI-Assistenten**. Dass die Sprachmodelle diese Aufgabenstellung lösen können, ist bekannt. Es geht in der Aufgabe darum, dass Sie beobachten, lernen und verstehen, was in Ihrem Rechner geschieht.
+{% endhint %}

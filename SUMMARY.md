@@ -9,7 +9,7 @@
 * [Virtualization](virtualization/README.md)
   * [Prozesse: Übungsaufgaben](virtualization/prozesse-ubungsaufgaben.md)
 * [Speicher](memory/README.md)
-  * [Exercise: Memory](memory/exercise-memory.md)
+  * [Hausaufgabe: Memory](memory/exercise-memory.md)
   * [Lab 01: Stack](memory/lab-01-stack.md)
 * [Scheduler](scheduler/README.md)
   * [Exercise: Scheduler](scheduler/exercise-scheduler.md)
