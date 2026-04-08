@@ -12,7 +12,7 @@
   * [Hausaufgabe: Memory](memory/exercise-memory.md)
   * [Lab 01: Stack](memory/lab-01-stack.md)
 * [Scheduler](scheduler/README.md)
-  * [Exercise: Scheduler](scheduler/exercise-scheduler.md)
+  * [Scheduler: Hausaufgabe](scheduler/exercise-scheduler.md)
 * [Fortgeschrittene Scheduler](fortgeschrittene-scheduler.md)
 * [Fortgeschrittene Speicherverwaltung](fortgeschrittene-speichervewaltung/README.md)
   * [Exkurs: Free List](fortgeschrittene-speichervewaltung/exkurs-free-list.md)
