@@ -25,11 +25,11 @@
 
 * Schlechte Ressourcen-Nutzung
 
-<figure><img src=".gitbook/assets/os.03.schechte_ressourcennutzung.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/os.03.schechte_ressourcennutzung.png" alt=""><figcaption></figcaption></figure>
 
 Bessere Ressourcen-Nutzung dank Overlapping
 
-<figure><img src=".gitbook/assets/os.03.overlapping.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/os.03.overlapping.png" alt=""><figcaption></figcaption></figure>
 
 ### Prozessdauer
 
@@ -56,7 +56,7 @@ Grundlegende Regeln
   * Priorität nicht fix, sondern hängt vom **beobachteten Verhalten** des Jobs ab
 * Wenn die ganze CPU-Zeit auf A und B verteilt wird, wie kommen dann aber C und D zum Zug?
 
-<figure><img src=".gitbook/assets/os.04.mlfq.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/os.04.mlfq.png" alt=""><figcaption></figcaption></figure>
 
 Um die Fragen zu beantworten nähern wir uns der Lösung schrittweisen:
 
@@ -78,16 +78,16 @@ Um die Fragen zu beantworten nähern wir uns der Lösung schrittweisen:
 
 <br>
 
-<figure><img src=".gitbook/assets/os.04.one_sad_job.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/os.04.one_sad_job.png" alt=""><figcaption></figcaption></figure>
 
 **Beispiel 2: Ein zusätzlicher »Kurzläufer«**
 
 * Bei 𝑇=100 trifft ein zweiter, kurzlaufender Job ein
 * MLFQ trifft immer die Annahme, dass ein neuer Job ein »Kurzläufer« ist
 
-<figure><img src=".gitbook/assets/os.04.kurzlaeufer.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/os.04.kurzlaeufer.png" alt=""><figcaption></figcaption></figure>
 
-**B**![](.gitbook/assets/os.04.io.png)**eispiel 3: Zusätzliche I/O**
+**B**![](../.gitbook/assets/os.04.io.png)**eispiel 3: Zusätzliche I/O**
 
 * Mischung aus I/O-intensivem und CPU-intensivem Job
 * Nach Regel 4 bleibt der Job, der die CPU schnell freigibt, weil er z.B. auf die Tastatur wartet, hoch priorisiert
@@ -103,7 +103,7 @@ Game the Scheduler
 
 Wie könnten wir das besser machen?
 
-<figure><img src=".gitbook/assets/os.04.game_the_scheduler.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/os.04.game_the_scheduler.png" alt=""><figcaption></figcaption></figure>
 
 **Versuch 2: Priority Boost**
 
@@ -247,7 +247,7 @@ $$
 
 
 
-<figure><img src=".gitbook/assets/os.04.prio_to_weight (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/os.04.prio_to_weight (1).png" alt=""><figcaption></figcaption></figure>
 
 **CFS: vruntime berechnen**
 
