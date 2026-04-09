@@ -9,36 +9,48 @@
 
 ### Direct Execution
 
+**tl;dr**
+
+> **Direct Execution** bezeichnet ein Scheduling‑Prinzip, bei dem Prozesse nach der Auswahl durch den Scheduler direkt auf der CPU ausgeführt werden, während das Betriebssystem nur durch Interrupts, Exceptions und System Calls die Kontrolle zurückerlangt.
+
 **Problem**
 
-> Bisher haben wir gelernt, dass es Prozesse gibt, diese irgendwie gestartet werden können.
+Das Betriebssystem lädt also ein Programm, die Daten und lädt alle Register und startet den Prozess...
 
-Das Betriebssystem lädt also ein Programm, dei Daten lädt alle Register und startet den Prozess...
+Das Betriebssystem hat zwei widersprüchliche Ziele: &#x20;
 
-**Annahme**: Der Prozess bekommt vollen Zugriff auf alle Ressourcen und läuft direkt auf der CPU, bis der Prozess die Kontrolle wieder an das Betriebssystem abgibt (engl. _direct execution)._
+1. Kontrolle behalten (welcher PRoztess läuft, wie lange, mit welchen Rechten)
+2. Schnell sein (vermeidung von Overhead)
 
-* **Frage 1:** Wie stellen wir sicher, dass der Prozess nichts »Verbotenes« tut?
-* **Frage 2:** Die direkte Ausführung des Prozesses auf der CPU (engl. direct execution) ist zwar schnell, aber was passiert nun, wenn der Prozess eingeschränkte Aktionen durchführen will (z.B. mehr Speicher, I/O-Operation etc.)?
-* **Frage 3:** Und wie stellen wir überhaupt sicher, dass der Prozess die Kontrolle wieder abgibt? Solange der Prozess ausgeführt wird, hat das Betriebssystem ja keine Kontrolle über die CPU... 🤔
+Direct Execution löst das Problem wie folgt:&#x20;
 
-**Lösungsidee**
+Das Betriebssystem entscheidet **wann** ein Prozess läuft, **während** Herzlich Willkommen Felicitas!der Prozess läuft führt die CPU den Code des Prozesses **direkt und nativ aus**&#x20;
+
+Das **Betriebssystem greift nur bei bestimmten Ereignissen ein:**
+
+* Timer-Interrupt
+* SysCall
+* I/O-Interrupt
+* Exception/Fault
+
+In diesen Fällen geht die Kontrolle zurück an das Betriebssystem.
+
+**Zusammenhang mit User-/Kernel Model**
 
 Programme laufen im sog. **»User Mode Linux«** oder allgemein **»User Mode«**.
 
 * Es wird eingeschränkt, was das Programm »tun« kann
-* Z.b. werden I/O-Operationen eingeschränkt
+* Z.B. werden I/O-Operationen eingeschränkt
 * Wenn ein Programm versucht etwas unerlaubtes auszuführen wird eine »Exception« im Prozessor erzeugt (das heißt tatsächlich so, hat aber nichts z.B. mit Java Exceptions zu tun)
 
 Der Gegensatz: **»Kernel Mode«**
 
 * Hier sind alle Operationen, auch bzw. insbesondere I/O-Operationen erlaubt
 
-SysCall
-
 Wenn ein Programm im _User Mode_ etwas ausführen möchte, das eigentlich untersagt ist, führt es einen sog. »System Call« oder kurz »Syscall« aus.
 
 * System Calls werden von allen modernen Betriebssystemen angeboten
-* POSIX-Systeme (Portable Operating System Interface1) bieten mehrere hundert solcher System Calls an
+* POSIX-Systeme (Portable Operating System Interface) bieten mehrere hundert solcher System Calls an
 
 ## System Call&#x20;
 
@@ -87,8 +99,6 @@ Grundsätzlich wäre das auch eine sehr schlechte Idee… Das ist schon klar war
 * Das Betriebssystem informiert die Hardware über diese sog. Trap Handlers oder System Call Handlers
 
 > Nur mal so... Was könnte man denn machen, wenn man eine eigene Trap Table installieren könnte? 🤔
-
-
 
 ### Scheduler
 
@@ -216,13 +226,7 @@ Einfach und daher auch einfach zu implementieren
 
 #### Round Robin
 
-
-
 Um eine weitere Scheduling Policy zu prüfen benötigen wir eine weitere Metrik.
-
-\{{1\}}
-
-***
 
 **Scheduler Metriken: Antwortzeit**
 
@@ -253,8 +257,6 @@ $$
 * Für Antwortzeit hervorragend geeignet, für Turnaround-Zeit überhaupt nicht
 * Round Robin zieht Ausführungsdauer in die Länge, in manchen Fällen ist die Ausführung sogar schlechter als FIFO
 * Allgemein lässt sich festhalten: Jede Policy die fair ist, d.h. die CPU auf Prozesse aufteilt, führt zu einem schlechten Ergebnis in Bezug auf Turnaround-Zeit
-
-##
 
 \
 \
