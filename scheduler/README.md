@@ -19,12 +19,12 @@ Das Betriebssystem lädt also ein Programm, die Daten und lädt alle Register un
 
 Das Betriebssystem hat zwei widersprüchliche Ziele: &#x20;
 
-1. Kontrolle behalten (welcher PRoztess läuft, wie lange, mit welchen Rechten)
+1. Kontrolle behalten (welcher Prozess läuft, wie lange, mit welchen Rechten)
 2. Schnell sein (vermeidung von Overhead)
 
 Direct Execution löst das Problem wie folgt:&#x20;
 
-Das Betriebssystem entscheidet **wann** ein Prozess läuft, **während** Herzlich Willkommen Felicitas!der Prozess läuft führt die CPU den Code des Prozesses **direkt und nativ aus**&#x20;
+Das Betriebssystem entscheidet **wann** ein Prozess läuft - **während** der Prozess läuft führt die CPU den Code des Prozesses **direkt und nativ aus.**&#x20;
 
 Das **Betriebssystem greift nur bei bestimmten Ereignissen ein:**
 
