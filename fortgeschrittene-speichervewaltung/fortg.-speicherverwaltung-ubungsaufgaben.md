@@ -354,7 +354,7 @@ Kompilieren:
 gcc freelist.c -o freelist
 ```
 
-Testen Sie mit zufälligen Allokationsmustern.
+Teste das Programm und die versch. Strategien mit zufälligen Allokationsmustern.
 
 #### Erwartete Erkenntnisse
 
