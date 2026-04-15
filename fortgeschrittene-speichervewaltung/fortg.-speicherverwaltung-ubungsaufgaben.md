@@ -1,8 +1,8 @@
 ---
 description: >-
-  Dieses Übungsblatt verbindet die theoretischen Konzepte der Speicherverwaltung
-  – Segmentierung, Paging, Page Tables, Fragmentierung, Free Lists,
-  Copy‑on‑Write – mit praktischen Linux‑Konsolenübungen.
+  Diese Übung verbindet die theoretischen Konzepte der Speicherverwaltung –
+  Segmentierung, Paging, Page Tables, Fragmentierung, Free Lists, Copy‑on‑Write
+  mit praktischen Linux‑Konsolenübungen.
 ---
 
 # Fortg. Speicherverwaltung: Übungsaufgaben
@@ -256,9 +256,7 @@ Kurzfassung:
 
 Das ist kein Widerspruch sondern genau der Trick von `fork()`.
 
-##
-
-## 🧪 Übung 4: Swapping & Page Faults provozieren
+## Übung 4: Swapping & Page Faults provozieren
 
 #### Lernziel
 
