@@ -18,6 +18,7 @@
 * [Fortgeschrittene Speicherverwaltung](fortgeschrittene-speichervewaltung/README.md)
   * [Exkurs: Free List](fortgeschrittene-speichervewaltung/exkurs-free-list.md)
   * [Lab 02: Free List](fortgeschrittene-speichervewaltung/lab-02-free-list.md)
+  * [Fortg. Speicherverwaltung: Übungsaufgaben](fortgeschrittene-speichervewaltung/fortg.-speicherverwaltung-ubungsaufgaben.md)
 * [Threads](threads/README.md)
   * [Exkurs: Bugs durch Nebenläufigkeit](threads/exkurs-bugs-durch-nebenlaeufigkeit.md)
   * [Exercise: Deadlock](threads/exercise-deadlock.md)
