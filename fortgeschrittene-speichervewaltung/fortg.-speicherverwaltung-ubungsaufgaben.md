@@ -299,7 +299,7 @@ Normalerweise versucht Linux:
 
 Wenn **alles voll** ist und ein Prozess trotzdem mehr Speicher anfordert, steht der Kernel vor einem Problem:
 
-> „Ich kann die Anforderung nicht erfüllen — aber ich darf auch nicht einfach stehenbleiben.“
+> „Ich kann die Anforderung nicht erfüllen - aber ich darf auch nicht einfach stehenbleiben.“
 
 Ein System ohne freien Speicher würde **komplett einfrieren**. Dann greift der OOM‑Killer ein. Der Kernel entscheidet:
 
