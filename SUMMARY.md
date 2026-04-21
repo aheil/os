@@ -11,7 +11,7 @@
 * [Speicher](memory/README.md)
   * [Hausaufgabe: Memory](memory/exercise-memory.md)
   * [Lab 01: Stack](memory/lab-01-stack.md)
-  * [Virtual Memory Visualizer](https://raw.githubusercontent.com/aheil/eduviz/refs/heads/main/memory-visualizer.html)
+  * [Prof. aheil's Virtual Memory Visualizer](https://aheil.de/eduviz/memory-visualizer.html)
 * [Scheduler](scheduler/README.md)
   * [Scheduler: Hausaufgabe](scheduler/exercise-scheduler.md)
 * [Fortgeschrittene Scheduler](fortgeschrittene-scheduler.md)
