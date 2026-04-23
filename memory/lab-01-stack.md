@@ -82,5 +82,5 @@ liefern. Starten Sie _gcc_ mit der Option `-Wno-int-conversion` um diese Warnung
 
 
 {% hint style="danger" icon="robot" %}
-**Nutzen Sie für diese Aufgabe keine KI-Assistenzen**. Das gängige Sporachmodelle diese Aufgabenstellung ohne Probleme lösen können ist bekannt. Es geht in dieser Aufgabenstellung darum, dass Sie ein grundlegendes Verständnis für dne Umgang mit der Datenstruktur Stack, dem Arbeiten mit Pointern unter C und dem grundlegenden Umgang mit den WErkzeugen lernen.
+**Nutzen Sie für diese Aufgabe keine KI-Assistenten**. Das gängige Sprachmodelle diese Aufgabenstellung ohne Probleme lösen können ist bekannt. Es geht in dieser Aufgabenstellung darum, dass Sie ein grundlegendes Verständnis für den Umgang mit der Datenstruktur Stack, dem Arbeiten mit Pointern unter C und dem grundlegenden Umgang mit den Werkzeugen lernen.
 {% endhint %}
