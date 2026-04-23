@@ -2,8 +2,8 @@
 
 ## Übungsaufgaben: Threads in C
 
-> **Lehrveranstaltung:** Betriebssysteme – 1. Semester Informatik\
-> **Grundlage:** [prof.aheil.de/os/threads](https://prof.aheil.de/os/threads)\
+> **Lehrveranstaltung:** Betriebssysteme – 1. Semester SEB\
+> Einheit: [Threads](../)\
 > **Ziel:** Erste praktische Erfahrungen mit der POSIX-Thread-API (`pthreads`) sammeln
 
 ***
