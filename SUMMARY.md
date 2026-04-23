@@ -24,6 +24,8 @@
 * [Threads](threads/README.md)
   * [Exkurs: Bugs durch Nebenläufigkeit](threads/exkurs-bugs-durch-nebenlaeufigkeit.md)
   * [Exercise: Deadlock](threads/exercise-deadlock.md)
+  * [Threads: Hausaufgaben](threads/threads-hausaufgaben/README.md)
+    * [Exkurs: Spurious Wakeups](threads/threads-hausaufgaben/exkurs-spurious-wakeups.md)
 * [Semaphore](semaphore/README.md)
   * [Lab 03: Semaphore](semaphore/lab-03-semaphore.md)
   * [Semaphore Beispiel](semaphore/semaphore-beispiel.md)
